@@ -1,0 +1,372 @@
+[
+ {
+  "lib": "cron/jobs.json",
+  "id": "dc312e1c10d3",
+  "name": "canghai-execute · watcher start (09:15)",
+  "model": "ark-code-latest",
+  "provider": "volcengine-coding-plan",
+  "base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "51e960a61f9e",
+  "name": "canghai-execute · watcher keepalive (10m)",
+  "model": "ark-code-latest",
+  "provider": "volcengine-coding-plan",
+  "base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "24f4119fab82",
+  "name": "canghai-research · 每日 R1-R7+D1 全量流水线 (06:10)",
+  "model": "ark-code-latest",
+  "provider": "volcengine-coding-plan",
+  "base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "cac075214e6f",
+  "name": "canghai-sise · 全市场日线+四色四量增量 (17:00)",
+  "model": "ark-code-latest",
+  "provider": "volcengine-coding-plan",
+  "base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "354c580574e3",
+  "name": "沧海巨浪-收盘落盘提醒",
+  "model": null,
+  "provider": null,
+  "base_url": null,
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "6433ef538744",
+  "name": "canghai-fetch · 盘前全源抓取 (06:00)",
+  "model": "ark-code-latest",
+  "provider": "volcengine-coding-plan",
+  "base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "bbfa5007d424",
+  "name": "canghai-review · 每日复盘 E1 (18:00)",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "base_url": null,
+  "enabled": false,
+  "no_agent": false
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "6364b9c63227",
+  "name": "canghai-event-tracker",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "base_url": null,
+  "enabled": false,
+  "no_agent": false
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "e9f209e44863",
+  "name": "canghai-insider-tracker",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "base_url": null,
+  "enabled": false,
+  "no_agent": false
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "8588cd3d9943",
+  "name": "canghai-catalyst-calendar",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "base_url": null,
+  "enabled": false,
+  "no_agent": false
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "a9b5eb63af43",
+  "name": "canghai-small-cap-miner",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "base_url": null,
+  "enabled": false,
+  "no_agent": false
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "d49fb5310923",
+  "name": "canghai-dividend-picker",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "base_url": null,
+  "enabled": false,
+  "no_agent": false
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "f49220d13788",
+  "name": "canghai-health · 每日产出健康检查 (20:30)",
+  "model": "ark-code-latest",
+  "provider": "volcengine-coding-plan",
+  "base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "d372940a8886",
+  "name": "canghai-fetch · 竞价快照 (09:27)",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "base_url": null,
+  "enabled": false,
+  "no_agent": false
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "d5cd79c48615",
+  "name": "canghai-plan · P1 竞价校准 (09:28)",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "base_url": null,
+  "enabled": false,
+  "no_agent": false
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "d741b25076a6",
+  "name": "canghai-phone · 早盘简报 (09:10)",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "base_url": null,
+  "enabled": false,
+  "no_agent": false
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "5fbc386914cd",
+  "name": "canghai-phone · 复盘推送 (18:30)",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "base_url": null,
+  "enabled": false,
+  "no_agent": false
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "5871f5ca82e4",
+  "name": "chzl-kg · 笔记站同步 (09:30)",
+  "model": null,
+  "provider": null,
+  "base_url": null,
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "99ec8bce24ad",
+  "name": "chzl-kg · 笔记站同步 (18:00)",
+  "model": null,
+  "provider": null,
+  "base_url": null,
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "af5014f46307",
+  "name": "canghai-plan · D1 预案安全网 (08:50)",
+  "model": "ark-code-latest",
+  "provider": "volcengine-coding-plan",
+  "base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "cffc5928d382",
+  "name": "canghai-fetch · 美股晚间重抓 (22:30)",
+  "model": "ark-code-latest",
+  "provider": "volcengine-coding-plan",
+  "base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "163b0753e1d8",
+  "name": "canghai-fetch · 竞价情绪篮子构建 (08:50)",
+  "model": null,
+  "provider": null,
+  "base_url": null,
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "e6517ca3c755",
+  "name": "canghai-research · 退潮次日翻多检测 (10:00-11:40)",
+  "model": null,
+  "provider": null,
+  "base_url": null,
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "637f04b538f5",
+  "name": "canghai-review · 持仓生命周期滚动复盘 (18:00)",
+  "model": null,
+  "provider": null,
+  "base_url": null,
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "579231d3963a",
+  "name": "chzl-kg · 笔记站同步 (08:30)",
+  "model": null,
+  "provider": null,
+  "base_url": null,
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "da49853a1d07",
+  "name": "chzl-kg · 笔记站同步 (12:00)",
+  "model": null,
+  "provider": null,
+  "base_url": null,
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "bb105fc74549",
+  "name": "canghai-health · 盘前数据源台账 (08:30)",
+  "model": "deepseek-v4-flash-ga-260731",
+  "provider": "volcengine-agent-plan",
+  "base_url": null,
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "8b9ff2eb44f2",
+  "name": "canghai-intraday · 盘中每10分钟截面快照 (#6)",
+  "model": null,
+  "provider": null,
+  "base_url": null,
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "cae686ec450a",
+  "name": "canghai-intraday · 每小时 LLM 盘中总结 (#6)",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "base_url": null,
+  "enabled": false,
+  "no_agent": false
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "a48bfe35bbb9",
+  "name": "canghai-yizi · 次日一字板预判 (#7)",
+  "model": null,
+  "provider": null,
+  "base_url": null,
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "f102a8d022bc",
+  "name": "canghai-stock-character · 个股股性月度更新",
+  "model": null,
+  "provider": null,
+  "base_url": null,
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "4db0fe22a72d",
+  "name": "canghai-weekend · 周末情报包 (周六/周日 18:00)",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "base_url": null,
+  "enabled": false,
+  "no_agent": false
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "6124ebf7f3dd",
+  "name": "canghai-fetch · 盘前人气榜补采 (08:30 周一/节后首日)",
+  "model": null,
+  "provider": null,
+  "base_url": null,
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "cron/jobs.json",
+  "id": "aa63ac34cdb9",
+  "name": "股性表月度更新+心智锚重建",
+  "model": null,
+  "provider": null,
+  "base_url": null,
+  "enabled": false,
+  "no_agent": true
+ },
+ {
+  "lib": "profiles/canghai-review/cron/jobs.json",
+  "id": "87d4d030b72b",
+  "name": "canghai-review · 周度进化(E2)",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "base_url": null,
+  "enabled": false,
+  "no_agent": false
+ },
+ {
+  "lib": "profiles/canghai-plan/cron/jobs.json",
+  "id": "75bf632522ce",
+  "name": "canghai-plan · 午盘修订(P2)",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "base_url": null,
+  "enabled": false,
+  "no_agent": false
+ },
+ {
+  "lib": "profiles/canghai-fetch/cron/jobs.json",
+  "id": "a314bd2ac6bb",
+  "name": "canghai-fetch · 午盘快照(midday-fetch)",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "base_url": null,
+  "enabled": false,
+  "no_agent": false
+ }
+]
