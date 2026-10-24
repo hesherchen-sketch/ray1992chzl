@@ -3,7 +3,7 @@
 """2026-10-19 监管内幕交易追踪 — 价格位置/估值拉取"""
 import os, json, csv, time
 
-env_path = '/Users/chenyang/Downloads/demo/沧海巨浪/.env'
+env_path = '/Users/ray/Downloads/demo/沧海巨浪/.env'
 token = None
 with open(env_path, 'r', encoding='utf-8') as f:
     for line in f:
@@ -15,7 +15,7 @@ print('token loaded:', bool(token))
 import tushare as ts
 pro = ts.pro_api(token)
 
-BASE = '/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/投研交易/席位与资金/raw'
+BASE = '/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/投研交易/席位与资金/raw'
 
 # 候选：clean_clusters 中金额>0 的全部 + 新增 600960 + 成都路桥/湖南黄金等观察
 candidates = [

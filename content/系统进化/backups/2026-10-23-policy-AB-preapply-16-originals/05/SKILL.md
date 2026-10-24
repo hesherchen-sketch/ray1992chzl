@@ -32,7 +32,7 @@ tested_with: []
 
 ### Step 1 · Subprocess 抓取（唯一数据入口）
 
-在项目根 `/Users/chenyang/Downloads/demo/沧海巨浪` 执行：
+在项目根 `/Users/ray/Downloads/demo/沧海巨浪` 执行：
 
 ```bash
 source .venv/bin/activate

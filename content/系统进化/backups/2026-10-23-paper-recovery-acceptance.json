@@ -65,7 +65,7 @@
       {
         "cohort": "rr",
         "argv": [
-          "/Users/chenyang/Downloads/demo/沧海巨浪/.venv/bin/python",
+          "/Users/ray/Downloads/demo/沧海巨浪/.venv/bin/python",
           "-B",
           "-m",
           "pytest",
@@ -73,10 +73,10 @@
           "no:cacheprovider",
           "-p",
           "_acceptance_guard",
-          "--basetemp=/Users/chenyang/.hermes/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v2/rr_pytest",
+          "--basetemp=/Users/ray/.hermes-canghai/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v2/rr_pytest",
           "-q",
           "--tb=short",
-          "--junitxml=/Users/chenyang/.hermes/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v2/rr.xml",
+          "--junitxml=/Users/ray/.hermes-canghai/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v2/rr.xml",
           "tests/test_canghai_rr_scope_20261023.py",
           "tests/test_canghai_rr_parent_review_20261023.py"
         ],
@@ -89,7 +89,7 @@
       {
         "cohort": "paper",
         "argv": [
-          "/Users/chenyang/Downloads/demo/沧海巨浪/.venv/bin/python",
+          "/Users/ray/Downloads/demo/沧海巨浪/.venv/bin/python",
           "-B",
           "-m",
           "pytest",
@@ -97,10 +97,10 @@
           "no:cacheprovider",
           "-p",
           "_acceptance_guard",
-          "--basetemp=/Users/chenyang/.hermes/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v2/paper_pytest",
+          "--basetemp=/Users/ray/.hermes-canghai/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v2/paper_pytest",
           "-q",
           "--tb=short",
-          "--junitxml=/Users/chenyang/.hermes/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v2/paper.xml",
+          "--junitxml=/Users/ray/.hermes-canghai/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v2/paper.xml",
           "tests/test_canghai_paper_execution_20261023.py",
           "tests/test_canghai_paper_parent_review_20261023.py",
           "tests/test_canghai_paper_plan_driver_20261023.py"
@@ -114,7 +114,7 @@
       {
         "cohort": "contracts",
         "argv": [
-          "/Users/chenyang/Downloads/demo/沧海巨浪/.venv/bin/python",
+          "/Users/ray/Downloads/demo/沧海巨浪/.venv/bin/python",
           "-B",
           "-m",
           "pytest",
@@ -122,10 +122,10 @@
           "no:cacheprovider",
           "-p",
           "_acceptance_guard",
-          "--basetemp=/Users/chenyang/.hermes/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v2/contracts_pytest",
+          "--basetemp=/Users/ray/.hermes-canghai/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v2/contracts_pytest",
           "-q",
           "--tb=short",
-          "--junitxml=/Users/chenyang/.hermes/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v2/contracts.xml",
+          "--junitxml=/Users/ray/.hermes-canghai/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v2/contracts.xml",
           "tests/test_canghai_repair_plan_contracts_20261023.py",
           "tests/pipeline/test_plan_staging_freshness.py"
         ],
@@ -136,7 +136,7 @@
         }
       }
     ],
-    "cwd": "/Users/chenyang/.hermes/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v2/repo",
+    "cwd": "/Users/ray/.hermes-canghai/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v2/repo",
     "exit_code": 0,
     "totals": {
       "testcases": 413,
@@ -727,8 +727,8 @@
     },
     "source_changed_during_run": [],
     "index_unchanged": true,
-    "log": "/Users/chenyang/.hermes/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v2/acceptance.log",
-    "junit": "/Users/chenyang/.hermes/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v2/acceptance.xml"
+    "log": "/Users/ray/.hermes-canghai/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v2/acceptance.log",
+    "junit": "/Users/ray/.hermes-canghai/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v2/acceptance.xml"
   },
   "latest_critical_sha256": {
     "src/plan/buy_eligibility.py": "a342b55787ec3a548c6133e1f9bd2872fb857b365266e8b2c10160f84ccf0d9f",
@@ -749,12 +749,12 @@
   "paper_initialization": {
     "database": "data/execution/paper_canghai_20261023.sqlite3",
     "snapshot_command": [
-      "/Users/chenyang/Downloads/demo/沧海巨浪/.venv/bin/python",
+      "/Users/ray/Downloads/demo/沧海巨浪/.venv/bin/python",
       "-B",
-      "/Users/chenyang/Downloads/demo/沧海巨浪/scripts/execute/run_paper_trading.py",
+      "/Users/ray/Downloads/demo/沧海巨浪/scripts/execute/run_paper_trading.py",
       "snapshot",
       "--database",
-      "/Users/chenyang/Downloads/demo/沧海巨浪/data/execution/paper_canghai_20261023.sqlite3",
+      "/Users/ray/Downloads/demo/沧海巨浪/data/execution/paper_canghai_20261023.sqlite3",
       "--account-id",
       "canghai_paper"
     ],
@@ -790,16 +790,16 @@
   },
   "raw_probe_receipt": {
     "task_date": "2026-10-23",
-    "workspace": "/Users/chenyang/Downloads/demo/沧海巨浪",
+    "workspace": "/Users/ray/Downloads/demo/沧海巨浪",
     "profile": "canghai-fetch",
     "session_id": "local-40f339e62066edecd35f8a3e36f383bf6b75de57867947c8a20625958aba7d28",
     "cli": {
-      "command": "hermes -p canghai-fetch chat -Q --yolo --max-turns 48 --run-budget 900 --pass-session-id --query-file /Users/chenyang/.hermes/cache/scratch/canghai_paper_fetch_probe_20261023_query.txt",
+      "command": "hermes -p canghai-fetch chat -Q --yolo --max-turns 48 --run-budget 900 --pass-session-id --query-file /Users/ray/.hermes-canghai/cache/scratch/canghai_paper_fetch_probe_20261023_query.txt",
       "process_handle": "proc_ee5f575b0ac9",
       "pid": 21723,
       "status": "exited",
       "exit_code": 0,
-      "log": "/Users/chenyang/.hermes/cache/scratch/canghai_paper_fetch_probe_20261023_cli.log"
+      "log": "/Users/ray/.hermes-canghai/cache/scratch/canghai_paper_fetch_probe_20261023_cli.log"
     },
     "ownership": {
       "raw_writer": "canghai-fetch new CLI session",
@@ -815,7 +815,7 @@
     },
     "files": [
       {
-        "path": "/Users/chenyang/Downloads/demo/沧海巨浪/data/raw/20261023/xtick_paper_depth_probe_20261023.jsonl",
+        "path": "/Users/ray/Downloads/demo/沧海巨浪/data/raw/20261023/xtick_paper_depth_probe_20261023.jsonl",
         "sha256": "067e7fb49a178f563936c85272c4a785e9d55e292555e0835f3dac06e7ef4165",
         "bytes": 23363,
         "jsonl_records": 5,
@@ -823,7 +823,7 @@
         "verification": "Physical re-read, JSONL parse, SHA256 and four exact runtime-message response comparisons passed"
       },
       {
-        "path": "/Users/chenyang/Downloads/demo/沧海巨浪/data/raw/20261023/tushare_paper_calendar_20261023.jsonl",
+        "path": "/Users/ray/Downloads/demo/沧海巨浪/data/raw/20261023/tushare_paper_calendar_20261023.jsonl",
         "sha256": "a059ff1f98e21c8ddae9a901b45e5da04edaa76d21bf370d710ad4311e202ec1",
         "bytes": 5562,
         "jsonl_records": 1,
@@ -980,10 +980,10 @@
       "reason": "Only raw field mapping is established. Depth size units, price scaling, provider observation time/timezone/business date, name, suspension/ST and exact date-specific price-limit semantics remain missing or unverified. Do not infer trade eligibility or fill from received_at."
     },
     "other_created_scratch": [
-      "/Users/chenyang/.hermes/cache/scratch/canghai_paper_fetch_probe_20261023_query.txt",
-      "/Users/chenyang/.hermes/cache/scratch/canghai_paper_fetch_probe_20261023_cli.log",
-      "/Users/chenyang/.hermes/cache/scratch/canghai_fetch_evidence_40f339e6.py",
-      "/Users/chenyang/.hermes/cache/scratch/canghai_paper_fetch_probe_20261023.md"
+      "/Users/ray/.hermes-canghai/cache/scratch/canghai_paper_fetch_probe_20261023_query.txt",
+      "/Users/ray/.hermes-canghai/cache/scratch/canghai_paper_fetch_probe_20261023_cli.log",
+      "/Users/ray/.hermes-canghai/cache/scratch/canghai_fetch_evidence_40f339e6.py",
+      "/Users/ray/.hermes-canghai/cache/scratch/canghai_paper_fetch_probe_20261023.md"
     ]
   },
   "boundaries": {
@@ -994,7 +994,7 @@
     "commit_created_this_round": false
   },
   "first_parent_combined_failure": {
-    "retained_evidence": "/Users/chenyang/.hermes/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v1/acceptance_evidence.json",
+    "retained_evidence": "/Users/ray/.hermes-canghai/cache/scratch/canghai_paper_parent_acceptance_20261023_combined_v1/acceptance_evidence.json",
     "cause": "legacy test collection pre-imported settings into broker-free tests; relocated checkout was accidentally treated as unrestricted scratch by the ledger path guard",
     "fix": "separate interpreter cohorts without weakening assertions; reject fixture database writes inside relocated application checkout"
   }

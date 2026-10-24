@@ -9,8 +9,8 @@ FINAL JOINT ACCEPTANCE (344 cases + 24 subtests; repeated group runs not added)
 
 INDEPENDENT PREVIOUS PIPELINE REGRESSION (34 different cases)
 ============================= test session starts ==============================
-platform darwin -- Python 3.11.15, pytest-9.1.1, pluggy-1.6.0 -- /Users/chenyang/Downloads/demo/沧海巨浪/.venv/bin/python
-rootdir: /Users/chenyang/.hermes/cache/scratch/canghai_repair_pipeline_regression_20261023/repo
+platform darwin -- Python 3.11.15, pytest-9.1.1, pluggy-1.6.0 -- /Users/ray/Downloads/demo/沧海巨浪/.venv/bin/python
+rootdir: /Users/ray/.hermes-canghai/cache/scratch/canghai_repair_pipeline_regression_20261023/repo
 collecting ... collected 34 items
 
 tests/pipeline/test_research_pipeline_reliability.py::test_real_helpers_success_empty_llm_pool_and_runtime_handoff PASSED [  2%]
@@ -48,5 +48,5 @@ tests/pipeline/test_research_pipeline_reliability.py::test_d1_lock_is_exclusive_
 tests/pipeline/test_research_pipeline_reliability.py::test_pipeline_handoff_reuses_existing_no_live_promotion_guard PASSED [ 97%]
 tests/pipeline/test_research_pipeline_reliability.py::test_safety_net_rejects_previous_same_day_upstream_in_new_run PASSED [100%]
 
-- generated xml file: /Users/chenyang/.hermes/cache/scratch/canghai_repair_pipeline_regression_20261023/acceptance.xml -
+- generated xml file: /Users/ray/.hermes-canghai/cache/scratch/canghai_repair_pipeline_regression_20261023/acceptance.xml -
 ======================== 34 passed in 110.06s (0:01:50) ========================

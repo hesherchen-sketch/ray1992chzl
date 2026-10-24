@@ -4,8 +4,8 @@
 import json, re, os, csv, sys
 from collections import Counter, OrderedDict, defaultdict
 
-SPILL = '/Users/chenyang/.hermes/cache/spillover/call_2803r87pwk81kdazwwrrjg6e.txt'
-BASE = '/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/投研交易/席位与资金/raw'
+SPILL = '/Users/ray/.hermes-canghai/cache/spillover/call_2803r87pwk81kdazwwrrjg6e.txt'
+BASE = '/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/投研交易/席位与资金/raw'
 
 with open(SPILL, 'r', encoding='utf-8') as f:
     raw = f.read()

@@ -3,7 +3,7 @@
 """提取报告所需最终数字"""
 import json
 
-BASE = '/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/投研交易/席位与资金/raw'
+BASE = '/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/投研交易/席位与资金/raw'
 basic = json.load(open(f'{BASE}/20260904_daily_basic.json', encoding='utf-8'))
 price = json.load(open(f'{BASE}/20260904_price_pos.json', encoding='utf-8'))
 pledge = json.load(open(f'{BASE}/20260904_pledge.json', encoding='utf-8'))

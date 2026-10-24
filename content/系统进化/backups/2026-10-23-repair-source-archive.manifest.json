@@ -12,7 +12,7 @@
       "after_sha256": "ebaded51b65f9abbdd8af46289af9c00f78a4676bda42c491f59b415d6f5c4c6",
       "before_present": true,
       "patch_sha256": "34ce3417c1479202317ea38fc0e18f151800ae62c3f77f35ab0ce8bff36b0480",
-      "before_path_for_local_replay": "/Users/chenyang/.hermes/cache/scratch/canghai_repair_before_20261023/scripts/plan/ensure_watchlist_plan.py",
+      "before_path_for_local_replay": "/Users/ray/.hermes-canghai/cache/scratch/canghai_repair_before_20261023/scripts/plan/ensure_watchlist_plan.py",
       "mode": "0o600"
     },
     {
@@ -22,7 +22,7 @@
       "after_sha256": "790dfee41d40776e10dac270cf2b4a15ab452c654d1ebae5df6e0357631aa4b1",
       "before_present": true,
       "patch_sha256": "55845da77f69bf522acd3ef75ec05bca2bbccc0938b231d642803a68d63dc880",
-      "before_path_for_local_replay": "/Users/chenyang/.hermes/cache/scratch/canghai_repair_before_20261023/scripts/research/pipeline_artifacts.py",
+      "before_path_for_local_replay": "/Users/ray/.hermes-canghai/cache/scratch/canghai_repair_before_20261023/scripts/research/pipeline_artifacts.py",
       "mode": "0o644"
     },
     {
@@ -32,7 +32,7 @@
       "after_sha256": "11ffad8c70624da0898c87b0b97dbd37e80c91b5fd2383410984c98c76d19441",
       "before_present": true,
       "patch_sha256": "6542ef5bebf51431acaac634005d5181b77cdf91c69bc50b3e5c3f1c0563b75f",
-      "before_path_for_local_replay": "/Users/chenyang/.hermes/cache/scratch/canghai_repair_before_20261023/scripts/research/build_research_summary.py",
+      "before_path_for_local_replay": "/Users/ray/.hermes-canghai/cache/scratch/canghai_repair_before_20261023/scripts/research/build_research_summary.py",
       "mode": "0o644"
     },
     {
@@ -42,7 +42,7 @@
       "after_sha256": "263c340a359ddfe43026c2e11163fc0a0a95e0e0d84b2826e28179d9d49a8b61",
       "before_present": true,
       "patch_sha256": "3b648de200c6beeab069321db62df2344e452f26221f924e6f2e5012cd577141",
-      "before_path_for_local_replay": "/Users/chenyang/.hermes/cache/scratch/canghai_repair_before_20261023/src/plan/d1_algorithm.py",
+      "before_path_for_local_replay": "/Users/ray/.hermes-canghai/cache/scratch/canghai_repair_before_20261023/src/plan/d1_algorithm.py",
       "mode": "0o644"
     },
     {
@@ -52,7 +52,7 @@
       "after_sha256": "3c987fc2e5afd66d85b81dc50029ba4da571ffa4de57dc18203a906159beb8c9",
       "before_present": true,
       "patch_sha256": "e79130b01ac1157058fd20c903a912133ab6d28c6c448dc2d1aed907c30130c9",
-      "before_path_for_local_replay": "/Users/chenyang/.hermes/cache/scratch/canghai_repair_before_20261023/src/plan/plan_resolver.py",
+      "before_path_for_local_replay": "/Users/ray/.hermes-canghai/cache/scratch/canghai_repair_before_20261023/src/plan/plan_resolver.py",
       "mode": "0o644"
     },
     {
@@ -62,7 +62,7 @@
       "after_sha256": "40bddfcb8573ffa5cd35cf592fd6bba7c9fdb3291fd620358fc4e228be0e26cb",
       "before_present": true,
       "patch_sha256": "410e065555513ee50a1145659fa55fd6111b152a237b0c52648d8d27048c8c47",
-      "before_path_for_local_replay": "/Users/chenyang/.hermes/cache/scratch/canghai_repair_before_20261023/trading/load_plan.py",
+      "before_path_for_local_replay": "/Users/ray/.hermes-canghai/cache/scratch/canghai_repair_before_20261023/trading/load_plan.py",
       "mode": "0o644"
     },
     {
@@ -72,7 +72,7 @@
       "after_sha256": "f8d27ce1b7a51552297367bcc5c0a61553b1eaee9d13a3ac666f8d8988df702b",
       "before_present": true,
       "patch_sha256": "3d82144e58d5f7dc1717305ee57698ed1abbfcc648954d75dd455b4c65e9f265",
-      "before_path_for_local_replay": "/Users/chenyang/.hermes/cache/scratch/canghai_repair_before_20261023/src/research/retreat_reversal.py",
+      "before_path_for_local_replay": "/Users/ray/.hermes-canghai/cache/scratch/canghai_repair_before_20261023/src/research/retreat_reversal.py",
       "mode": "0o644"
     },
     {
@@ -82,7 +82,7 @@
       "after_sha256": "16d521d8646c0ec770812db211eb3d2c0ba01afb98788e8f5100287ae97c777c",
       "before_present": true,
       "patch_sha256": "1c6baf61e8c15a44c2da52408c88dbf9eca0ec52b9566fb4acced71670ea72be",
-      "before_path_for_local_replay": "/Users/chenyang/.hermes/cache/scratch/canghai_repair_before_20261023/src/fetch/realtime_breadth.py",
+      "before_path_for_local_replay": "/Users/ray/.hermes-canghai/cache/scratch/canghai_repair_before_20261023/src/fetch/realtime_breadth.py",
       "mode": "0o644"
     },
     {
@@ -92,7 +92,7 @@
       "after_sha256": "6babde1487185e9ba436526f9f2b09f9a2119384d34e0573e6b23e5478255573",
       "before_present": true,
       "patch_sha256": "e2c79943f0b7e59b63cf8ac7c93dda8ef97c087ff4f05710fa49396cc74e93e2",
-      "before_path_for_local_replay": "/Users/chenyang/.hermes/cache/scratch/canghai_repair_before_20261023/scripts/intraday/run_intraday_snapshot.py",
+      "before_path_for_local_replay": "/Users/ray/.hermes-canghai/cache/scratch/canghai_repair_before_20261023/scripts/intraday/run_intraday_snapshot.py",
       "mode": "0o644"
     },
     {
@@ -102,7 +102,7 @@
       "after_sha256": "342cf22e403ffb46cd6cf45f11909d5458d763885447d4ca95f5c20de7cda2aa",
       "before_present": true,
       "patch_sha256": "4ed0f8708d741e79b6b28639ce920803d245e655403451ff520c9f3758fff7b6",
-      "before_path_for_local_replay": "/Users/chenyang/.hermes/cache/scratch/canghai_repair_before_20261023/scripts/fetch/run_auction_snapshot.py",
+      "before_path_for_local_replay": "/Users/ray/.hermes-canghai/cache/scratch/canghai_repair_before_20261023/scripts/fetch/run_auction_snapshot.py",
       "mode": "0o755"
     },
     {
@@ -112,7 +112,7 @@
       "after_sha256": "ba3f305c380f8d2e524dc8b2627276ea69e9fd2a2facdf6504ec7433d8437a7e",
       "before_present": true,
       "patch_sha256": "c38bd86e6a422b87ec022accd117e0b00512129e52941d4c61c394a3cba2545c",
-      "before_path_for_local_replay": "/Users/chenyang/.hermes/cache/scratch/canghai_repair_before_20261023/scripts/plan/render_auction_judgment.py",
+      "before_path_for_local_replay": "/Users/ray/.hermes-canghai/cache/scratch/canghai_repair_before_20261023/scripts/plan/render_auction_judgment.py",
       "mode": "0o644"
     },
     {
@@ -122,7 +122,7 @@
       "after_sha256": "b52188108cf8ca12b6f22e2d7f5a7104810f119614371f63aa021f9440ab40b5",
       "before_present": true,
       "patch_sha256": "263900dd34a8b6f07b11fa2f7961d9e7436b760fadd83da38fe1d143c1f3ccb7",
-      "before_path_for_local_replay": "/Users/chenyang/.hermes/cache/scratch/canghai_repair_before_20261023/scripts/fetch/run_overseas_snapshot.py",
+      "before_path_for_local_replay": "/Users/ray/.hermes-canghai/cache/scratch/canghai_repair_before_20261023/scripts/fetch/run_overseas_snapshot.py",
       "mode": "0o600"
     },
     {
@@ -132,7 +132,7 @@
       "after_sha256": "a8d8cbc4a4f87079693e9372f9bfc7f0658f5e61aa425fc82476b1c39ee319e5",
       "before_present": true,
       "patch_sha256": "eaac011390862e29cff2b5c57ff357fdc3804f3f865d42b04299031f421cc459",
-      "before_path_for_local_replay": "/Users/chenyang/.hermes/cache/scratch/canghai_repair_before_20261023/src/fetch/anns_window.py",
+      "before_path_for_local_replay": "/Users/ray/.hermes-canghai/cache/scratch/canghai_repair_before_20261023/src/fetch/anns_window.py",
       "mode": "0o644"
     },
     {
@@ -142,7 +142,7 @@
       "after_sha256": "b902deb531d5de3a6607d34421d69b3425ddd2aefc4778523e1aceb6829d701a",
       "before_present": true,
       "patch_sha256": "6b11b788780cc95c306220c4f956cddfca58aed9a59e9b89ccf036a281890bdd",
-      "before_path_for_local_replay": "/Users/chenyang/.hermes/cache/scratch/canghai_repair_before_20261023/scripts/health/datasource_ledger.py",
+      "before_path_for_local_replay": "/Users/ray/.hermes-canghai/cache/scratch/canghai_repair_before_20261023/scripts/health/datasource_ledger.py",
       "mode": "0o644"
     },
     {
@@ -162,7 +162,7 @@
       "after_sha256": "09901c3ac02546c57e5864649f167bd66da259ae87ecb356abed79668898e9c5",
       "before_present": true,
       "patch_sha256": "8b93f0693dc770f21212a21cc522c410bacb0b347602e9581f62743c0975b948",
-      "before_path_for_local_replay": "/Users/chenyang/.hermes/cache/scratch/canghai_repair_B_20261023/scripts/plan/run_retreat_reversal.py",
+      "before_path_for_local_replay": "/Users/ray/.hermes-canghai/cache/scratch/canghai_repair_B_20261023/scripts/plan/run_retreat_reversal.py",
       "mode": "0o644"
     },
     {
@@ -172,7 +172,7 @@
       "after_sha256": "6516894f3ad2869f6fd0d0ba0b102cffabfa2637dbb15c1b249603116eaf3692",
       "before_present": true,
       "patch_sha256": "4de2ebfb7729f26dad17dbb7bda3ccc6ae97585edae780235e462465cfe35d13",
-      "before_path_for_local_replay": "/Users/chenyang/.hermes/cache/scratch/canghai_repair_B_20261023/scripts/intraday/append_intraday_md.py",
+      "before_path_for_local_replay": "/Users/ray/.hermes-canghai/cache/scratch/canghai_repair_B_20261023/scripts/intraday/append_intraday_md.py",
       "mode": "0o644"
     },
     {
@@ -242,7 +242,7 @@
       "after_sha256": "0d47bebeefc82fcbfa20868a15bf1fc6880ebfcec68cdd76d4ef15432495da00",
       "before_present": true,
       "patch_sha256": "a4a6b88cf7a8b8ec690e71f1f7fdd862aa50b5abc61e11283d61b0d35239ffa5",
-      "before_path_for_local_replay": "/Users/chenyang/.hermes/cache/scratch/canghai_rr_scope_before_20261023/scripts/plan/apply_price_levels.py",
+      "before_path_for_local_replay": "/Users/ray/.hermes-canghai/cache/scratch/canghai_rr_scope_before_20261023/scripts/plan/apply_price_levels.py",
       "mode": "0o644"
     },
     {
@@ -252,7 +252,7 @@
       "after_sha256": "2ecaad89a32e8a652245cfb7c90b2af948dd8c1fcee3048219eeb6923b338799",
       "before_present": true,
       "patch_sha256": "e94872bac297e7aa42578908841979e370553de9b0173992ee12c55b88710785",
-      "before_path_for_local_replay": "/Users/chenyang/.hermes/cache/scratch/canghai_rr_scope_before_20261023/trading/executors/_buy_common.py",
+      "before_path_for_local_replay": "/Users/ray/.hermes-canghai/cache/scratch/canghai_rr_scope_before_20261023/trading/executors/_buy_common.py",
       "mode": "0o644"
     },
     {
@@ -262,7 +262,7 @@
       "after_sha256": "0054258c59d80c8259d22c6889a55a2b0ff9902d735abcd401706f549d1ef5d2",
       "before_present": true,
       "patch_sha256": "ca7b458f668f26911b5ff06b4b0f74fa1dffee9c7915bd052c9a89c1a532e2c8",
-      "before_path_for_local_replay": "/Users/chenyang/.hermes/cache/scratch/canghai_rr_scope_before_20261023/trading/watcher/dispatch.py",
+      "before_path_for_local_replay": "/Users/ray/.hermes-canghai/cache/scratch/canghai_rr_scope_before_20261023/trading/watcher/dispatch.py",
       "mode": "0o644"
     },
     {
@@ -372,7 +372,7 @@
       "after_sha256": "14e57f6ed5e6292aed312973fbfe37cd2fa34efebdc0a914fbb4b9a4e58229e9",
       "before_present": true,
       "patch_sha256": "800ac9ada2a9bbc878eb59c239ac10101313dc945bfbb18f9786c00e6205824f",
-      "before_path_for_local_replay": "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/01/10-契约-研究汇总.md",
+      "before_path_for_local_replay": "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/01/10-契约-研究汇总.md",
       "mode": "0o644"
     },
     {
@@ -382,7 +382,7 @@
       "after_sha256": "bee1b1fce3a336afac195c3b6a7362054a9ec01c7193781f2d3babfe02d7f9e2",
       "before_present": true,
       "patch_sha256": "85b57cd6e579ea7023dfd8a25e4e02340eaec475bd1f6294e222bf9dfd4dea73",
-      "before_path_for_local_replay": "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/02/11-契约-盘前预案.md",
+      "before_path_for_local_replay": "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/02/11-契约-盘前预案.md",
       "mode": "0o600"
     },
     {
@@ -392,7 +392,7 @@
       "after_sha256": "aeee4559edbb1d095759202b03c33e50dd9fc3a5c6581a254d5d8124b67d0e0d",
       "before_present": true,
       "patch_sha256": "8e0289f88ed5d4ac4c55b6e7a85f2cc4b8254e311a1872275c9724d2c6483267",
-      "before_path_for_local_replay": "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/03/SKILL.md",
+      "before_path_for_local_replay": "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/03/SKILL.md",
       "mode": "0o600"
     },
     {
@@ -402,7 +402,7 @@
       "after_sha256": "d1a6ac6d276774946e4e450017cdcd526895dd626776c0a61809496242b20a6c",
       "before_present": true,
       "patch_sha256": "f3b9a5148eb98d4bca57abee88dd08e9b20ddd9a400c3a6a7cc11219ac4ea609",
-      "before_path_for_local_replay": "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/04/SKILL.md",
+      "before_path_for_local_replay": "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/04/SKILL.md",
       "mode": "0o644"
     },
     {
@@ -412,7 +412,7 @@
       "after_sha256": "013e8c9d8eb351fdd8695119df5ff26fbe2f4dff52b5e8a8d8bf397802940965",
       "before_present": true,
       "patch_sha256": "1104e6682767f1fab47462584cdc14cd39825ccb79cb2edc308ddbadd21f130e",
-      "before_path_for_local_replay": "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/05/SKILL.md",
+      "before_path_for_local_replay": "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/05/SKILL.md",
       "mode": "0o644"
     },
     {
@@ -422,7 +422,7 @@
       "after_sha256": "b3e8d6d49e42b84a80613e4e63f7f5a578b95a6c1ab009e606cc2eacc6627876",
       "before_present": true,
       "patch_sha256": "63f9628b593342e9033ad490ec0af3300fe06b2a8ed3c01e64d74c86f49b46f5",
-      "before_path_for_local_replay": "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/06/SKILL.md",
+      "before_path_for_local_replay": "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/06/SKILL.md",
       "mode": "0o644"
     },
     {
@@ -432,7 +432,7 @@
       "after_sha256": "bb6a99cf16c0d55d511e42e75659cf44684090d7d79441679e6b66e428bbe200",
       "before_present": true,
       "patch_sha256": "98b46e3b0475cf923f85cf290990f229812bb4b9e18ebeb4ba6bb256387a98ca",
-      "before_path_for_local_replay": "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/07/SKILL.md",
+      "before_path_for_local_replay": "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/07/SKILL.md",
       "mode": "0o644"
     },
     {
@@ -442,7 +442,7 @@
       "after_sha256": "ea1651ee12a058355071d6b943f38b65a6f0687c764942eb03dde5e5f1140634",
       "before_present": true,
       "patch_sha256": "0cc0e92cf8dde95486fce773569fe2937cd35726b7098d206062ad2fd70d3243",
-      "before_path_for_local_replay": "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/08/check_md_namespace.py",
+      "before_path_for_local_replay": "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/08/check_md_namespace.py",
       "mode": "0o644"
     },
     {
@@ -452,7 +452,7 @@
       "after_sha256": "f14c371ab1727af7d1649c60c4da00b54ff6d1b2c60a0f6b125553cd145f845b",
       "before_present": true,
       "patch_sha256": "7f1e985463ee806bbf1e776e1ec2991e1d76a6045e8b7b71276c2c97ad69c649",
-      "before_path_for_local_replay": "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/11/SKILL.md",
+      "before_path_for_local_replay": "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/11/SKILL.md",
       "mode": "0o644"
     },
     {
@@ -462,7 +462,7 @@
       "after_sha256": "e327944d4a9a51989b6a6582a1d25a5521e61261170adf14cd996a265dd8aea0",
       "before_present": true,
       "patch_sha256": "f257560ecad90d26b6941449b783bf0468cfbc5dbd565e406fd57aedf666a822",
-      "before_path_for_local_replay": "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/12/SKILL.md",
+      "before_path_for_local_replay": "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/12/SKILL.md",
       "mode": "0o644"
     },
     {
@@ -472,7 +472,7 @@
       "after_sha256": "3a69092fc6950939f6c9e563031c1df4ca53088b0ffaf5d51240d8e5482da614",
       "before_present": true,
       "patch_sha256": "abaa8b276042c200d3b543a85d617c1c7b59dcf6981f091902155b500431970f",
-      "before_path_for_local_replay": "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/13/SKILL.md",
+      "before_path_for_local_replay": "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/13/SKILL.md",
       "mode": "0o644"
     },
     {
@@ -482,7 +482,7 @@
       "after_sha256": "40ef3105c0495223b52c510302ee4fa452e5bf43b675830c373da44f326faff6",
       "before_present": true,
       "patch_sha256": "f42befd8aae7b0ac655fd6b8f0e156fe85d71ad0670c96f33c25139202b4bd6f",
-      "before_path_for_local_replay": "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/14/SKILL.md",
+      "before_path_for_local_replay": "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/14/SKILL.md",
       "mode": "0o600"
     },
     {
@@ -492,7 +492,7 @@
       "after_sha256": "aab4dd21f870e1cc13c9920ca8d10731e9ec627966874f0c5cffc353a2a94994",
       "before_present": true,
       "patch_sha256": "a76804643e626ef778271e5d2ae3dc127b21534cadc2f2069e08a17a142bce6d",
-      "before_path_for_local_replay": "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/15/SKILL.md",
+      "before_path_for_local_replay": "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/15/SKILL.md",
       "mode": "0o644"
     },
     {
@@ -502,7 +502,7 @@
       "after_sha256": "6ee0609a07e3fd93e11ba3162f47455906641ad4d5ce93238de27ab4fb9ba6e1",
       "before_present": true,
       "patch_sha256": "89c0eb4c0eb67250ecdffbded568303133ecd29d732913946903a37bf5e8a9fb",
-      "before_path_for_local_replay": "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/16/SKILL.md",
+      "before_path_for_local_replay": "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-policy-AB-preapply-16-originals/16/SKILL.md",
       "mode": "0o644"
     },
     {

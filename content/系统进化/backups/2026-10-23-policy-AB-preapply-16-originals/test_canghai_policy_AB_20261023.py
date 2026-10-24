@@ -17,8 +17,8 @@ from typing import Any
 
 import pytest
 
-ROOT = Path('/Users/chenyang/Downloads/demo/沧海巨浪')
-SCRATCH = Path('/Users/chenyang/.hermes/cache/scratch')
+ROOT = Path('/Users/ray/Downloads/demo/沧海巨浪')
+SCRATCH = Path('/Users/ray/.hermes-canghai/cache/scratch')
 MANIFEST = SCRATCH / 'canghai_policy_AB_preapply_20261023.json'
 
 
@@ -50,7 +50,7 @@ def test_no_trade_retains_evidenced_research_but_never_buy_permission():
     assert '`watch_pool: []`' not in line
     r2 = text('skills/analyze_main_sectors_v1/SKILL.md')
     r5 = text('skills/analyze_stock_profile_v1/SKILL.md')
-    soul = Path('/Users/chenyang/.hermes/profiles/canghai-research/SOUL.md').read_text()
+    soul = Path('/Users/ray/.hermes-canghai/profiles/canghai-research/SOUL.md').read_text()
     assert '不能据此停止研究或预先清空研究观察对象' in r2
     assert '禁新仓/零预算本身不是“无研究候选”' in r5
     assert '存在真实研究观察对象时继续画像' in r5

@@ -277,7 +277,7 @@ iwencai-skillhub-cli install 公司事件驱动分析           # 并购/回购/
 ~/.openclaw/workspace/skills/<skill-name>/
 
 # 沧海巨浪自建 skills
-/Users/chenyang/Downloads/demo/沧海巨浪/skills/<skill-name>/
+/Users/ray/Downloads/demo/沧海巨浪/skills/<skill-name>/
 
 # Skill 调用约定
 - skill 名称用中文：<skill-name>（中文 skill 名直接用中文）

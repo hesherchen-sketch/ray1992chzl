@@ -29,11 +29,11 @@
 
 ## 3. 真实基线、变更范围与会话生效
 
-仓库根：`/Users/chenyang/Downloads/demo/沧海巨浪`。原 32 项暂存未写，全部 index records SHA256：`c24736dd938685a85db19301280d8b9fdafdf6fb2bab56a056068dc026df152b`。
+仓库根：`/Users/ray/Downloads/demo/沧海巨浪`。原 32 项暂存未写，全部 index records SHA256：`c24736dd938685a85db19301280d8b9fdafdf6fb2bab56a056068dc026df152b`。
 
 相同目标出现在两包时，**B 的前置内容是 A 的拟议结果**。文件原 hash 永远指真实磁盘；B 另列前置 hash，不能直接拿 B 套原文件。配套 patch 用包标记分隔，只供审阅，不应整体直接 `git apply`，更不应用于包含绝对 profile 路径的无范围操作。任何实际应用前都须重新核对当前 hash、签核范围与依赖。
 
-### A · `/Users/chenyang/Downloads/demo/沧海巨浪/docs/10-契约-研究汇总.md`
+### A · `/Users/ray/Downloads/demo/沧海巨浪/docs/10-契约-研究汇总.md`
 
 - 原文件 SHA256：`99d6d74d8c0abb7d04cd8d74e81035e4eee567588dc29c206509e1ab273cdefb`
 - 本包精确前置 SHA256：`99d6d74d8c0abb7d04cd8d74e81035e4eee567588dc29c206509e1ab273cdefb`
@@ -41,7 +41,7 @@
 - 变更范围：对齐真实summary nullable接口。；精确说明输入清洗与消费者语义，不发明置信阈值。；骨架示例改为未评价。
 - 是否需新会话：文档无运行效力；下次读取采用，不能替代实现与产物重评。
 
-### A · `/Users/chenyang/Downloads/demo/沧海巨浪/docs/11-契约-盘前预案.md`
+### A · `/Users/ray/Downloads/demo/沧海巨浪/docs/11-契约-盘前预案.md`
 
 - 原文件 SHA256：`c785655b63a9be5027bbf829f1023b3f3d7b8709819c133d47ea533c4de30652`
 - 本包精确前置 SHA256：`c785655b63a9be5027bbf829f1023b3f3d7b8709819c133d47ea533c4de30652`
@@ -49,7 +49,7 @@
 - 变更范围：同步单向权威读取，不扩大任何profile写目录。；执行环境与交易决定分字段。；补分层状态与观察非授权，不改资格。
 - 是否需新会话：文档无运行效力；下次读取采用，不能替代实现与产物重评。
 
-### A · `/Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_devil_advocate_v1/SKILL.md`
+### A · `/Users/ray/Downloads/demo/沧海巨浪/skills/analyze_devil_advocate_v1/SKILL.md`
 
 - 原文件 SHA256：`d9721b4145d3ef9c9832a55ad96f56ce83bc5b173c406d49e424d6714cdd1188`
 - 本包精确前置 SHA256：`d9721b4145d3ef9c9832a55ad96f56ce83bc5b173c406d49e424d6714cdd1188`
@@ -57,7 +57,7 @@
 - 变更范围：保护R6完整性，不将修研究观察偷换自动通过。
 - 是否需新会话：skill须fresh context重新加载；当前会话不追溯生效。
 
-### A · `/Users/chenyang/Downloads/demo/沧海巨浪/skills/auction_amendment_v1/SKILL.md`
+### A · `/Users/ray/Downloads/demo/沧海巨浪/skills/auction_amendment_v1/SKILL.md`
 
 - 原文件 SHA256：`bbff34144e521172d78b38d28f4c4abf555906348d291ba6a4d2719a0114e878`
 - 本包精确前置 SHA256：`bbff34144e521172d78b38d28f4c4abf555906348d291ba6a4d2719a0114e878`
@@ -65,7 +65,7 @@
 - 变更范围：同步竞价禁令优先与partial展示，不改硬窗口或reload。；删除旧runtime反写修法。；移除人工补表/超时按档执行的旧规避建议。；超时历史陷阱不再教人补成执行建议。
 - 是否需新会话：skill须fresh context重新加载；当前会话不追溯生效。
 
-### A · `/Users/chenyang/Downloads/demo/沧海巨浪/skills/fetch_auction_snapshot_v1/SKILL.md`
+### A · `/Users/ray/Downloads/demo/沧海巨浪/skills/fetch_auction_snapshot_v1/SKILL.md`
 
 - 原文件 SHA256：`dff225e2c70b77302ac64fe862ac0b3eb937ba7122376ad679494115a71bc478`
 - 本包精确前置 SHA256：`dff225e2c70b77302ac64fe862ac0b3eb937ba7122376ad679494115a71bc478`
@@ -73,7 +73,7 @@
 - 变更范围：真实partial枚举。；同步真实主备来源。；partial不等于全死，ok不等于授权。；仅空值示例，真实数值0保留。；同步C组缺失、量纲与统计契约。
 - 是否需新会话：skill须fresh context重新加载；当前会话不追溯生效。
 
-### A · `/Users/chenyang/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md`
+### A · `/Users/ray/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md`
 
 - 原文件 SHA256：`0f0af85c59761520b8616678a53b001c9851fd0737004a719f78ce240c2baf8d`
 - 本包精确前置 SHA256：`0f0af85c59761520b8616678a53b001c9851fd0737004a719f78ce240c2baf8d`
@@ -81,7 +81,7 @@
 - 变更范围：与A组已实现安全网重评边界同步，不扩大刷新权限。；仅修mode枚举，A包不暗改观察资格；B包单独解除清观察。；消除“不可发半成品”与合法安全临时版混淆；校验失败仍拒绝。；阶段表中的禁交易也使用独立no_trade字段，不新增mode枚举。
 - 是否需新会话：skill须fresh context重新加载；当前会话不追溯生效。
 
-### A · `/Users/chenyang/Downloads/demo/沧海巨浪/skills/research_orchestrator_v1/SKILL.md`
+### A · `/Users/ray/Downloads/demo/沧海巨浪/skills/research_orchestrator_v1/SKILL.md`
 
 - 原文件 SHA256：`3171c4bc9b7515a30ec6d461799fb7c63eedf97b7e9ef68a9778216e4aed94e3`
 - 本包精确前置 SHA256：`3171c4bc9b7515a30ec6d461799fb7c63eedf97b7e9ef68a9778216e4aed94e3`
@@ -89,7 +89,7 @@
 - 变更范围：统一null与真实零，历史参考不冒充本次评价。；示例不再用0占位未评价。；移除第二处超时固定零。
 - 是否需新会话：skill须fresh context重新加载；当前会话不追溯生效。
 
-### A · `/Users/chenyang/Downloads/demo/沧海巨浪/tests/checks/check_md_namespace.py`
+### A · `/Users/ray/Downloads/demo/沧海巨浪/tests/checks/check_md_namespace.py`
 
 - 原文件 SHA256：`7cc99ec0423c303785bbcd0dcc02e7186d5b9f39a1e06fd22e3454ae367d8040`
 - 本包精确前置 SHA256：`7cc99ec0423c303785bbcd0dcc02e7186d5b9f39a1e06fd22e3454ae367d8040`
@@ -97,7 +97,7 @@
 - 变更范围：null呈现契约兼容；仅为拟议代码，未应用。
 - 是否需新会话：下次检查进程读取；无SOUL会话重启要求。
 
-### B · `/Users/chenyang/.hermes/profiles/canghai-plan/SOUL.md`
+### B · `/Users/ray/.hermes-canghai/profiles/canghai-plan/SOUL.md`
 
 - 原文件 SHA256：`5c6c6c28e72a7b1970a852b3d16f2b033b06d5c0bc10c955cc16bb51ae13e3a2`
 - 本包精确前置 SHA256：`5c6c6c28e72a7b1970a852b3d16f2b033b06d5c0bc10c955cc16bb51ae13e3a2`
@@ -105,7 +105,7 @@
 - 变更范围：计划身份层取消固定阶段资格；不动RR条款或预算阈值。
 - 是否需新会话：必须：批准应用后仅该profile新会话生效。
 
-### B · `/Users/chenyang/.hermes/profiles/canghai-research/SOUL.md`
+### B · `/Users/ray/.hermes-canghai/profiles/canghai-research/SOUL.md`
 
 - 原文件 SHA256：`9dd5bf534052fa41b2762fa999899a87d3f58b65afe76234b10e4d3fa185fb31`
 - 本包精确前置 SHA256：`9dd5bf534052fa41b2762fa999899a87d3f58b65afe76234b10e4d3fa185fb31`
@@ -113,7 +113,7 @@
 - 变更范围：解除身份层停研究级联；不改主SOUL、不新增写权限。
 - 是否需新会话：必须：批准应用后仅该profile新会话生效。
 
-### B · `/Users/chenyang/Downloads/demo/沧海巨浪/skills/_archive/filter_leader_v1/SKILL.md`
+### B · `/Users/ray/Downloads/demo/沧海巨浪/skills/_archive/filter_leader_v1/SKILL.md`
 
 - 原文件 SHA256：`794e312b5bec04787b93b3c6e262b1e6f0fd8dda2a56d2e534b2ea89c3744f03`
 - 本包精确前置 SHA256：`794e312b5bec04787b93b3c6e262b1e6f0fd8dda2a56d2e534b2ea89c3744f03`
@@ -121,7 +121,7 @@
 - 变更范围：仍被加载的归档skill删除替补例外，其他过滤阈值原封不动。
 - 是否需新会话：skill须fresh context重新加载；当前会话不追溯生效。
 
-### B · `/Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_devil_advocate_v1/SKILL.md`
+### B · `/Users/ray/Downloads/demo/沧海巨浪/skills/analyze_devil_advocate_v1/SKILL.md`
 
 - 原文件 SHA256：`d9721b4145d3ef9c9832a55ad96f56ce83bc5b173c406d49e424d6714cdd1188`
 - 本包精确前置 SHA256：`8b863ebba7d026becb4538a08606296f4c4c3c854b63521661995fd63bae583b`
@@ -129,7 +129,7 @@
 - 变更范围：硬否决不再含“保留执行池”等买点歧义；不裁定模式七权限。
 - 是否需新会话：skill须fresh context重新加载；当前会话不追溯生效。
 
-### B · `/Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_main_sectors_v1/SKILL.md`
+### B · `/Users/ray/Downloads/demo/沧海巨浪/skills/analyze_main_sectors_v1/SKILL.md`
 
 - 原文件 SHA256：`f8326ea438d7da792a072ee91aef9d4450c87b0b3789c91dba90278389b674c7`
 - 本包精确前置 SHA256：`f8326ea438d7da792a072ee91aef9d4450c87b0b3789c91dba90278389b674c7`
@@ -137,7 +137,7 @@
 - 变更范围：研究方向不被当日交易主线数一刀切。；同步用户20/50现行边界，明确这是资格语义变更，放B。；明确execution_eligible前置筛选不是最终权限。；删除生命周期直接进执行池。
 - 是否需新会话：skill须fresh context重新加载；当前会话不追溯生效。
 
-### B · `/Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_stock_profile_v1/SKILL.md`
+### B · `/Users/ray/Downloads/demo/沧海巨浪/skills/analyze_stock_profile_v1/SKILL.md`
 
 - 原文件 SHA256：`a180541fe70ce174e48e181a9e4bc62ea99c63e87f05386b107a290af926d92a`
 - 本包精确前置 SHA256：`a180541fe70ce174e48e181a9e4bc62ea99c63e87f05386b107a290af926d92a`
@@ -145,7 +145,7 @@
 - 变更范围：禁交易不再触发R5研究跳过。；删除至少5只assert；保留原扩池来源与上限目标，不授予新仓。；不再鼓励为数量绕风控；不冒称旧检查器存在。
 - 是否需新会话：skill须fresh context重新加载；当前会话不追溯生效。
 
-### B · `/Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_style_v1/SKILL.md`
+### B · `/Users/ray/Downloads/demo/沧海巨浪/skills/analyze_style_v1/SKILL.md`
 
 - 原文件 SHA256：`6097bb83402d836101de3348446129d71e6d3ff337b20dc6b9304455e07c6311`
 - 本包精确前置 SHA256：`6097bb83402d836101de3348446129d71e6d3ff337b20dc6b9304455e07c6311`
@@ -153,7 +153,7 @@
 - 变更范围：R1不再以action字段注入固定打法。
 - 是否需新会话：skill须fresh context重新加载；当前会话不追溯生效。
 
-### B · `/Users/chenyang/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md`
+### B · `/Users/ray/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md`
 
 - 原文件 SHA256：`0f0af85c59761520b8616678a53b001c9851fd0737004a719f78ce240c2baf8d`
 - 本包精确前置 SHA256：`8927d05eaea4ea5850af77af24d7228599e6ce9aff5cc5ccfd546b02be79d2d2`
@@ -161,7 +161,7 @@
 - 变更范围：从A安全mode补丁再改观察资格；B依赖A，禁止P1绕禁。；观察数量不得反向驱动凑数。；移除第二个最低15硬配额，不另定数量。；消除被否后自动递补旧例外。；撤销固定阶段打法/主升任何位置；保留全部原cap常数和≤2约束。；不换规则引擎、不改通道代码，清楚标明后续实现依赖。；避免旧表继续呈现硬白名单。；删除按阶段最低3%强制参与，B显式改变业务参与下限而非暗放行。
 - 是否需新会话：skill须fresh context重新加载；当前会话不追溯生效。
 
-### B · `/Users/chenyang/Downloads/demo/沧海巨浪/skills/short_line_thinking_v1/SKILL.md`
+### B · `/Users/ray/Downloads/demo/沧海巨浪/skills/short_line_thinking_v1/SKILL.md`
 
 - 原文件 SHA256：`dad7f28dad6779ee40b16ed1cfcdd39348435c5407f63968dfb711e306c49c54`
 - 本包精确前置 SHA256：`dad7f28dad6779ee40b16ed1cfcdd39348435c5407f63968dfb711e306c49c54`
@@ -169,7 +169,7 @@
 - 变更范围：移除所有低吸按阶段禁用，不解除真实禁令。
 - 是否需新会话：skill须fresh context重新加载；当前会话不追溯生效。
 
-### B · `/Users/chenyang/Downloads/demo/沧海巨浪/skills/trade_discipline_v1/SKILL.md`
+### B · `/Users/ray/Downloads/demo/沧海巨浪/skills/trade_discipline_v1/SKILL.md`
 
 - 原文件 SHA256：`076853d910830a033ed05f94830c63debbeb4dea2f972a34094113e4e35e6edf`
 - 本包精确前置 SHA256：`076853d910830a033ed05f94830c63debbeb4dea2f972a34094113e4e35e6edf`
@@ -182,8 +182,8 @@
 下列上下文、删除与新增均为当前文件逐字差异（每个 hunk 保留三行上下文）。A 包对 no_trade 暂保留原清观察限制，防止“mode兼容修复”偷带业务资格变更；清观察只在 B 包改。
 
 ```diff
---- /Users/chenyang/Downloads/demo/沧海巨浪/docs/10-契约-研究汇总.md
-+++ /Users/chenyang/Downloads/demo/沧海巨浪/docs/10-契约-研究汇总.md
+--- /Users/ray/Downloads/demo/沧海巨浪/docs/10-契约-研究汇总.md
++++ /Users/ray/Downloads/demo/沧海巨浪/docs/10-契约-研究汇总.md
 @@ -25,7 +25,7 @@
  | `fetch_manifest` | string | ✅ | 上游 fetch 产物路径，如 `data/raw/20260704/manifest.json` |
  | `fetch_global_severity` | integer | ✅ | 启动 research 时 manifest 的 `global_severity`（0-3） |
@@ -214,8 +214,8 @@
    },
    "hard_rejects": [],
    "timeouts": [],
---- /Users/chenyang/Downloads/demo/沧海巨浪/docs/11-契约-盘前预案.md
-+++ /Users/chenyang/Downloads/demo/沧海巨浪/docs/11-契约-盘前预案.md
+--- /Users/ray/Downloads/demo/沧海巨浪/docs/11-契约-盘前预案.md
++++ /Users/ray/Downloads/demo/沧海巨浪/docs/11-契约-盘前预案.md
 @@ -1,6 +1,6 @@
  # watchlist_plan.json 标准Schema说明
  
@@ -242,8 +242,8 @@
  
  ---
  
---- /Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_devil_advocate_v1/SKILL.md
-+++ /Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_devil_advocate_v1/SKILL.md
+--- /Users/ray/Downloads/demo/沧海巨浪/skills/analyze_devil_advocate_v1/SKILL.md
++++ /Users/ray/Downloads/demo/沧海巨浪/skills/analyze_devil_advocate_v1/SKILL.md
 @@ -152,6 +152,8 @@
  
  构建 `upstream_usable: {R1..R7: bool}`（`status == complete`）。  
@@ -253,8 +253,8 @@
  
  ### Step 2 · 逐模式扫描
  
---- /Users/chenyang/Downloads/demo/沧海巨浪/skills/auction_amendment_v1/SKILL.md
-+++ /Users/chenyang/Downloads/demo/沧海巨浪/skills/auction_amendment_v1/SKILL.md
+--- /Users/ray/Downloads/demo/沧海巨浪/skills/auction_amendment_v1/SKILL.md
++++ /Users/ray/Downloads/demo/沧海巨浪/skills/auction_amendment_v1/SKILL.md
 @@ -97,6 +97,8 @@
  4. 记录 `observe_only: true`（T3 首周默认）写入 `notes`
  
@@ -283,8 +283,8 @@
  5f. **read_file 读大 JSON 也烧窗口（2026-10-15 实测）**：plan(753行)+snapshot(1481行)+昨日schema+渲染脚本轮番 read_file 共 4-5 轮，把 09:28-09:29 窗口烧到 09:30 才落盘 → timeout。P1 的提取必须一个脚本搞定：write_file 写 `extract_p1.py`（只打印所需字段：执行池 ts_code/name/top层 auction_expectation base_close/expected_open_band/bands action、snapshot 对票竞价价/premium/base_close 一致性、orchestrator_status），一次 terminal 执行打印全部，再根据输出决定判定。禁止用 read_file 顺序读多个大 JSON。需要参照 schema 时读历史 amendment 用 read_file（小文件可）。
  5g. **date+发现性 ls 必须并入提取脚本，写 status 前先看钟（2026-10-16 实测，超窗 2.5min）**：cron 09:28:55 启动，首轮 ls/find 发现 + 提取脚本 + 先写 complete 再核钟改 timeout 双写，落盘 09:31:32。教训：①提取脚本第一步就打印 `date` 与各输入文件存在性，禁止先 ls 再写脚本；②`head -n` 截断会砍掉脚本尾部关键字段（orchestrator_status 被 head -120 截掉→被迫多一轮 read_file）——关键字段放输出最前面，或干脆不 head；③落盘前先看 date，已过 09:29 直接写 timeout_no_amendment，别先写 complete 再重写（每次 write_file 都是 ~2s+ 排队）。
  6. **plan base_close 可能过期（2026-09-23 实测）**：D1 规则版对 300324（base 17.24→实际昨收 4.14）、601811（14.14→16.82）用了过期参考价，整张 auction_expectation 三档表失效。P1 逐票先拿 XTick detail 的 `close` 字段与 plan `auction_expectation.base_close` 比对，不一致时以 XTick/Tushare 为准重判档位，并在 notes 标注 `base_close_stale`（E1 计 D1 参考价合规率）。渲染器会把过期 base_close 写进 md 表头——P1 判定行必须自带真实价纠正。
---- /Users/chenyang/Downloads/demo/沧海巨浪/skills/fetch_auction_snapshot_v1/SKILL.md
-+++ /Users/chenyang/Downloads/demo/沧海巨浪/skills/fetch_auction_snapshot_v1/SKILL.md
+--- /Users/ray/Downloads/demo/沧海巨浪/skills/fetch_auction_snapshot_v1/SKILL.md
++++ /Users/ray/Downloads/demo/沧海巨浪/skills/fetch_auction_snapshot_v1/SKILL.md
 @@ -74,9 +74,9 @@
  
  ```
@@ -330,8 +330,8 @@
  
  - 必须在 **09:28:00** 前完成落盘（P1 09:28 启动即读取；竞价数据 09:27 才到，勿早跑）
  - 纯 Python subprocess；Agent 只 report
---- /Users/chenyang/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md
-+++ /Users/chenyang/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md
+--- /Users/ray/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md
++++ /Users/ray/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md
 @@ -30,7 +30,7 @@
  |------|---------|
  | 08:00（盘前批次） | 同日 `data/research/YYYYMMDD/research_summary.json` 已存在且 `orchestrator_status` ≠ `failed` |
@@ -370,8 +370,8 @@
  - plan.md **必须**在顶部展示"不交易条件清单 + 当前 active 项"(便于用户 review)
  
  **降级**:
---- /Users/chenyang/Downloads/demo/沧海巨浪/skills/research_orchestrator_v1/SKILL.md
-+++ /Users/chenyang/Downloads/demo/沧海巨浪/skills/research_orchestrator_v1/SKILL.md
+--- /Users/ray/Downloads/demo/沧海巨浪/skills/research_orchestrator_v1/SKILL.md
++++ /Users/ray/Downloads/demo/沧海巨浪/skills/research_orchestrator_v1/SKILL.md
 @@ -148,7 +148,7 @@
  
  **R6 特殊**: 从 `R6_devil_advocate.json` 提取 `severity: hard_reject` 条目 → 填入 `hard_rejects[]`（schema 见 `docs/10-契约-研究汇总.md` §4）。
@@ -399,8 +399,8 @@
  | R6 超时 | D1 视为「无反证」保守处理；**不可**自行放宽 R6 约束 |
  | Hermes delegation 全失败 | 告警 + 空池；**不**跑 Python orchestrator（T1' 冻结） |
  | **LLM quota 超限** | 保留已验证研究并明确失败单元、实际错误与可恢复状态；D1 交由计划端及已授权安全网处理，研究端不写计划/触发价，不自动切换模型 |
---- /Users/chenyang/Downloads/demo/沧海巨浪/tests/checks/check_md_namespace.py
-+++ /Users/chenyang/Downloads/demo/沧海巨浪/tests/checks/check_md_namespace.py
+--- /Users/ray/Downloads/demo/沧海巨浪/tests/checks/check_md_namespace.py
++++ /Users/ray/Downloads/demo/沧海巨浪/tests/checks/check_md_namespace.py
 @@ -96,6 +96,9 @@
          if not m:
              return []  # 没有 confidence 字段也不报错（不是所有 md 都有）
@@ -418,8 +418,8 @@
 这不是“保证给票”：允许真空池、允许保持 no_trade；只是避免禁交易变成无法继续研究和重评。保留原仓位常数，不新增固定打法映射。取消“阶段自动给至少3%参与”的保底额度是显式的业务语义收紧，非暗调仓位阈值。R2 20/50 亿按当前用户原则提案，不把旧50亿硬门槛藏在实现同步包。
 
 ```diff
---- /Users/chenyang/.hermes/profiles/canghai-plan/SOUL.md
-+++ /Users/chenyang/.hermes/profiles/canghai-plan/SOUL.md
+--- /Users/ray/.hermes-canghai/profiles/canghai-plan/SOUL.md
++++ /Users/ray/.hermes-canghai/profiles/canghai-plan/SOUL.md
 @@ -32,8 +32,8 @@
  D1 出盘前预案是整套系统的**决断点**。心法不是参考,是**思考顺序**。
  
@@ -431,8 +431,8 @@
  3. **每只 execution 票 → Step 3.6 四闸门**(2026-09-04 新):
     - 关1 核心判定(`@core_judge_v1`) → 共振/逆势抱团 → leader/core/laggard/watch 四档
     - 关2 盈亏比(`@risk_reward_v1`) → RR<1 拒绝,1-2 试仓,2-3 正常,≥3 主仓
---- /Users/chenyang/.hermes/profiles/canghai-research/SOUL.md
-+++ /Users/chenyang/.hermes/profiles/canghai-research/SOUL.md
+--- /Users/ray/.hermes-canghai/profiles/canghai-research/SOUL.md
++++ /Users/ray/.hermes-canghai/profiles/canghai-research/SOUL.md
 @@ -51,8 +51,8 @@
  4. **今天计划做什么、不做什么？** 计划外不出手。
  
@@ -444,8 +444,8 @@
  3. **只有龙头或低位，躲中位和杂毛** — R2 输出必须显式标 `rank ∈ {龙头, 龙二, 龙三}` + `rank=杂毛` 的剔除理由。
  4. **盈亏比优先于胜率** — 候选票如果止损距 < 5% 或 RR < 2，必须降级 watch，不能进 execution。
  5. **计划外不出手** — R4/R5 输出的"机会"必须回答：它是今日核心 / 主线补涨 / 计划内试错 中的哪一种。都不是，剔除。
---- /Users/chenyang/Downloads/demo/沧海巨浪/skills/_archive/filter_leader_v1/SKILL.md
-+++ /Users/chenyang/Downloads/demo/沧海巨浪/skills/_archive/filter_leader_v1/SKILL.md
+--- /Users/ray/Downloads/demo/沧海巨浪/skills/_archive/filter_leader_v1/SKILL.md
++++ /Users/ray/Downloads/demo/沧海巨浪/skills/_archive/filter_leader_v1/SKILL.md
 @@ -56,7 +56,7 @@
  ### 龙三及以下
  
@@ -455,8 +455,8 @@
  
  ### 杂毛过滤 `filter_out_rules`
  
---- /Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_devil_advocate_v1/SKILL.md
-+++ /Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_devil_advocate_v1/SKILL.md
+--- /Users/ray/Downloads/demo/沧海巨浪/skills/analyze_devil_advocate_v1/SKILL.md
++++ /Users/ray/Downloads/demo/沧海巨浪/skills/analyze_devil_advocate_v1/SKILL.md
 @@ -107,7 +107,7 @@
  仅命中 (1) 未确认 (2) → 降级为 **`strong_suggest`**（D1 须显式处理，可覆盖）。
  
@@ -466,8 +466,8 @@
  - ❌ **禁止用龙二/弹性核心/低位补涨票降级替补**——杂毛失去板块β时风险>龙头,补涨票不得因龙头被否而升位
  - 已删除旧规则"候选<3只时hard_reject自动降级为strong_suggest"——该规则逼系统凑数,是辨识度问题的制度根源
  - 否决"高位/一致"龙一必须同时给出具体证据(霸榜出货/资金净流出/身位崩塌),不得只因位置高就否决
---- /Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_main_sectors_v1/SKILL.md
-+++ /Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_main_sectors_v1/SKILL.md
+--- /Users/ray/Downloads/demo/沧海巨浪/skills/analyze_main_sectors_v1/SKILL.md
++++ /Users/ray/Downloads/demo/沧海巨浪/skills/analyze_main_sectors_v1/SKILL.md
 @@ -107,7 +107,7 @@
  
  ### Step 1 · 读上游 + 定主线数量上限
@@ -504,8 +504,8 @@
  - `mid_up` → 可做，龙头分歧低吸或后排补涨，控仓
  - `climax`（高潮分歧）→ **只做龙头或空仓等分歧**，禁追高缩量一字
  - `fade`（退潮反抽）→ **降级次线**，不进主线主推；除非情绪周期=主升（超跌反弹博反抽）
---- /Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_stock_profile_v1/SKILL.md
-+++ /Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_stock_profile_v1/SKILL.md
+--- /Users/ray/Downloads/demo/沧海巨浪/skills/analyze_stock_profile_v1/SKILL.md
++++ /Users/ray/Downloads/demo/沧海巨浪/skills/analyze_stock_profile_v1/SKILL.md
 @@ -229,7 +229,7 @@
  
  ## 降级
@@ -540,8 +540,8 @@
  
  ---
  
---- /Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_style_v1/SKILL.md
-+++ /Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_style_v1/SKILL.md
+--- /Users/ray/Downloads/demo/沧海巨浪/skills/analyze_style_v1/SKILL.md
++++ /Users/ray/Downloads/demo/沧海巨浪/skills/analyze_style_v1/SKILL.md
 @@ -99,7 +99,7 @@
     - 若 `data/research/YYYYMMDD/emotion_cycle.json` 已存在（由 `compute_cycle_metrics.py` 预计算），直接消费
  2. 把阶段写入 R1 产出新字段：
@@ -551,8 +551,8 @@
  3. **联动规则**（与 3.1 风格分类互相校验）：
     - 风格=崩溃退潮型 且 阶段=主跌 → 双确认，仓位下限压到最低
     - 风格=连板情绪型 但 阶段=高位震荡（炸板率>25% 未反映在风格表里）→ **以情绪周期阶段为准**，下调仓位上限（风格表只看涨停/高度，会漏掉炸板率>40%的分歧）
---- /Users/chenyang/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md
-+++ /Users/chenyang/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md
+--- /Users/ray/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md
++++ /Users/ray/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md
 @@ -123,16 +123,16 @@
  2.5. **情绪周期四阶段定位（硬接入 · v1.7 · 2026-09-04 新增 · `@emotion_cycle_v1`）**：
     - 读 `data/research/YYYYMMDD/emotion_cycle.json`（由 `compute_cycle_metrics.py` 预计算）或调 `@emotion_cycle_v1` 现场算
@@ -638,8 +638,8 @@
  - plan.md **必须**在顶部展示"不交易条件清单 + 当前 active 项"(便于用户 review)
  
  **降级**:
---- /Users/chenyang/Downloads/demo/沧海巨浪/skills/short_line_thinking_v1/SKILL.md
-+++ /Users/chenyang/Downloads/demo/沧海巨浪/skills/short_line_thinking_v1/SKILL.md
+--- /Users/ray/Downloads/demo/沧海巨浪/skills/short_line_thinking_v1/SKILL.md
++++ /Users/ray/Downloads/demo/沧海巨浪/skills/short_line_thinking_v1/SKILL.md
 @@ -203,7 +203,7 @@
  agent 输出任何"低吸/埋伏/捡便宜/跌出机会"类建议前,必须过 3 问,任一不满足 = 不许给代码,改归类为"抄底"并按负 α 处理:
  
@@ -648,8 +648,8 @@
 +2. 当前温度、当日禁令与逐票资格允许开仓吗？不按退潮/主跌标签静态禁用强势低吸；低吸≠抄底，须有强势延续、资金确认与涨停预期。禁新仓/零预算仍禁止开仓，只保留研究观察。
  3. 我推荐它的理由是"强势延续"还是"跌多了该反弹"?后者 = 均值回归幻觉,直接否。
  
- **特别警惕时点**:尾盘 14:00 后问"埋伏进去等明天有没有收益"——这是禁止清单 #9 `late_speculation` + #11 `overnight_bad_streak` 的组合形态,默认回答是"不买",除非次日有已核实的硬事件催化 + 竞价确认路径已写明。--- /Users/chenyang/Downloads/demo/沧海巨浪/skills/trade_discipline_v1/SKILL.md
-+++ /Users/chenyang/Downloads/demo/沧海巨浪/skills/trade_discipline_v1/SKILL.md
+ **特别警惕时点**:尾盘 14:00 后问"埋伏进去等明天有没有收益"——这是禁止清单 #9 `late_speculation` + #11 `overnight_bad_streak` 的组合形态,默认回答是"不买",除非次日有已核实的硬事件催化 + 竞价确认路径已写明。--- /Users/ray/Downloads/demo/沧海巨浪/skills/trade_discipline_v1/SKILL.md
++++ /Users/ray/Downloads/demo/沧海巨浪/skills/trade_discipline_v1/SKILL.md
 @@ -69,7 +69,9 @@
  15. `cover_after_blast` — 炸板或买入失败后补仓（必须承认错误离场）
  16. `regulatory_confrontation` — 监管信号明确（"给区间"/点名/停牌）后仍博弈相关方向
@@ -671,7 +671,7 @@
 
 当前正式计划 `2026-10-23T06:51:36+08:00` 将 `R7_STALE` 激活，原描述：`R7 staleness_status=unavailable，可靠北向净额缺失，整体资金资格未通过`。另外 MAIN_DOWN、RESEARCH_NOT_PRODUCTION_READY、NO_ELIGIBLE_CANDIDATES 也 active；**即使将来只改北向政策，也不能据此解除其他禁令。**
 
-### `/Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_capital_flow_v1/SKILL.md` · L223–L273
+### `/Users/ray/Downloads/demo/沧海巨浪/skills/analyze_capital_flow_v1/SKILL.md` · L223–L273
 
 原 SHA256：`e82f07cc276651cacaac808faa786ac37a76dc7394b0c94f3b530c378e76ec77`。本节只读引用，未拟改。
 
@@ -729,7 +729,7 @@
 273|- 硬约束 1 触发时,`degraded=true` 必须写入 JSON 顶层
 ```
 
-### `/Users/chenyang/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md` · L1183–L1187
+### `/Users/ray/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md` · L1183–L1187
 
 原 SHA256：`0f0af85c59761520b8616678a53b001c9851fd0737004a719f78ce240c2baf8d`。本节只读引用，未拟改。
 
@@ -741,7 +741,7 @@
 1187|    },
 ```
 
-### `/Users/chenyang/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md` · L1207–L1215
+### `/Users/ray/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md` · L1207–L1215
 
 原 SHA256：`0f0af85c59761520b8616678a53b001c9851fd0737004a719f78ce240c2baf8d`。本节只读引用，未拟改。
 
@@ -757,7 +757,7 @@
 1215|- 全部不交易条件自动激活,plan 报 `no_trade_mode` 状态
 ```
 
-### `/Users/chenyang/Downloads/demo/沧海巨浪/docs/agents/R7-资金面Agent.md` · L129–L147
+### `/Users/ray/Downloads/demo/沧海巨浪/docs/agents/R7-资金面Agent.md` · L129–L147
 
 原 SHA256：`438bcb7e15ca1d12373b19d81a161d801347635ad3276f1c861c939c9cf6b63f`。本节只读引用，未拟改。
 
@@ -783,7 +783,7 @@
 147|5. ✅ `confidence` 与 manifest severity 联动：global_severity≥2 时 confidence 上限 0.5
 ```
 
-### `/Users/chenyang/Downloads/demo/沧海巨浪/src/research/contract_checks.py` · L122–L158
+### `/Users/ray/Downloads/demo/沧海巨浪/src/research/contract_checks.py` · L122–L158
 
 原 SHA256：`2c64dbc88c07506e28bc4e8f6be798d311a29ae38fa680b9685c9e68136e99f7`。本节只读引用，未拟改。
 
@@ -827,7 +827,7 @@
 158|    return errors
 ```
 
-### `/Users/chenyang/Downloads/demo/沧海巨浪/tests/checks/check_r7_staleness.py` · L67–L108
+### `/Users/ray/Downloads/demo/沧海巨浪/tests/checks/check_r7_staleness.py` · L67–L108
 
 原 SHA256：`327b622c6b668658b01b969cbd0053e54cef1fd8b06b722e99c9744403f1621b`。本节只读引用，未拟改。
 
@@ -888,14 +888,14 @@
 
 ## 7. 06:10 / 07:30：只列决定，不改 cron
 
-- 当前真实 job：`/Users/chenyang/.hermes/cron/jobs.json` 中 `24f4119fab82`，name=`canghai-research · 每日 R1-R7+D1 全量流水线 (06:10)`，`enabled=true`，schedule=`10 6 * * 1-5`，script=`canghai_research_daily.sh`。
-- 桥接 `/Users/chenyang/.hermes/scripts/canghai_research_daily.sh` L3/L6 → 仓库 `scripts/research/run_research_shell_cron_wrapper.sh` → research shell；不是凭文件名猜入口。
+- 当前真实 job：`/Users/ray/.hermes-canghai/cron/jobs.json` 中 `24f4119fab82`，name=`canghai-research · 每日 R1-R7+D1 全量流水线 (06:10)`，`enabled=true`，schedule=`10 6 * * 1-5`，script=`canghai_research_daily.sh`。
+- 桥接 `/Users/ray/.hermes-canghai/scripts/canghai_research_daily.sh` L3/L6 → 仓库 `scripts/research/run_research_shell_cron_wrapper.sh` → research shell；不是凭文件名猜入口。
 - 当前业务状态 `data/health/research_pipeline_20261023.json.started_at=2026-10-23T06:10:47.340363+08:00`、`status=completed`；这是交付，不是承诺的生产窗口复核已完成。
 - 原研究 SOUL L5：`盘前 07:30-07:55 完成 R1-R7 分析`；L74：`07:55 前所有 R* 必须完成`。R1 skill L15 仍写 `07:30（与 R3、R4、R7 并行）`；R7 skill L15 仍写 `07:30 全量`。shell L13–18仍保留旧时刻注释，与实际依赖批次也有差别。
 - 必须由用户选择：①06:10起跑即承担正式生产就绪，还是②06:10为提前研究、07:30另有正式刷新，还是③另定可实现窗口。**此处不选任何方案，不建议仅改时间文字。**
 - 无论选哪项都需点名：研究批次刷新 owner/触发器、依赖等待与完成截止；计划端 D1 重评 owner；安全网仅消费新批次、不代跑研究。未签 trigger 前，“保留重评义务”不等于已有定时重评任务，不能宣称明天会自动恢复。
 
-### `/Users/chenyang/Downloads/demo/沧海巨浪/scripts/research/run_research_shell.sh` · L13–L18
+### `/Users/ray/Downloads/demo/沧海巨浪/scripts/research/run_research_shell.sh` · L13–L18
 
 原 SHA256：`dcab3c1d0cc3291c361cbcfca9ac6d2dc9e0da9563b47bfe2aadaee2cb9ac4e6`。本节只读引用，未拟改。
 
@@ -908,7 +908,7 @@
 18|#   08:00 D1（依赖 R1-R7）
 ```
 
-### `/Users/chenyang/.hermes/profiles/canghai-research/SOUL.md` · L3–L5
+### `/Users/ray/.hermes-canghai/profiles/canghai-research/SOUL.md` · L3–L5
 
 原 SHA256：`9dd5bf534052fa41b2762fa999899a87d3f58b65afe76234b10e4d3fa185fb31`。本节只读引用，未拟改。
 
@@ -918,7 +918,7 @@
 5|盘前 07:30-07:55 完成 R1-R7 分析,输出 `research_summary.json` 供 D1(canghai-plan)消费。主控本身不做分析,只做 delegation 调度 + artifact 路径收集(见 `research_orchestrator_v1`)。11:35 R7 额外做一次盘中增量。
 ```
 
-### `/Users/chenyang/.hermes/profiles/canghai-research/SOUL.md` · L69–L75
+### `/Users/ray/.hermes-canghai/profiles/canghai-research/SOUL.md` · L69–L75
 
 原 SHA256：`9dd5bf534052fa41b2762fa999899a87d3f58b65afe76234b10e4d3fa185fb31`。本节只读引用，未拟改。
 
@@ -932,7 +932,7 @@
 75|- R6 反证是唯一硬否决权来源，主控不得干预或过滤 R6 的 `hard_reject` 结论
 ```
 
-### `/Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_style_v1/SKILL.md` · L13–L17
+### `/Users/ray/Downloads/demo/沧海巨浪/skills/analyze_style_v1/SKILL.md` · L13–L17
 
 原 SHA256：`6097bb83402d836101de3348446129d71e6d3ff337b20dc6b9304455e07c6311`。本节只读引用，未拟改。
 
@@ -944,7 +944,7 @@
 17|**产出路径**: `data/research/YYYYMMDD/R1_style.json`
 ```
 
-### `/Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_capital_flow_v1/SKILL.md` · L13–L17
+### `/Users/ray/Downloads/demo/沧海巨浪/skills/analyze_capital_flow_v1/SKILL.md` · L13–L17
 
 原 SHA256：`e82f07cc276651cacaac808faa786ac37a76dc7394b0c94f3b530c378e76ec77`。本节只读引用，未拟改。
 
@@ -960,7 +960,7 @@
 
 本节“完整”限定为本次盘前研究→D1→价位引擎的现行规则/实现链，不把全历史报告中的示例数字当政策，也不声称已穷尽仓库每个历史归档。三套口径确有不同角色：1是 risk_reward 试仓分支最低线；2既是 research身份的资格底线又是仓位分档；1.8是价位引擎默认门槛。另有止盈目标2R，**它不是门槛2的同一概念**。
 
-### `/Users/chenyang/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md` · L384–L388
+### `/Users/ray/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md` · L384–L388
 
 原 SHA256：`0f0af85c59761520b8616678a53b001c9851fd0737004a719f78ce240c2baf8d`。本节只读引用，未拟改。
 
@@ -972,7 +972,7 @@
 388|- 仓位按 `position_suggestion_pct` 写（主升核心可 15%，主跌只试仓）
 ```
 
-### `/Users/chenyang/Downloads/demo/沧海巨浪/skills/trade_discipline_v1/SKILL.md` · L29–L33
+### `/Users/ray/Downloads/demo/沧海巨浪/skills/trade_discipline_v1/SKILL.md` · L29–L33
 
 原 SHA256：`076853d910830a033ed05f94830c63debbeb4dea2f972a34094113e4e35e6edf`。本节只读引用，未拟改。
 
@@ -984,7 +984,7 @@
 33|| 7 | 合力来自全市场 | `discipline.r7_market_consensus` | 逆势抱团降级（core_judge） |
 ```
 
-### `/Users/chenyang/.hermes/profiles/canghai-plan/SOUL.md` · L37–L42
+### `/Users/ray/.hermes-canghai/profiles/canghai-plan/SOUL.md` · L37–L42
 
 原 SHA256：`5c6c6c28e72a7b1970a852b3d16f2b033b06d5c0bc10c955cc16bb51ae13e3a2`。本节只读引用，未拟改。
 
@@ -997,7 +997,7 @@
 42|4. **每只票 entry_rules 必须含**:买点类型(打板/半路/低吸)+ 触发价 + 止损(距买入价-5~-10%)+ 止盈 + 失败标准
 ```
 
-### `/Users/chenyang/Downloads/demo/沧海巨浪/src/plan/risk_reward.py` · L41–L48
+### `/Users/ray/Downloads/demo/沧海巨浪/src/plan/risk_reward.py` · L41–L48
 
 原 SHA256：`0534c00839c6f4a1b600062e71c2825a2f46850cd4b9fefd0f8aa5db69696612`。本节只读引用，未拟改。
 
@@ -1012,7 +1012,7 @@
 48|MIN_RR_TRIAL = 1.0
 ```
 
-### `/Users/chenyang/Downloads/demo/沧海巨浪/src/plan/risk_reward.py` · L88–L116
+### `/Users/ray/Downloads/demo/沧海巨浪/src/plan/risk_reward.py` · L88–L116
 
 原 SHA256：`0534c00839c6f4a1b600062e71c2825a2f46850cd4b9fefd0f8aa5db69696612`。本节只读引用，未拟改。
 
@@ -1048,7 +1048,7 @@
 116|            datetime.now().astimezone().isoformat(timespec="seconds"),
 ```
 
-### `/Users/chenyang/.hermes/profiles/canghai-research/SOUL.md` · L53–L58
+### `/Users/ray/.hermes-canghai/profiles/canghai-research/SOUL.md` · L53–L58
 
 原 SHA256：`9dd5bf534052fa41b2762fa999899a87d3f58b65afe76234b10e4d3fa185fb31`。本节只读引用，未拟改。
 
@@ -1061,7 +1061,7 @@
 58|5. **计划外不出手** — R4/R5 输出的"机会"必须回答：它是今日核心 / 主线补涨 / 计划内试错 中的哪一种。都不是，剔除。
 ```
 
-### `/Users/chenyang/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md` · L487–L510
+### `/Users/ray/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md` · L487–L510
 
 原 SHA256：`0f0af85c59761520b8616678a53b001c9851fd0737004a719f78ce240c2baf8d`。本节只读引用，未拟改。
 
@@ -1092,7 +1092,7 @@
 510|- `RR<1.8` 的票自动写入 `no_trade_conditions.RR_FAIL` 并标记 active → 当日不可开仓
 ```
 
-### `/Users/chenyang/Downloads/demo/沧海巨浪/src/plan/price_levels.py` · L86–L96
+### `/Users/ray/Downloads/demo/沧海巨浪/src/plan/price_levels.py` · L86–L96
 
 原 SHA256：`db4e876468c7e4805d0af020115cd4f860a5426eeb5f50eebc31058229156d27`。本节只读引用，未拟改。
 
@@ -1110,7 +1110,7 @@
 96|    tech = load_tech(ts_code, trade_date)
 ```
 
-### `/Users/chenyang/Downloads/demo/沧海巨浪/src/plan/price_levels.py` · L175–L189
+### `/Users/ray/Downloads/demo/沧海巨浪/src/plan/price_levels.py` · L175–L189
 
 原 SHA256：`db4e876468c7e4805d0af020115cd4f860a5426eeb5f50eebc31058229156d27`。本节只读引用，未拟改。
 
@@ -1132,7 +1132,7 @@
 189|    rr = round((take - buy_ref) / risk, 2) if risk > 0 else None
 ```
 
-### `/Users/chenyang/Downloads/demo/沧海巨浪/src/plan/price_levels.py` · L213–L217
+### `/Users/ray/Downloads/demo/沧海巨浪/src/plan/price_levels.py` · L213–L217
 
 原 SHA256：`db4e876468c7e4805d0af020115cd4f860a5426eeb5f50eebc31058229156d27`。本节只读引用，未拟改。
 
@@ -1144,7 +1144,7 @@
 217|        "rr_grade": ("pass" if rr and rr >= rr_min else "RR_FAIL"),
 ```
 
-### `/Users/chenyang/Downloads/demo/沧海巨浪/scripts/plan/apply_price_levels.py` · L129–L142
+### `/Users/ray/Downloads/demo/沧海巨浪/scripts/plan/apply_price_levels.py` · L129–L142
 
 原 SHA256：`c7420b7b609b306885351cc6353737599b893da90064538c6b679986e19d8170`。本节只读引用，未拟改。
 

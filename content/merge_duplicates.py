@@ -10,7 +10,7 @@ import shutil
 from collections import defaultdict
 from datetime import datetime
 
-ENTITIES_DIR = "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/chzl/wiki/entities"
+ENTITIES_DIR = "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/chzl/wiki/entities"
 BACKUP_DIR = os.path.join(ENTITIES_DIR, "_backup_duplicates")
 
 # 股票代码正则：6位数字，排除2026开头的日期

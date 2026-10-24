@@ -3,8 +3,8 @@
 """提取 stock_basic 映射 + 生成候选股票清单"""
 import json, re, os, csv
 
-SPILL = '/Users/chenyang/.hermes/cache/spillover/call_ud38uxhent1hb9130zuvvba8.txt'
-BASE = '/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/投研交易/席位与资金/raw'
+SPILL = '/Users/ray/.hermes-canghai/cache/spillover/call_ud38uxhent1hb9130zuvvba8.txt'
+BASE = '/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/投研交易/席位与资金/raw'
 
 with open(SPILL, 'r', encoding='utf-8') as f:
     raw = f.read()

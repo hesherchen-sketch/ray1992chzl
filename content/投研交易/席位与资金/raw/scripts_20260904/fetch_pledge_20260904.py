@@ -3,7 +3,7 @@
 """pledge_stat v2 字段修正"""
 import os, json, time
 
-env_path = '/Users/chenyang/Downloads/demo/沧海巨浪/.env'
+env_path = '/Users/ray/Downloads/demo/沧海巨浪/.env'
 token = None
 with open(env_path, 'r', encoding='utf-8') as f:
     for line in f:
@@ -13,7 +13,7 @@ with open(env_path, 'r', encoding='utf-8') as f:
 import tushare as ts
 pro = ts.pro_api(token)
 
-BASE = '/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/投研交易/席位与资金/raw'
+BASE = '/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/投研交易/席位与资金/raw'
 
 # 先看字段
 df0 = pro.pledge_stat(ts_code='002049.SZ')

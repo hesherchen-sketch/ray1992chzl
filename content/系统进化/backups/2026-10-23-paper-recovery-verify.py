@@ -10,8 +10,8 @@ import subprocess
 import sys
 import xml.etree.ElementTree as ET
 
-REPO = Path('/Users/chenyang/Downloads/demo/沧海巨浪')
-SCRATCH = Path('/Users/chenyang/.hermes/cache/scratch')
+REPO = Path('/Users/ray/Downloads/demo/沧海巨浪')
+SCRATCH = Path('/Users/ray/.hermes-canghai/cache/scratch')
 PYTHON = REPO / '.venv/bin/python'
 NEW_TESTS = ['tests/test_canghai_rr_scope_20261023.py', 'tests/test_canghai_rr_parent_review_20261023.py', 'tests/test_canghai_paper_execution_20261023.py', 'tests/test_canghai_paper_parent_review_20261023.py', 'tests/test_canghai_paper_plan_driver_20261023.py', 'tests/test_canghai_repair_plan_contracts_20261023.py']
 EXISTING_TESTS = ['tests/pipeline/test_plan_staging_freshness.py']
@@ -22,9 +22,9 @@ from pathlib import Path
 # this capability bit before import; keep all actual sockets blocked.
 socket.has_ipv6=False
 ROOT=Path(__file__).resolve().parent
-SCRATCH=Path('/Users/chenyang/.hermes/cache/scratch').resolve()
-REAL=Path('/Users/chenyang/Downloads/demo/沧海巨浪').resolve()
-PRIVATE=Path('/Users/chenyang/.hermes').resolve()
+SCRATCH=Path('/Users/ray/.hermes-canghai/cache/scratch').resolve()
+REAL=Path('/Users/ray/Downloads/demo/沧海巨浪').resolve()
+PRIVATE=Path('/Users/ray/.hermes-canghai').resolve()
 violations=[]
 def deny(reason):
     violations.append({'reason':reason,'test':os.environ.get('PYTEST_CURRENT_TEST'),'stack':traceback.format_stack(limit=12)})

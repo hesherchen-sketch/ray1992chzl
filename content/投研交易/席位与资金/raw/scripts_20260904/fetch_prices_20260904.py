@@ -7,7 +7,7 @@ from collections import defaultdict
 # 读 .env token
 env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..', '.env')
 if not os.path.exists(env_path):
-    env_path = '/Users/chenyang/Downloads/demo/沧海巨浪/.env'
+    env_path = '/Users/ray/Downloads/demo/沧海巨浪/.env'
 token = None
 with open(env_path, 'r', encoding='utf-8') as f:
     for line in f:
@@ -19,7 +19,7 @@ print("token loaded:", bool(token))
 import tushare as ts
 pro = ts.pro_api(token)
 
-BASE = '/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/投研交易/席位与资金/raw'
+BASE = '/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/投研交易/席位与资金/raw'
 
 # ---------- 1. 集群金额去重精确计算 ----------
 rows = []

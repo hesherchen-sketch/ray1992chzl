@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """debug anns_d"""
 import os
-env_path = '/Users/chenyang/Downloads/demo/沧海巨浪/.env'
+env_path = '/Users/ray/Downloads/demo/沧海巨浪/.env'
 token = None
 with open(env_path, 'r', encoding='utf-8') as f:
     for line in f:

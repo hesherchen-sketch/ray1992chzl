@@ -382,7 +382,7 @@
 - `~/.hermes/profiles/canghai-<name>/SOUL.md`
 - `~/.hermes/profiles/canghai-<name>/cron/`
 
-**数据目录归属**(项目 root `/Users/chenyang/Downloads/demo/沧海巨浪/`):
+**数据目录归属**(项目 root `/Users/ray/Downloads/demo/沧海巨浪/`):
 - fetch 只写 `data/raw/`
 - research 只写 `chzl_kg/` + `data/research/`
 - plan 只写 `data/plans/`
@@ -401,7 +401,7 @@
 ### §3.1 目录树(硬约束)
 
 ```
-/Users/chenyang/Downloads/demo/沧海巨浪/
+/Users/ray/Downloads/demo/沧海巨浪/
 ├── docs/                              # 权威文档(本文档 + agent spec + schema)
 │   ├── 00-CANONICAL-ARCHITECTURE-v1.md    ← 本文档
 │   ├── agents/                            # 12 个执行单元的 spec

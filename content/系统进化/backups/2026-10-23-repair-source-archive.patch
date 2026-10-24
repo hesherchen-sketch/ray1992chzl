@@ -69,7 +69,7 @@
 +
 +
  def _hermes_bin() -> str | None:
-     for cand in ("/Users/chenyang/.local/bin/hermes", "hermes"):
+     for cand in ("/Users/ray/.local/bin/hermes", "hermes"):
          if cand.startswith("/"):
 @@ -258,6 +295,9 @@
          publish_runtime_plan(ROOT, date, since_ns=started_ns)
@@ -3217,7 +3217,7 @@
 +import pandas as pd
 +import pytest
 +
-+SCRATCH = Path("/Users/chenyang/.hermes/cache/scratch")
++SCRATCH = Path("/Users/ray/.hermes-canghai/cache/scratch")
 +TZ = timezone(timedelta(hours=8))
 +DAY = "20261023"
 +STAMP = "2026-10-23T10:00:30"
@@ -3866,7 +3866,7 @@
 +    if not target:
 +        return
 +    target = Path(target)
-+    assert target.is_relative_to(Path("/Users/chenyang/.hermes/cache/scratch"))
++    assert target.is_relative_to(Path("/Users/ray/.hermes-canghai/cache/scratch"))
 +    for source in offline.root.rglob("*"):
 +        if source.is_file() and source.suffix in {".json", ".md"}:
 +            destination = target / label / source.relative_to(offline.root)
@@ -3952,7 +3952,7 @@
 +Run only this file (never production mains/full repository discovery):
 +PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest -q -p no:cacheprovider \
 +  tests/test_canghai_repair_auction_overseas_20261023.py \
-+  --basetemp=/Users/chenyang/.hermes/cache/scratch/canghai_repair_C_20261023/pytest
++  --basetemp=/Users/ray/.hermes-canghai/cache/scratch/canghai_repair_C_20261023/pytest
 +"""
 +from __future__ import annotations
 +
@@ -3975,7 +3975,7 @@
 +import pytest
 +
 +REPO = Path(__file__).resolve().parents[1]
-+SCRATCH = Path('/Users/chenyang/.hermes/cache/scratch').resolve()
++SCRATCH = Path('/Users/ray/.hermes-canghai/cache/scratch').resolve()
 +DATE = '20261023'
 +NOW = datetime.fromisoformat('2026-10-23T06:03:00+08:00')
 +FILES = {
@@ -4057,7 +4057,7 @@
 +            return
 +        target = Path(file).resolve()
 +        production_data = target.is_relative_to(REPO) and target.relative_to(REPO).parts[0] in {'data', 'chzl_kg', 'kb', 'config'}
-+        private_profile = target.is_relative_to(Path('/Users/chenyang/.hermes')) and not target.is_relative_to(SCRATCH)
++        private_profile = target.is_relative_to(Path('/Users/ray/.hermes-canghai')) and not target.is_relative_to(SCRATCH)
 +        if target.name == '.env' or production_data or private_profile or (writing and not target.is_relative_to(SCRATCH)):
 +            violations.append(f'forbidden file access: {target}')
 +            raise AssertionError(violations[-1])
@@ -6289,7 +6289,7 @@
 +from pathlib import Path
 +
 +CST = timezone(timedelta(hours=8))
-+SCRATCH = Path('/Users/chenyang/.hermes/cache/scratch')
++SCRATCH = Path('/Users/ray/.hermes-canghai/cache/scratch')
 +ROOT = Path(__file__).resolve().parents[2]
 +
 +
@@ -7078,7 +7078,7 @@
 +initialized **synthetic scratch fixtures only**.
 +
 +- `--fixture --now <timezone-aware ISO>`: only a database below
-+  `/Users/chenyang/.hermes/cache/scratch/` is allowed. The clock is explicitly
++  `/Users/ray/.hermes-canghai/cache/scratch/` is allowed. The clock is explicitly
 +  synthetic; historical/future fixture dates are not evidence of real market fills.
 +- Without `--fixture`, the clock is the actual system clock; `--now` is forbidden.
 +  The database must be below scratch or exactly
@@ -7258,11 +7258,11 @@
 +
 +```text
 +PYTHONDONTWRITEBYTECODE=1 PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 \
-+TMPDIR=/Users/chenyang/.hermes/cache/scratch \
++TMPDIR=/Users/ray/.hermes-canghai/cache/scratch \
 +python3 -m pytest --noconftest -p no:cacheprovider \
 + tests/test_canghai_paper_execution_20261023.py \
 + tests/test_canghai_paper_parent_review_20261023.py \
-+ --junitxml=/Users/chenyang/.hermes/cache/scratch/canghai_paper_parent_review_20261023/junit.xml -q
++ --junitxml=/Users/ray/.hermes-canghai/cache/scratch/canghai_paper_parent_review_20261023/junit.xml -q
 +```
 +
 +Tests block network, child processes and reads of production data/.env; all
@@ -7810,7 +7810,7 @@
 +from trading.paper import PaperError, PaperLedger
 +from scripts.execute.run_paper_trading import main
 +
-+SCRATCH = Path('/Users/chenyang/.hermes/cache/scratch')
++SCRATCH = Path('/Users/ray/.hermes-canghai/cache/scratch')
 +NOW = '2026-10-23T10:00:01+08:00'
 +NEXT = '2026-10-26T10:00:01+08:00'
 +AUTH = 'fixture-user-paper-permission-20261023'
@@ -8277,7 +8277,7 @@
 +import pytest
 +
 +ROOT = Path(__file__).resolve().parents[1]
-+SCRATCH = Path('/Users/chenyang/.hermes/cache/scratch')
++SCRATCH = Path('/Users/ray/.hermes-canghai/cache/scratch')
 +sys.path.insert(0, str(ROOT))
 +from trading.paper import PaperLedger
 +from scripts.execute.run_paper_trading import main
@@ -8760,8 +8760,8 @@
 +import pytest
 +
 +ROOT = Path(__file__).resolve().parents[1]
-+SCRATCH = Path('/Users/chenyang/.hermes/cache/scratch')
-+PRODUCTION = Path('/Users/chenyang/Downloads/demo/沧海巨浪')
++SCRATCH = Path('/Users/ray/.hermes-canghai/cache/scratch')
++PRODUCTION = Path('/Users/ray/Downloads/demo/沧海巨浪')
 +sys.path.insert(0, str(ROOT))
 +from scripts.execute import run_paper_plan_once as driver
 +from trading.paper import PaperLedger
@@ -9562,8 +9562,8 @@
 +
 +import pytest
 +
-+ROOT = Path('/Users/chenyang/Downloads/demo/沧海巨浪')
-+SCRATCH = Path('/Users/chenyang/.hermes/cache/scratch')
++ROOT = Path('/Users/ray/Downloads/demo/沧海巨浪')
++SCRATCH = Path('/Users/ray/.hermes-canghai/cache/scratch')
 +MANIFEST = SCRATCH / 'canghai_policy_AB_preapply_20261023.json'
 +
 +
@@ -9595,7 +9595,7 @@
 +    assert '`watch_pool: []`' not in line
 +    r2 = text('skills/analyze_main_sectors_v1/SKILL.md')
 +    r5 = text('skills/analyze_stock_profile_v1/SKILL.md')
-+    soul = Path('/Users/chenyang/.hermes/profiles/canghai-research/SOUL.md').read_text()
++    soul = Path('/Users/ray/.hermes-canghai/profiles/canghai-research/SOUL.md').read_text()
 +    assert '不能据此停止研究或预先清空研究观察对象' in r2
 +    assert '禁新仓/零预算本身不是“无研究候选”' in r5
 +    assert '存在真实研究观察对象时继续画像' in r5

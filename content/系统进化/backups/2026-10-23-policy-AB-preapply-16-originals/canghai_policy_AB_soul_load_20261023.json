@@ -1,14 +1,14 @@
 {
   "loader": "agent.prompt_builder.load_soul_md",
-  "loader_source": "/Users/chenyang/.hermes/hermes-agent/agent/prompt_builder.py",
-  "interpreter": "/Users/chenyang/.hermes/hermes-agent/venv/bin/python",
+  "loader_source": "/Users/ray/.hermes-canghai/hermes-agent/agent/prompt_builder.py",
+  "interpreter": "/Users/ray/.hermes-canghai/hermes-agent/venv/bin/python",
   "home_override_used": true,
-  "ambient_home": "/Users/chenyang/.hermes/cache/scratch/canghai_policy_AB_hermes_load_home_20261023",
+  "ambient_home": "/Users/ray/.hermes-canghai/cache/scratch/canghai_policy_AB_hermes_load_home_20261023",
   "profile_content_printed": false,
   "profiles": [
     {
       "profile": "canghai-research",
-      "path": "/Users/chenyang/.hermes/profiles/canghai-research/SOUL.md",
+      "path": "/Users/ray/.hermes-canghai/profiles/canghai-research/SOUL.md",
       "loaded": true,
       "exact_stripped_source": true,
       "characters": 3009,
@@ -17,7 +17,7 @@
     },
     {
       "profile": "canghai-plan",
-      "path": "/Users/chenyang/.hermes/profiles/canghai-plan/SOUL.md",
+      "path": "/Users/ray/.hermes-canghai/profiles/canghai-plan/SOUL.md",
       "loaded": true,
       "exact_stripped_source": true,
       "characters": 2675,
@@ -33,7 +33,7 @@
         "rev-parse",
         "HEAD"
       ],
-      "cwd": "/Users/chenyang/.hermes/hermes-agent"
+      "cwd": "/Users/ray/.hermes-canghai/hermes-agent"
     }
   ],
   "scope": "loader acceptance only; no production session or research launched"

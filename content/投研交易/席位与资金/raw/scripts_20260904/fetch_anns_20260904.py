@@ -3,7 +3,7 @@
 """2026-09-04 监管内幕交易追踪 — anns_d 公告回查 v2（字段 title）"""
 import os, json, time
 
-env_path = '/Users/chenyang/Downloads/demo/沧海巨浪/.env'
+env_path = '/Users/ray/Downloads/demo/沧海巨浪/.env'
 token = None
 with open(env_path, 'r', encoding='utf-8') as f:
     for line in f:
@@ -14,7 +14,7 @@ with open(env_path, 'r', encoding='utf-8') as f:
 import tushare as ts
 pro = ts.pro_api(token)
 
-BASE = '/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/投研交易/席位与资金/raw'
+BASE = '/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/投研交易/席位与资金/raw'
 
 targets = {
     '301498.SZ': ['增持', '减持', '计划', '回购'],

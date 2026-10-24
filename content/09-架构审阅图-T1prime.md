@@ -69,7 +69,7 @@ flowchart TB
 | 平面 | 路径 | 职责 | T1' 状态 |
 |------|------|------|----------|
 | **运行时** | `~/.hermes/profiles/canghai-*/` | LLM 会话、delegation、tool 拦截、cron | 🔴 名义存在，research/plan **未接线** |
-| **资产** | `/Users/chenyang/Downloads/demo/沧海巨浪/` | schema、skill、artifact I/O、（延后）fallback | 🟡 fetch 脚本 ✅；research/plan Python ⚠️ **冻结不扩展** |
+| **资产** | `/Users/ray/Downloads/demo/沧海巨浪/` | schema、skill、artifact I/O、（延后）fallback | 🟡 fetch 脚本 ✅；research/plan Python ⚠️ **冻结不扩展** |
 
 ### 1.1 当前偏离 vs 目标（对照）
 
@@ -634,7 +634,7 @@ flowchart TB
 **Agent 模式 cron 示例（T1' 目标，非 `--no-agent`）**:
 
 ```bash
-ROOT="/Users/chenyang/Downloads/demo/沧海巨浪"
+ROOT="/Users/ray/Downloads/demo/沧海巨浪"
 
 # 07:30 research — LLM 主控 + delegation
 hermes cron create "30 7 * * 1-5" \

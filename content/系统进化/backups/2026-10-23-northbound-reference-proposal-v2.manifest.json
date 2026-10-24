@@ -2,7 +2,7 @@
   "schema_version": "northbound_reference_proposal_v2",
   "status": "draft_only_not_applied",
   "frozen_at": "2026-10-23T12:52:06+08:00",
-  "repository": "/Users/chenyang/Downloads/demo/沧海巨浪",
+  "repository": "/Users/ray/Downloads/demo/沧海巨浪",
   "authorization_scope": "仅生成北向optional参考的精确最小持久规则差异；不应用任何目标",
   "policy": {
     "northbound": "optional_reference",
@@ -32,172 +32,172 @@
       "sha256": "e82f07cc276651cacaac808faa786ac37a76dc7394b0c94f3b530c378e76ec77",
       "line_count": 288,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_capital_flow_v1/SKILL.md"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/skills/analyze_capital_flow_v1/SKILL.md"
     },
     {
       "path": "docs/agents/R7-资金面Agent.md",
       "sha256": "438bcb7e15ca1d12373b19d81a161d801347635ad3276f1c861c939c9cf6b63f",
       "line_count": 155,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/docs/agents/R7-资金面Agent.md"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/docs/agents/R7-资金面Agent.md"
     },
     {
       "path": "skills/main_decision_v1/SKILL.md",
       "sha256": "b3e8d6d49e42b84a80613e4e63f7f5a578b95a6c1ab009e606cc2eacc6627876",
       "line_count": 1295,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/skills/main_decision_v1/SKILL.md"
     },
     {
       "path": "src/research/contract_checks.py",
       "sha256": "2c64dbc88c07506e28bc4e8f6be798d311a29ae38fa680b9685c9e68136e99f7",
       "line_count": 284,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/src/research/contract_checks.py"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/src/research/contract_checks.py"
     },
     {
       "path": "tests/checks/check_r7_staleness.py",
       "sha256": "327b622c6b668658b01b969cbd0053e54cef1fd8b06b722e99c9744403f1621b",
       "line_count": 134,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/tests/checks/check_r7_staleness.py"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/tests/checks/check_r7_staleness.py"
     },
     {
       "path": "scripts/research/run_research_shell.sh",
       "sha256": "dcab3c1d0cc3291c361cbcfca9ac6d2dc9e0da9563b47bfe2aadaee2cb9ac4e6",
       "line_count": 273,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/scripts/research/run_research_shell.sh"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/scripts/research/run_research_shell.sh"
     },
     {
       "path": "scripts/research/run_research_shell_cron_wrapper.sh",
       "sha256": "2a72fc27482bcc4d1a78d19c99923e9f104297c05ab88e64e2111e090a077da6",
       "line_count": 71,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/scripts/research/run_research_shell_cron_wrapper.sh"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/scripts/research/run_research_shell_cron_wrapper.sh"
     },
     {
       "path": "scripts/research/pipeline_state.py",
       "sha256": "353dc8e21c88788385b040e0d6e617dc56947df19c6773fd8c1745e9aaea82f5",
       "line_count": 245,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/scripts/research/pipeline_state.py"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/scripts/research/pipeline_state.py"
     },
     {
       "path": "scripts/research/pipeline_artifacts.py",
       "sha256": "790dfee41d40776e10dac270cf2b4a15ab452c654d1ebae5df6e0357631aa4b1",
       "line_count": 181,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/scripts/research/pipeline_artifacts.py"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/scripts/research/pipeline_artifacts.py"
     },
     {
       "path": "scripts/research/build_research_summary.py",
       "sha256": "11ffad8c70624da0898c87b0b97dbd37e80c91b5fd2383410984c98c76d19441",
       "line_count": 135,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/scripts/research/build_research_summary.py"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/scripts/research/build_research_summary.py"
     },
     {
       "path": "src/research/orchestrator.py",
       "sha256": "28fe4f69c6390b44db28ef739b2caeab1f7af7e8ad7bc9c45c7afd9c640ba4c2",
       "line_count": 419,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/src/research/orchestrator.py"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/src/research/orchestrator.py"
     },
     {
       "path": "src/research/r6_devil_advocate.py",
       "sha256": "d9e35ef8f838f7e49f8c5d433c46f881ae3d70999f29791d43543f0fd812aff1",
       "line_count": 633,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/src/research/r6_devil_advocate.py"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/src/research/r6_devil_advocate.py"
     },
     {
       "path": "skills/analyze_devil_advocate_v1/SKILL.md",
       "sha256": "aeee4559edbb1d095759202b03c33e50dd9fc3a5c6581a254d5d8124b67d0e0d",
       "line_count": 443,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/skills/analyze_devil_advocate_v1/SKILL.md"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/skills/analyze_devil_advocate_v1/SKILL.md"
     },
     {
       "path": "scripts/plan/ensure_watchlist_plan.py",
       "sha256": "ebaded51b65f9abbdd8af46289af9c00f78a4676bda42c491f59b415d6f5c4c6",
       "line_count": 385,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/scripts/plan/ensure_watchlist_plan.py"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/scripts/plan/ensure_watchlist_plan.py"
     },
     {
       "path": "trading/load_plan.py",
       "sha256": "40bddfcb8573ffa5cd35cf592fd6bba7c9fdb3291fd620358fc4e228be0e26cb",
       "line_count": 386,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/trading/load_plan.py"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/trading/load_plan.py"
     },
     {
       "path": "trading/schema/watchlist_plan.py",
       "sha256": "e1188f7580712014a438ee90678c3c9c63a9fe009c10fa8d85566daf0d6e686d",
       "line_count": 158,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/trading/schema/watchlist_plan.py"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/trading/schema/watchlist_plan.py"
     },
     {
       "path": "docs/agents/D1-主决策Agent.md",
       "sha256": "8009445afe1f058ba823bb548480cd828952e9b6c3c4cb8729592e1a18ca9d9e",
       "line_count": 267,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/docs/agents/D1-主决策Agent.md"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/docs/agents/D1-主决策Agent.md"
     },
     {
       "path": "chzl_kg/系统进化/backups/2026-10-23-frontgate-policy-proposals.md",
       "sha256": "78d7cb8c25e2729153a27fefe0e8a8f926da2a8ed170b624d8aee29d8674a40c",
       "line_count": 1209,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-frontgate-policy-proposals.md"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-frontgate-policy-proposals.md"
     },
     {
       "path": "chzl_kg/系统进化/backups/2026-10-23-frontgate-policy-proposals.patch",
       "sha256": "4b1a4f130b90e6c1eae69bbf1120faadeb2ebf752c6c821473a1ad3f5b1ee16b",
       "line_count": 484,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-frontgate-policy-proposals.patch"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-frontgate-policy-proposals.patch"
     },
     {
       "path": "chzl_kg/系统进化/backups/2026-10-23-northbound-sdk-probe.json",
       "sha256": "41a924641ae16de07a3f793c298480d9857dc0e709d5e76701a8319674c5d7e0",
       "line_count": 404,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-northbound-sdk-probe.json"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-northbound-sdk-probe.json"
     },
     {
       "path": "scripts/health/probe_northbound.py",
       "sha256": "0861bfc0047706c9e36f5d85f99dd2f9d865062555bb36bc648205ae6d87f7cd",
       "line_count": 104,
       "read_coverage": "full",
-      "resolved_path": "/Users/chenyang/Downloads/demo/沧海巨浪/scripts/health/probe_northbound.py"
+      "resolved_path": "/Users/ray/Downloads/demo/沧海巨浪/scripts/health/probe_northbound.py"
     }
   ],
   "external_routing_metadata": [
     {
-      "path": "/Users/chenyang/.hermes/cron/jobs.json",
+      "path": "/Users/ray/.hermes-canghai/cron/jobs.json",
       "sha256": "b28347f1104ed5560d260aa70ab83e9fdfa4333c4dea28ed2f78cb5b337f58cc",
       "read_scope": "routing/skills keys only; no credentials copied"
     },
     {
-      "path": "/Users/chenyang/.hermes/scripts/canghai_research_daily.sh",
+      "path": "/Users/ray/.hermes-canghai/scripts/canghai_research_daily.sh",
       "sha256": "6c3198b2115516d6cc1368c88b489cbac88c528b623dd2536b2dfc9849242f29",
       "read_scope": "routing/skills keys only; no credentials copied"
     },
     {
-      "path": "/Users/chenyang/.hermes/profiles/canghai-research/config.yaml",
+      "path": "/Users/ray/.hermes-canghai/profiles/canghai-research/config.yaml",
       "sha256": "16f086349781e65e26cdd2fcae1bc8a4d094a4df00342272536ee1db5bd444d0",
       "read_scope": "routing/skills keys only; no credentials copied"
     },
     {
-      "path": "/Users/chenyang/.hermes/profiles/canghai-plan/config.yaml",
+      "path": "/Users/ray/.hermes-canghai/profiles/canghai-plan/config.yaml",
       "sha256": "818f0947a1850c17abb4e937a86998ca736c5952f68d20a6004765ea8c5b9a35",
       "read_scope": "routing/skills keys only; no credentials copied"
     }
   ],
-  "missing_referenced_file": "/Users/chenyang/Downloads/demo/沧海巨浪/tests/check_r7_staleness.py",
+  "missing_referenced_file": "/Users/ray/Downloads/demo/沧海巨浪/tests/check_r7_staleness.py",
   "actual_standalone_checker": "tests/checks/check_r7_staleness.py",
   "targets": [
     {
@@ -538,9 +538,9 @@
   ],
   "written_target_paths": [],
   "only_created_paths": [
-    "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-northbound-reference-proposal-v2.md",
-    "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-northbound-reference-proposal-v2.patch",
-    "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-northbound-reference-proposal-v2.manifest.json"
+    "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-northbound-reference-proposal-v2.md",
+    "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-northbound-reference-proposal-v2.patch",
+    "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-northbound-reference-proposal-v2.manifest.json"
   ],
   "verified_probe_evidence": {
     "path": "chzl_kg/系统进化/backups/2026-10-23-northbound-sdk-probe.json",
@@ -620,22 +620,22 @@
   ],
   "original_leaf_outputs": [
     {
-      "path": "/Users/chenyang/.hermes/cache/scratch/canghai_northbound_reference_proposal_20261023.md",
+      "path": "/Users/ray/.hermes-canghai/cache/scratch/canghai_northbound_reference_proposal_20261023.md",
       "sha256": "9bb72d5a719898a41b7ebc1c9a11079304ca30190ff5adcd85154684261ba161"
     },
     {
-      "path": "/Users/chenyang/.hermes/cache/scratch/canghai_northbound_reference_proposal_20261023.patch",
+      "path": "/Users/ray/.hermes-canghai/cache/scratch/canghai_northbound_reference_proposal_20261023.patch",
       "sha256": "851901eaa121e8cab27d778151b2622e834b73a7daa55e5c965a0f45765b8393"
     },
     {
-      "path": "/Users/chenyang/.hermes/cache/scratch/canghai_northbound_reference_proposal_20261023.manifest.json",
+      "path": "/Users/ray/.hermes-canghai/cache/scratch/canghai_northbound_reference_proposal_20261023.manifest.json",
       "sha256": null,
       "self_hash_excluded": true
     }
   ],
   "output_files": [
-    "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-northbound-reference-proposal-v2.md",
-    "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-northbound-reference-proposal-v2.patch",
-    "/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-northbound-reference-proposal-v2.manifest.json"
+    "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-northbound-reference-proposal-v2.md",
+    "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-northbound-reference-proposal-v2.patch",
+    "/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/系统进化/backups/2026-10-23-northbound-reference-proposal-v2.manifest.json"
   ]
 }

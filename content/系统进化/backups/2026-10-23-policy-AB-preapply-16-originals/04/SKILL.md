@@ -135,7 +135,7 @@ D1 08:00 的 `watchlist_plan.json` 基于隔夜信息；集合竞价（09:15–0
 1. 落盘 `data/plans/YYYYMMDD/auction_amendment.json`（唯一 JSON 产出）
 2. **渲染人读 md**（新增 · 用户钦定）：落盘后执行
    ```bash
-   cd /Users/chenyang/Downloads/demo/沧海巨浪 && source .venv/bin/activate
+   cd /Users/ray/Downloads/demo/沧海巨浪 && source .venv/bin/activate
    python3 scripts/plan/render_auction_judgment.py --date YYYYMMDD
    ```
    → 产出 `chzl_kg/投研交易/竞价判断/YYYYMMDD.md`（执行池逐票三档表 + P1 判定 + 全市场竞价情绪）

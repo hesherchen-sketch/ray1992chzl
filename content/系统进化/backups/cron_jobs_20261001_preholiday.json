@@ -37,7 +37,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "fire_claim": null,
       "failure_streak": 0,
       "last_dispatch": {
@@ -84,7 +84,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "fire_claim": null,
       "failure_streak": 0,
       "last_dispatch": {
@@ -131,7 +131,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "fire_claim": null,
       "failure_streak": 0,
       "last_dispatch": {
@@ -178,7 +178,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "fire_claim": null,
       "failure_streak": 0,
       "last_dispatch": {
@@ -272,7 +272,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "fire_claim": null,
       "failure_streak": 0,
       "last_dispatch": {
@@ -321,7 +321,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "fire_claim": null,
       "failure_streak": 0,
       "last_dispatch": {
@@ -370,7 +370,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "fire_claim": null,
       "failure_streak": 0,
       "last_dispatch": {
@@ -419,7 +419,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "fire_claim": null,
       "failure_streak": 0,
       "last_dispatch": {
@@ -468,7 +468,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "fire_claim": null,
       "failure_streak": 0,
       "last_dispatch": {
@@ -517,7 +517,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "fire_claim": null,
       "failure_streak": 0,
       "last_dispatch": {
@@ -566,7 +566,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "fire_claim": null,
       "failure_streak": 0,
       "last_dispatch": {
@@ -617,7 +617,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "fire_claim": null,
       "last_dispatch": {
         "scheduled_at": "2026-09-30T20:30:00+08:00",
@@ -629,7 +629,7 @@
     {
       "id": "d372940a8886",
       "name": "canghai-fetch · 竞价快照 (09:27)",
-      "prompt": "执行 fetch_auction_snapshot_v1 skill 的完整流程（09:27 集合竞价快照抓取，供 09:28 P1 竞价校准消费）。⚠️ 竞价数据 09:27 才到，勿早于 09:27 跑。\n\nStep 0：trade_date = 今日 YYYYMMDD（上海时区）。\nStep 1：在 /Users/chenyang/Downloads/demo/沧海巨浪 下执行：\n  source .venv/bin/activate && bash scripts/fetch/run_auction_snapshot.sh\n（若 shell 不可用则 python3 scripts/fetch/run_auction_snapshot.py --date YYYYMMDD）\n脚本会自动读 data/plans/YYYYMMDD/watchlist_plan.json 提取 execution_pool/watch_pool，用 XTick 竞价数据（无 token 则 stub severity=2），落盘 data/raw/YYYYMMDD/auction_snapshot.json，必须在 09:28 前完成。\nStep 2：读 auction_snapshot.json，按 skill 的 Report 模板输出：status/severity/source/pool_count/captured_at/market_sentiment/结论。\nStep 3：不写 data/plans、data/research；不分析竞价含义（那是 P1 职责）；不修改 watchlist_plan.json。\n若 plan 当日缺失 → 报告 skipped",
+      "prompt": "执行 fetch_auction_snapshot_v1 skill 的完整流程（09:27 集合竞价快照抓取，供 09:28 P1 竞价校准消费）。⚠️ 竞价数据 09:27 才到，勿早于 09:27 跑。\n\nStep 0：trade_date = 今日 YYYYMMDD（上海时区）。\nStep 1：在 /Users/ray/Downloads/demo/沧海巨浪 下执行：\n  source .venv/bin/activate && bash scripts/fetch/run_auction_snapshot.sh\n（若 shell 不可用则 python3 scripts/fetch/run_auction_snapshot.py --date YYYYMMDD）\n脚本会自动读 data/plans/YYYYMMDD/watchlist_plan.json 提取 execution_pool/watch_pool，用 XTick 竞价数据（无 token 则 stub severity=2），落盘 data/raw/YYYYMMDD/auction_snapshot.json，必须在 09:28 前完成。\nStep 2：读 auction_snapshot.json，按 skill 的 Report 模板输出：status/severity/source/pool_count/captured_at/market_sentiment/结论。\nStep 3：不写 data/plans、data/research；不分析竞价含义（那是 P1 职责）；不修改 watchlist_plan.json。\n若 plan 当日缺失 → 报告 skipped",
       "skills": [
         "fetch_auction_snapshot_v1"
       ],
@@ -669,7 +669,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "fire_claim": null,
       "drift_alerted": true,
       "last_dispatch": {
@@ -682,7 +682,7 @@
     {
       "id": "d5cd79c48615",
       "name": "canghai-plan · P1 竞价校准 (09:28)",
-      "prompt": "执行 auction_amendment_v1 skill 的完整流程（09:28-09:29 两分钟硬窗口，P1 竞价校准，observe-only）。⚠️ 竞价数据 09:27 才到，09:28 启动、09:29 前必须落盘。\n\n工作目录 /Users/chenyang/Downloads/demo/沧海巨浪。trade_date=今日。\n\nStep 0 契约门禁：\n- 读 data/plans/YYYYMMDD/watchlist_plan.json（schema_version/trade_date/execution_pool/watch_pool/entry_rules/trigger_price）\n- 读 data/raw/YYYYMMDD/auction_snapshot.json（缺失→尝试 XTick MCP 补一次→仍失败→产出 status=timeout_no_amendment, items=[]）\n- 若 data/research/YYYYMMDD/research_summary.json 的 orchestrator_status 为 degraded/skeleton → promote 门槛提高、confidence 打折\n- notes 标注 observe-only（T3 首周，execute 不 reload）\n\nStep 1 逐票检查 execution_pool（对照竞价）：一字/跌停/停牌/重大利空→skip；高开远超 max_acceptable_ask→skip/defer；竞价在 trigger_price 区间→不生成 item；竞价强于预案且在风控内→promote（提升仓位，不新增标的）；平淡→defer。\nStep 2 落盘 data/plans/YYYYMMDD/auction_amendment.json（schema 见 skill），09:29 前完成；超时→timeout_no_amendment。\nStep 3 报告：status/items 摘要/风险提示。\n不新增 plan 外标的；不做 tighten_exit；不修改 watchlist_plan.json。",
+      "prompt": "执行 auction_amendment_v1 skill 的完整流程（09:28-09:29 两分钟硬窗口，P1 竞价校准，observe-only）。⚠️ 竞价数据 09:27 才到，09:28 启动、09:29 前必须落盘。\n\n工作目录 /Users/ray/Downloads/demo/沧海巨浪。trade_date=今日。\n\nStep 0 契约门禁：\n- 读 data/plans/YYYYMMDD/watchlist_plan.json（schema_version/trade_date/execution_pool/watch_pool/entry_rules/trigger_price）\n- 读 data/raw/YYYYMMDD/auction_snapshot.json（缺失→尝试 XTick MCP 补一次→仍失败→产出 status=timeout_no_amendment, items=[]）\n- 若 data/research/YYYYMMDD/research_summary.json 的 orchestrator_status 为 degraded/skeleton → promote 门槛提高、confidence 打折\n- notes 标注 observe-only（T3 首周，execute 不 reload）\n\nStep 1 逐票检查 execution_pool（对照竞价）：一字/跌停/停牌/重大利空→skip；高开远超 max_acceptable_ask→skip/defer；竞价在 trigger_price 区间→不生成 item；竞价强于预案且在风控内→promote（提升仓位，不新增标的）；平淡→defer。\nStep 2 落盘 data/plans/YYYYMMDD/auction_amendment.json（schema 见 skill），09:29 前完成；超时→timeout_no_amendment。\nStep 3 报告：status/items 摘要/风险提示。\n不新增 plan 外标的；不做 tighten_exit；不修改 watchlist_plan.json。",
       "skills": [
         "auction_amendment_v1"
       ],
@@ -722,7 +722,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "fire_claim": null,
       "drift_alerted": true,
       "last_dispatch": {
@@ -735,7 +735,7 @@
     {
       "id": "d741b25076a6",
       "name": "canghai-phone · 早盘简报 (09:10)",
-      "prompt": "你是\"沧海巨浪\"A股交易系统的【早盘简报推送 Agent】。任务：把今日完整的盘前研究成果压缩成一条适合手机微信阅读的中文简报，并发送到用户的微信。\n\n执行步骤：\n1. 用 `date +%Y%m%d` 确定 trade_date。\n2. 读取以下文件（用 read_file；缺失的跳过并在简报末尾标注\"xx数据缺失\"）：\n   - data/research/{trade_date}/R1_style.json（市场风格/情绪判断）\n   - data/research/{trade_date}/R2_main_sectors.json（主线板块与候选龙头）\n   - data/research/{trade_date}/R3_sentiment.json（情绪热度）\n   - data/research/{trade_date}/R4_news.json（消息面/催化剂）\n   - data/research/{trade_date}/R7_capital_flow.json（资金面）\n   - data/plans/{trade_date}/watchlist_plan.json（D1 观察计划：执行池/观察池/买卖节点/止损）\n   - chzl_kg/投研交易/盘前预案/{trade_date}.md（散文体预案，最后读，作为组织简报的主骨架）\n   注意这些路径都是相对项目根目录 /Users/chenyang/Downloads/demo/沧海巨浪 的。\n3. 撰写 400-700 字中文简报，分节，用 emoji 开头：\n   📌 大盘方向：市场风格+情绪预判 1-2 句\n   🧭 主线板块：今日 2-3 条值得看的主线板块+理由\n   🎯 票池与买卖节点：执行池每票一行（名称+方向+买点/卖点/止损），再加观察池 2-3 只\n   📰 大基本面消息：R4 里 2-3 条硬催化消息\n   语言要求：直接、口语化、像给朋友发微信，不堆砌术语，不写分析过程。只输出简报正文。\n4. 若所有核心文件（R1/R2/watchlist_plan/预案md）都不存在，说明今日预案尚未生成，写一条 30 字以内的消息说明即可，同样发送。\n5. 把简报正文写入临时文件 /tmp/chzl_morning_{trade_date}.txt，然后执行发送命令：\n   hermes send --to \"weixin:o9cq806rcC7-5CXo7p7ZFFkWsKpg@im.wechat\" --quiet --json --file /tmp/chzl_morning_{trade_date}.txt\n   若输出含 \"rate limited\"：sleep 45 后重试，最多重试 2 次。\n6. 确认发送输出 JSON 中 success 为 true。你的最终回复只写一行：发送成功 + message_id。不要向用户输出简报全文（已发到手机）。\n\n纪律：除 /tmp 临时文件外，不要向项目目录写任何文件；不要修改任何现有文件。",
+      "prompt": "你是\"沧海巨浪\"A股交易系统的【早盘简报推送 Agent】。任务：把今日完整的盘前研究成果压缩成一条适合手机微信阅读的中文简报，并发送到用户的微信。\n\n执行步骤：\n1. 用 `date +%Y%m%d` 确定 trade_date。\n2. 读取以下文件（用 read_file；缺失的跳过并在简报末尾标注\"xx数据缺失\"）：\n   - data/research/{trade_date}/R1_style.json（市场风格/情绪判断）\n   - data/research/{trade_date}/R2_main_sectors.json（主线板块与候选龙头）\n   - data/research/{trade_date}/R3_sentiment.json（情绪热度）\n   - data/research/{trade_date}/R4_news.json（消息面/催化剂）\n   - data/research/{trade_date}/R7_capital_flow.json（资金面）\n   - data/plans/{trade_date}/watchlist_plan.json（D1 观察计划：执行池/观察池/买卖节点/止损）\n   - chzl_kg/投研交易/盘前预案/{trade_date}.md（散文体预案，最后读，作为组织简报的主骨架）\n   注意这些路径都是相对项目根目录 /Users/ray/Downloads/demo/沧海巨浪 的。\n3. 撰写 400-700 字中文简报，分节，用 emoji 开头：\n   📌 大盘方向：市场风格+情绪预判 1-2 句\n   🧭 主线板块：今日 2-3 条值得看的主线板块+理由\n   🎯 票池与买卖节点：执行池每票一行（名称+方向+买点/卖点/止损），再加观察池 2-3 只\n   📰 大基本面消息：R4 里 2-3 条硬催化消息\n   语言要求：直接、口语化、像给朋友发微信，不堆砌术语，不写分析过程。只输出简报正文。\n4. 若所有核心文件（R1/R2/watchlist_plan/预案md）都不存在，说明今日预案尚未生成，写一条 30 字以内的消息说明即可，同样发送。\n5. 把简报正文写入临时文件 /tmp/chzl_morning_{trade_date}.txt，然后执行发送命令：\n   hermes send --to \"weixin:o9cq806rcC7-5CXo7p7ZFFkWsKpg@im.wechat\" --quiet --json --file /tmp/chzl_morning_{trade_date}.txt\n   若输出含 \"rate limited\"：sleep 45 后重试，最多重试 2 次。\n6. 确认发送输出 JSON 中 success 为 true。你的最终回复只写一行：发送成功 + message_id。不要向用户输出简报全文（已发到手机）。\n\n纪律：除 /tmp 临时文件外，不要向项目目录写任何文件；不要修改任何现有文件。",
       "skills": [],
       "skill": null,
       "model": "ark-code-latest",
@@ -773,7 +773,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "fire_claim": null,
       "last_dispatch": {
         "scheduled_at": "2026-10-01T09:10:00+08:00",
@@ -785,7 +785,7 @@
     {
       "id": "5fbc386914cd",
       "name": "canghai-phone · 复盘推送 (18:30)",
-      "prompt": "你是\"沧海巨浪\"A股交易系统的【复盘推送 Agent】。任务：把今日 E1 每日复盘压缩成一条适合手机微信阅读的中文摘要，并发送到用户的微信。\n\n执行步骤：\n1. 用 `date +%Y%m%d` 确定 trade_date。\n2. 读取今日复盘文件：\n   - chzl_kg/投研交易/复盘记录/{trade_date}.md（主复盘，最后读，作为组织摘要的主骨架）\n   - data/runtime/E1_data.json（E1 结构化数据：执行池/观察池/预测命中统计）\n   路径相对项目根目录 /Users/chenyang/Downloads/demo/沧海巨浪。\n   若 {trade_date}.md 不存在，读取最近一份复盘文件（如 data/runtime/E1_data.json 或最近的复盘记录），并在摘要末尾标注\"今日复盘未生成，以下为最近复盘\"。\n3. 撰写 400-600 字中文摘要，分节，用 emoji 开头：\n   📉 今日市场：一句话总结（大盘涨跌/情绪温度）\n   ✅ 执行池表现：今天按计划走的表现如何，结果如何\n   🔮 预测命中/打脸：昨日判断 vs 今日实际的对照\n   🧭 明日要点：1-3 条最重要的提示（错题、观察池变化、明日计划）\n   语言要求：直接、口语化、像给朋友发微信，不堆砌分析过程。只输出摘要正文。\n4. 把摘要正文写入临时文件 /tmp/chzl_review_{trade_date}.txt，然后执行发送命令：\n   hermes send --to \"weixin:o9cq806rcC7-5CXo7p7ZFFkWsKpg@im.wechat\" --quiet --json --file /tmp/chzl_review_{trade_date}.txt\n   若输出含 \"rate limited\"：sleep 45 后重试，最多重试 2 次。\n5. 确认发送输出 JSON 中 success 为 true。你的最终回复只写一行：发送成功 + message_id。不要向用户输出摘要全文（已发到手机）。\n\n纪律：除 /tmp 临时文件外，不要向项目目录写任何文件；不要修改任何现有文件。",
+      "prompt": "你是\"沧海巨浪\"A股交易系统的【复盘推送 Agent】。任务：把今日 E1 每日复盘压缩成一条适合手机微信阅读的中文摘要，并发送到用户的微信。\n\n执行步骤：\n1. 用 `date +%Y%m%d` 确定 trade_date。\n2. 读取今日复盘文件：\n   - chzl_kg/投研交易/复盘记录/{trade_date}.md（主复盘，最后读，作为组织摘要的主骨架）\n   - data/runtime/E1_data.json（E1 结构化数据：执行池/观察池/预测命中统计）\n   路径相对项目根目录 /Users/ray/Downloads/demo/沧海巨浪。\n   若 {trade_date}.md 不存在，读取最近一份复盘文件（如 data/runtime/E1_data.json 或最近的复盘记录），并在摘要末尾标注\"今日复盘未生成，以下为最近复盘\"。\n3. 撰写 400-600 字中文摘要，分节，用 emoji 开头：\n   📉 今日市场：一句话总结（大盘涨跌/情绪温度）\n   ✅ 执行池表现：今天按计划走的表现如何，结果如何\n   🔮 预测命中/打脸：昨日判断 vs 今日实际的对照\n   🧭 明日要点：1-3 条最重要的提示（错题、观察池变化、明日计划）\n   语言要求：直接、口语化、像给朋友发微信，不堆砌分析过程。只输出摘要正文。\n4. 把摘要正文写入临时文件 /tmp/chzl_review_{trade_date}.txt，然后执行发送命令：\n   hermes send --to \"weixin:o9cq806rcC7-5CXo7p7ZFFkWsKpg@im.wechat\" --quiet --json --file /tmp/chzl_review_{trade_date}.txt\n   若输出含 \"rate limited\"：sleep 45 后重试，最多重试 2 次。\n5. 确认发送输出 JSON 中 success 为 true。你的最终回复只写一行：发送成功 + message_id。不要向用户输出摘要全文（已发到手机）。\n\n纪律：除 /tmp 临时文件外，不要向项目目录写任何文件；不要修改任何现有文件。",
       "skills": [],
       "skill": null,
       "model": "ark-code-latest",
@@ -823,7 +823,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "fire_claim": null,
       "last_dispatch": {
         "scheduled_at": "2026-09-30T18:30:00+08:00",
@@ -874,7 +874,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "last_dispatch": {
         "scheduled_at": "2026-10-01T09:30:00+08:00",
         "dispatched_at": "2026-10-01T09:30:59.345639+08:00",
@@ -925,7 +925,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "last_dispatch": {
         "scheduled_at": "2026-09-30T18:00:00+08:00",
         "dispatched_at": "2026-09-30T18:00:58.786687+08:00",
@@ -976,7 +976,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "last_dispatch": {
         "scheduled_at": "2026-10-01T08:50:00+08:00",
         "dispatched_at": "2026-10-01T08:50:59.347125+08:00",
@@ -1027,7 +1027,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "last_dispatch": {
         "scheduled_at": "2026-09-30T22:30:00+08:00",
         "dispatched_at": "2026-09-30T22:30:58.865515+08:00",
@@ -1129,7 +1129,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "last_dispatch": {
         "scheduled_at": "2026-10-01T11:20:00+08:00",
         "dispatched_at": "2026-10-01T11:20:21.994511+08:00",
@@ -1178,7 +1178,7 @@
       "deliver": "local",
       "origin": null,
       "enabled_toolsets": null,
-      "workdir": "/Users/chenyang/Downloads/demo/沧海巨浪",
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
       "last_dispatch": {
         "scheduled_at": "2026-09-30T18:00:00+08:00",
         "dispatched_at": "2026-09-30T18:00:58.786687+08:00",

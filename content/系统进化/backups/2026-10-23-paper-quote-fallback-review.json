@@ -2,7 +2,7 @@
   "task": "paper_quote_fallback_source_review",
   "trade_date": "20261023",
   "reviewed_at": "2026-10-23T14:19:18.046100+08:00",
-  "workspace": "/Users/chenyang/Downloads/demo/沧海巨浪",
+  "workspace": "/Users/ray/Downloads/demo/沧海巨浪",
   "canary_symbol": "600519.SH",
   "purpose": "Read-only interface canary, not a stock recommendation",
   "result": "blocked_not_certified",
@@ -14,18 +14,18 @@
     "profile": "canghai-fetch",
     "new_cli_session": true,
     "session_id": "local-477cdb24b6635cb5b4e6c75da162a70f560d4a0a8c0a0db1a3d88616888e5d77",
-    "command": "hermes -p canghai-fetch chat --query-file /Users/chenyang/.hermes/cache/scratch/canghai_paper_quote_fallback_owner_20261023.txt --oneshot --quiet --max-turns 22 --run-budget 380",
-    "soul_path": "/Users/chenyang/.hermes/profiles/canghai-fetch/SOUL.md",
+    "command": "hermes -p canghai-fetch chat --query-file /Users/ray/.hermes-canghai/cache/scratch/canghai_paper_quote_fallback_owner_20261023.txt --oneshot --quiet --max-turns 22 --run-budget 380",
+    "soul_path": "/Users/ray/.hermes-canghai/profiles/canghai-fetch/SOUL.md",
     "cli_exit_code": 0,
     "background_handle": "proc_e8a6c72d52f3",
     "background_status": "exited",
     "completion_verified_with": "process_manage wait returned status=exited, exit_code=0; exact raw target read and parsed independently",
     "raw_write_method_reported": "Python open(mode='x'), single new-file write",
     "raw_prelaunch_exists_check": false,
-    "log_path": "/Users/chenyang/.hermes/cache/scratch/canghai_paper_quote_fallback_owner_20261023.log"
+    "log_path": "/Users/ray/.hermes-canghai/cache/scratch/canghai_paper_quote_fallback_owner_20261023.log"
   },
   "raw": {
-    "path": "/Users/chenyang/Downloads/demo/沧海巨浪/data/raw/20261023/paper_quote_fallback_probe_20261023.jsonl",
+    "path": "/Users/ray/Downloads/demo/沧海巨浪/data/raw/20261023/paper_quote_fallback_probe_20261023.jsonl",
     "sha256": "1d3c2292552859e5b6bf2b960e86e39fa3775e77a777fcb2a21ea9d640d113b1",
     "bytes": 15198,
     "jsonl_records": 5,
@@ -94,8 +94,8 @@
       "reason": "Owner searched official tushare.pro domain but did not locate matching realtime_quote documentation. Installed public entrypoint is permission-wrapped and calls get_token/verify_token. No quote request or token-file inspection was performed; this does not prove existing credentials lack permission.",
       "unit_evidence": "Installed function docstring labels b1_v/a1_v as 笔数, not shares. amount CNY and total-volume comments do not establish book-quantity or price units.",
       "sdk_source_paths": [
-        "/Users/chenyang/Library/Python/3.9/lib/python/site-packages/tushare/util/verify_token.py",
-        "/Users/chenyang/Library/Python/3.9/lib/python/site-packages/tushare/stock/rtq.py"
+        "/Users/ray/Library/Python/3.9/lib/python/site-packages/tushare/util/verify_token.py",
+        "/Users/ray/Library/Python/3.9/lib/python/site-packages/tushare/stock/rtq.py"
       ]
     }
   ],

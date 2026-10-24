@@ -291,7 +291,7 @@
       "id": "user_confirmed_20261023_1000000_cny_empty",
       "source": "explicit_cli"
     },
-    "canonical_path": "/Users/chenyang/Downloads/demo/沧海巨浪/data/plans/20261023/watchlist_plan.json",
+    "canonical_path": "/Users/ray/Downloads/demo/沧海巨浪/data/plans/20261023/watchlist_plan.json",
     "canonical_sha256": "102c92d7b45cd86fe87a205c4f83e5876723712ab5dd90103ddc8985e7857846",
     "environment": "paper",
     "event": "paper_idle",

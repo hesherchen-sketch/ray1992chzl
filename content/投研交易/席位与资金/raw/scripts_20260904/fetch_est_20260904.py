@@ -4,7 +4,7 @@
 import os, json, csv, time, re
 from collections import defaultdict
 
-env_path = '/Users/chenyang/Downloads/demo/沧海巨浪/.env'
+env_path = '/Users/ray/Downloads/demo/沧海巨浪/.env'
 token = None
 with open(env_path, 'r', encoding='utf-8') as f:
     for line in f:
@@ -15,7 +15,7 @@ with open(env_path, 'r', encoding='utf-8') as f:
 import tushare as ts
 pro = ts.pro_api(token)
 
-BASE = '/Users/chenyang/Downloads/demo/沧海巨浪/chzl_kg/投研交易/席位与资金/raw'
+BASE = '/Users/ray/Downloads/demo/沧海巨浪/chzl_kg/投研交易/席位与资金/raw'
 
 # ---------- 1. daily_basic 全市场估值 ----------
 basic = {}
