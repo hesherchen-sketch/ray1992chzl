@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics: null
   locale: zh-CN
-  baseUrl: chenyang1999.github.io/chzl-kg
+  baseUrl: hesherchen-sketch.github.io/ray1992chzl
   ignorePatterns:
     - private
     - templates
