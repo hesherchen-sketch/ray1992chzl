@@ -1,0 +1,62 @@
+{
+  "jobs": [
+    {
+      "id": "75bf632522ce",
+      "name": "canghai-plan · 午盘修订(P2)",
+      "prompt": "执行 midday_amendment_v1（P2）：fresh context，读 midday_snapshot + R7 增量，产出 midday_amendment.json 与午盘 briefing；首周 observe-only。",
+      "skills": [
+        "midday_amendment_v1"
+      ],
+      "skill": "midday_amendment_v1",
+      "model": "gpt-6.1-sol",
+      "provider": "openai-codex",
+      "provider_snapshot": "custom",
+      "model_snapshot": "ark-code-latest",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "40 11 * * 1-5",
+        "display": "40 11 * * 1-5"
+      },
+      "schedule_display": "40 11 * * 1-5",
+      "repeat": {
+        "times": null,
+        "completed": 79
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-24T14:08:11.115413+08:00",
+      "paused_reason": null,
+      "created_at": "2026-07-05T17:57:27.825759+08:00",
+      "next_run_at": "2026-10-26T11:40:00+08:00",
+      "last_run_at": "2026-10-23T11:42:19.262528+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
+      "fire_claim": null,
+      "drift_alerted": true,
+      "failure_streak": 0,
+      "last_dispatch": {
+        "scheduled_at": "2026-10-23T11:40:00+08:00",
+        "dispatched_at": "2026-10-23T11:40:21.541650+08:00",
+        "lateness_seconds": 21.5,
+        "kind": "on_time"
+      },
+      "canonical_completions": [
+        "a4f0753c5b2b478ebffe714d71ae1329"
+      ],
+      "last_failure": {
+        "at": "2026-10-21T11:40:38.225345+08:00",
+        "detail": "RuntimeError: HTTP 429: You have exceeded the weekly usage quota. It will reset at 2026-10-26 00:00:00 +0800 CST. We recommend upgrading your plan for more quota, or waiting for the reset. Request id: 02179255403692737fa1e35c84c0d2e78e1e6ee6f349cd9878c23"
+      }
+    }
+  ],
+  "updated_at": "2026-10-24T14:08:11.115906+08:00"
+}
