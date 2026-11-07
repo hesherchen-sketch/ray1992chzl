@@ -1,0 +1,4 @@
+ts_code,ann_date,holder_name,holder_type,in_de,change_vol,change_ratio,after_share,after_ratio,avg_price,total_share,begin_date,close_date,ok_date
+002146.SZ,20260910,荣盛建设工程有限公司,C,DE,63000000.0,1.611,,5.45,,213131705.0,20260907,20260907,True
+000426.SZ,20260904,机构专用,P,DE,56800.0,0.0032,,,38.44,,20260904,20260904,True
+000426.SZ,20261016,机构专用,P,DE,689700.0,0.0389,,,28.72,,20261016,20261016,True

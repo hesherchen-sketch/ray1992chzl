@@ -1,0 +1,58 @@
+{
+  "jobs": [
+    {
+      "id": "87d4d030b72b",
+      "name": "canghai-review · 周度进化(E2)",
+      "prompt": "执行 weekly_evolution_v1（E2）：汇总本周 E1，产出 skill/preferences/thesis 修订建议（仅建议，须用户 sign-off）。",
+      "skills": [
+        "weekly_evolution_v1"
+      ],
+      "skill": "weekly_evolution_v1",
+      "model": "gpt-6.1-sol",
+      "provider": "openai-codex",
+      "provider_snapshot": "custom",
+      "model_snapshot": "ark-code-latest",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 17 * * 5",
+        "display": "0 17 * * 5"
+      },
+      "schedule_display": "0 17 * * 5",
+      "repeat": {
+        "times": null,
+        "completed": 16
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-10-24T14:08:12.015450+08:00",
+      "paused_reason": null,
+      "created_at": "2026-07-05T17:57:28.657108+08:00",
+      "next_run_at": "2026-10-30T17:00:00+08:00",
+      "last_run_at": "2026-10-23T17:10:33.877507+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": "/Users/ray/Downloads/demo/沧海巨浪",
+      "fire_claim": null,
+      "drift_alerted": true,
+      "failure_streak": 0,
+      "last_dispatch": {
+        "scheduled_at": "2026-10-23T17:00:00+08:00",
+        "dispatched_at": "2026-10-23T17:00:54.454932+08:00",
+        "lateness_seconds": 54.5,
+        "kind": "on_time"
+      },
+      "canonical_completions": [
+        "56421c5d73e64466b3ae68385d8c94a7"
+      ]
+    }
+  ],
+  "updated_at": "2026-10-24T14:08:12.015949+08:00"
+}
