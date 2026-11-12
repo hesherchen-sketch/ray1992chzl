@@ -25,8 +25,8 @@
 在本机 Obsidian 改 `沧海巨浪/chzl_kg` 之后：
 
 ```bash
-/Users/chenyang/Downloads/demo/沧海巨浪/scripts/sync_chzl_kg_to_quartz.sh
-cd /Users/chenyang/Downloads/demo/chzl-kg-web
+/Users/ray/Downloads/demo/沧海巨浪/scripts/sync_chzl_kg_to_quartz.sh
+cd /Users/ray/Downloads/demo/chzl-kg-web
 git add content
 git commit -m "sync notes"
 git push
