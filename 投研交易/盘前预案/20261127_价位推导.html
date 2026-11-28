@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr"><head><title>20261127_价位推导</title><meta charset="utf-8"/><link rel="preload" href="../../index-5a23ce28.css" as="style"/><link rel="preload" href="../../prescript-2bfc6315.js" as="script"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="沧海巨浪"/><meta property="og:title" content="20261127_价位推导"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="20261127_价位推导"/><meta name="twitter:description" content="20261127 价位推导明细（规则引擎，非模型拍价） 引擎: src/plan/price_levels.py ｜ 止损=以买入价为基准三者取高；买区=决策线/牛线回踩或 pivot 突破；止盈=2R 或前高压制。 分组票现价买区触发止损止盈RR判定买区关系执行池中际旭创 300308.SZ430.18423.76~430.15426.74409.81470.832.00pass买区覆盖现价，按盘中承接执行执行池华丰科技 688629.SH92.5089.92~91.2790.5589.7394.352.00pass回踩 1.3% 到买区才触发执行池胜宏科技 300476.SZ123.701..."/><meta property="og:description" content="20261127 价位推导明细（规则引擎，非模型拍价） 引擎: src/plan/price_levels.py ｜ 止损=以买入价为基准三者取高；买区=决策线/牛线回踩或 pivot 突破；止盈=2R 或前高压制。 分组票现价买区触发止损止盈RR判定买区关系执行池中际旭创 300308.SZ430.18423.76~430.15426.74409.81470.832.00pass买区覆盖现价，按盘中承接执行执行池华丰科技 688629.SH92.5089.92~91.2790.5589.7394.352.00pass回踩 1.3% 到买区才触发执行池胜宏科技 300476.SZ123.701..."/><meta property="og:image:alt" content="20261127 价位推导明细（规则引擎，非模型拍价） 引擎: src/plan/price_levels.py ｜ 止损=以买入价为基准三者取高；买区=决策线/牛线回踩或 pivot 突破；止盈=2R 或前高压制。 分组票现价买区触发止损止盈RR判定买区关系执行池中际旭创 300308.SZ430.18423.76~430.15426.74409.81470.832.00pass买区覆盖现价，按盘中承接执行执行池华丰科技 688629.SH92.5089.92~91.2790.5589.7394.352.00pass回踩 1.3% 到买区才触发执行池胜宏科技 300476.SZ123.701..."/><meta property="og:image" content="https://hesherchen-sketch.github.io/ray1992chzl/static/og-image.png"/><meta property="og:image:url" content="https://hesherchen-sketch.github.io/ray1992chzl/static/og-image.png"/><meta name="twitter:image" content="https://hesherchen-sketch.github.io/ray1992chzl/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="hesherchen-sketch.github.io/ray1992chzl"/><meta property="og:url" content="https://hesherchen-sketch.github.io/ray1992chzl/投研交易/盘前预案/20261127_价位推导"/><meta property="twitter:url" content="https://hesherchen-sketch.github.io/ray1992chzl/投研交易/盘前预案/20261127_价位推导"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="20261127 价位推导明细（规则引擎，非模型拍价） 引擎: src/plan/price_levels.py ｜ 止损=以买入价为基准三者取高；买区=决策线/牛线回踩或 pivot 突破；止盈=2R 或前高压制。 分组票现价买区触发止损止盈RR判定买区关系执行池中际旭创 300308.SZ430.18423.76~430.15426.74409.81470.832.00pass买区覆盖现价，按盘中承接执行执行池华丰科技 688629.SH92.5089.92~91.2790.5589.7394.352.00pass回踩 1.3% 到买区才触发执行池胜宏科技 300476.SZ123.701..."/><meta name="generator" content="Quartz"/><link href="../../index-5a23ce28.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-735924e0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-589c1cea.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-bbc3f7c0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-2911f5d1.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-e427079e.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-53b25b2b.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-c93c6a44.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-8a06014f.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-77d6a441.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-6ee21cee.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-1ea6ad18.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-34bdfded.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-788c9ca3.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-642859cd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-4abc06bd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-274a3dfe.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-94cb6c84.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-58d5ff56.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-7262b5a7.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-11d41004.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-26a99b87.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-a5c806d2.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-6bd36952.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-9857b007.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-d3a1a224.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../../prescript-2bfc6315.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted%20Grotesk%3Awght%40400%3B700&amp;family=Source%20Sans%20Pro%3Aital%2Cwght%400%2C400%3B0%2C600%3B1%2C400%3B1%2C600&amp;family=IBM%20Plex%20Mono%3Awght%40400%3B600&amp;display=swap"/></head><body data-slug="投研交易/盘前预案/20261127_价位推导" data-basepath="/ray1992chzl"><div id="quartz-root" class="page" data-frame="default"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">沧海巨浪</a></h2><div class="mobile-only"><div class="spacer"></div></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 0.5rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" aria-label="搜索" aria-expanded="false"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>搜索</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="搜索内容..." placeholder="搜索内容..."/><div class="search-layout" data-preview="true" data-field-priority="[&quot;title&quot;,&quot;content&quot;,&quot;tags&quot;]"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode" aria-label="暗色模式"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="暗色模式"><title>暗色模式</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="亮色模式"><title>亮色模式</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode" aria-label="阅读模式"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="阅读模式"><title>阅读模式</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer nav-files-container" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a2, b2) => {\n    if (!a2.isFolder &amp;&amp; !b2.isFolder || a2.isFolder &amp;&amp; b2.isFolder) {\n      return (a2.displayName || \&quot;\&quot;).localeCompare(b2.displayName || \&quot;\&quot;, void 0, {\n        numeric: true,\n        sensitivity: \&quot;base\&quot;\n      });\n    }\n    if (!a2.isFolder &amp;&amp; b2.isFolder) {\n      return 1;\n    }\n    return -1;\n  }&quot;,&quot;filterFn&quot;:&quot;(node) => node.slugSegment !== \&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;(node) => {\n    return node;\n  }&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-1017" aria-label="探索"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>探索</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-1017" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#" class="nav-file-title tree-item-self"></a></li></template><template id="template-folder"><li><div class="folder-container nav-folder-title tree-item-self"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon nav-folder-collapse-indicator collapse-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content tree-item-children"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../投研交易/">投研交易</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../投研交易/盘前预案/">盘前预案</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>20261127_价位推导</a></div></nav><h1 class="article-title">20261127_价位推导</h1><p show-comma="true" class="content-meta"><time datetime="2026-11-28T10:00:42.000Z">2026年11月28日</time><span>22分钟阅读</span></p></div></div><article class="popover-hint"><div class="markdown-preview-view markdown-rendered"><h1 id="20261127-价位推导明细规则引擎非模型拍价">20261127 价位推导明细（规则引擎，非模型拍价）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#20261127-价位推导明细规则引擎非模型拍价" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<blockquote>
+<p>引擎: <code>src/plan/price_levels.py</code> ｜ 止损=以买入价为基准三者取高；买区=决策线/牛线回踩或 pivot 突破；止盈=2R 或前高压制。</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>分组</th><th>票</th><th>现价</th><th>买区</th><th>触发</th><th>止损</th><th>止盈</th><th>RR</th><th>判定</th><th>买区关系</th></tr></thead><tbody><tr><td>执行池</td><td>中际旭创 300308.SZ</td><td>430.18</td><td>423.76~430.15</td><td>426.74</td><td>409.81</td><td>470.83</td><td>2.00</td><td>pass</td><td>买区覆盖现价，按盘中承接执行</td></tr><tr><td>执行池</td><td>华丰科技 688629.SH</td><td>92.50</td><td>89.92~91.27</td><td>90.55</td><td>89.73</td><td>94.35</td><td>2.00</td><td>pass</td><td>回踩 1.3% 到买区才触发</td></tr><tr><td>执行池</td><td>胜宏科技 300476.SZ</td><td>123.70</td><td>124.37~126.24</td><td>125.24</td><td>123.55</td><td>131.62</td><td>2.00</td><td>pass</td><td>需上破 +0.5% 站上买区才成立（不是现在能买）</td></tr><tr><td>执行池</td><td>泸天化 000912.SZ</td><td>3.27</td><td>3.39~3.46</td><td>3.41</td><td>3.29</td><td>3.80</td><td>2.00</td><td>pass</td><td>需上破 +3.7% 站上买区才成立（不是现在能买）</td></tr><tr><td>观察池</td><td>崇达技术 002815.SZ</td><td>15.26</td><td>14.74~14.96</td><td>14.84</td><td>14.60</td><td>15.68</td><td>2.00</td><td>pass</td><td>回踩 2.0% 到买区才触发</td></tr><tr><td>观察池</td><td>骏亚科技 603386.SH</td><td>14.52</td><td>17.01~17.36</td><td>17.10</td><td>16.49</td><td>19.10</td><td>2.00</td><td>pass</td><td>需上破 +17.1% 站上买区才成立（不是现在能买）</td></tr><tr><td>观察池</td><td>金牛化工 600722.SH</td><td>14.47</td><td>13.93~14.14</td><td>14.03</td><td>13.43</td><td>15.56</td><td>2.00</td><td>pass</td><td>回踩 2.3% 到买区才触发</td></tr><tr><td>观察池</td><td>东山精密 002384.SZ</td><td>72.52</td><td>71.62~72.70</td><td>72.12</td><td>69.06</td><td>79.98</td><td>2.00</td><td>pass</td><td>买区覆盖现价，按盘中承接执行</td></tr><tr><td>观察池</td><td>襄阳轴承 000678.SZ</td><td>21.96</td><td>23.19~23.66</td><td>23.31</td><td>22.48</td><td>26.02</td><td>2.00</td><td>pass</td><td>需上破 +5.6% 站上买区才成立（不是现在能买）</td></tr><tr><td>观察池</td><td>岳阳林纸 600963.SH</td><td>3.49</td><td>3.49~3.57</td><td>3.49</td><td>3.39</td><td>3.93</td><td>2.00</td><td>pass</td><td>买区覆盖现价，按盘中承接执行</td></tr><tr><td>观察池</td><td>顺灏股份 002565.SZ</td><td>8.43</td><td>11.53~11.76</td><td>11.59</td><td>11.17</td><td>12.94</td><td>2.00</td><td>pass</td><td>需上破 +36.8% 站上买区才成立（不是现在能买）</td></tr><tr><td>观察池</td><td>雪人集团 002639.SZ</td><td>12.62</td><td>16.35~16.68</td><td>16.43</td><td>15.85</td><td>18.34</td><td>2.00</td><td>pass</td><td>需上破 +29.6% 站上买区才成立（不是现在能买）</td></tr><tr><td>观察池</td><td>泰嘉股份 002843.SZ</td><td>14.15</td><td>17.25~17.60</td><td>17.34</td><td>16.72</td><td>19.36</td><td>2.00</td><td>pass</td><td>需上破 +21.9% 站上买区才成立（不是现在能买）</td></tr><tr><td>观察池</td><td>大业股份 603278.SH</td><td>11.98</td><td>19.57~19.97</td><td>19.67</td><td>18.97</td><td>21.97</td><td>2.00</td><td>pass</td><td>需上破 +63.4% 站上买区才成立（不是现在能买）</td></tr><tr><td>观察池</td><td>鹿山新材 603051.SH</td><td>21.78</td><td>26.77~27.30</td><td>26.90</td><td>25.93</td><td>30.04</td><td>2.00</td><td>pass</td><td>需上破 +22.9% 站上买区才成立（不是现在能买）</td></tr><tr><td>观察池</td><td>沪电股份 002463.SZ</td><td>81.09</td><td>81.34~82.57</td><td>81.91</td><td>80.89</td><td>85.93</td><td>2.00</td><td>pass</td><td>买区覆盖现价，按盘中承接执行</td></tr><tr><td>观察池</td><td>新易盛 300502.SZ</td><td>189.03</td><td>183.81~186.58</td><td>185.10</td><td>179.77</td><td>200.20</td><td>2.00</td><td>pass</td><td>回踩 1.3% 到买区才触发</td></tr><tr><td>观察池</td><td>天孚通信 300394.SZ</td><td>133.99</td><td>130.43~132.40</td><td>131.35</td><td>123.67</td><td>149.86</td><td>2.00</td><td>pass</td><td>回踩 1.2% 到买区才触发</td></tr><tr><td>观察池</td><td>景旺电子 603228.SH</td><td>58.66</td><td>58.69~59.57</td><td>59.10</td><td>57.85</td><td>63.01</td><td>2.00</td><td>pass</td><td>买区覆盖现价，按盘中承接执行</td></tr><tr><td>观察池</td><td>工业富联 601138.SH</td><td>41.00</td><td>40.56~41.17</td><td>40.84</td><td>39.99</td><td>43.53</td><td>2.00</td><td>pass</td><td>买区覆盖现价，按盘中承接执行</td></tr><tr><td>观察池</td><td>中国卫星 600118.SH</td><td>46.54</td><td>46.26~46.95</td><td>46.58</td><td>44.60</td><td>51.65</td><td>2.00</td><td>pass</td><td>买区覆盖现价，按盘中承接执行</td></tr><tr><td>观察池</td><td>常山北明 000158.SZ</td><td>13.88</td><td>14.34~14.63</td><td>14.41</td><td>13.90</td><td>16.09</td><td>2.00</td><td>pass</td><td>需上破 +3.3% 站上买区才成立（不是现在能买）</td></tr><tr><td>观察池</td><td>紫金矿业 601899.SH</td><td>23.75</td><td>23.53~23.89</td><td>23.70</td><td>22.70</td><td>26.27</td><td>2.00</td><td>pass</td><td>买区覆盖现价，按盘中承接执行</td></tr><tr><td>观察池</td><td>工商银行 601398.SH</td><td>9.23</td><td>9.12~9.26</td><td>9.19</td><td>9.04</td><td>9.70</td><td>2.00</td><td>pass</td><td>买区覆盖现价，按盘中承接执行</td></tr><tr><td>B计划</td><td>紫金矿业 601899.SH</td><td>23.75</td><td>23.53~23.89</td><td>23.70</td><td>22.70</td><td>26.27</td><td>2.00</td><td>pass</td><td>买区覆盖现价，按盘中承接执行</td></tr><tr><td>B计划</td><td>工商银行 601398.SH</td><td>9.23</td><td>9.12~9.26</td><td>9.19</td><td>9.04</td><td>9.70</td><td>2.00</td><td>pass</td><td>买区覆盖现价，按盘中承接执行</td></tr><tr><td>B计划</td><td>崇达技术 002815.SZ</td><td>15.26</td><td>14.74~14.96</td><td>14.84</td><td>14.60</td><td>15.68</td><td>2.00</td><td>pass</td><td>回踩 2.0% 到买区才触发</td></tr><tr><td>B计划</td><td>骏亚科技 603386.SH</td><td>14.52</td><td>17.01~17.36</td><td>17.10</td><td>16.49</td><td>19.10</td><td>2.00</td><td>pass</td><td>需上破 +17.1% 站上买区才成立（不是现在能买）</td></tr><tr><td>B计划</td><td>襄阳轴承 000678.SZ</td><td>21.96</td><td>23.19~23.66</td><td>23.31</td><td>22.48</td><td>26.02</td><td>2.00</td><td>pass</td><td>需上破 +5.6% 站上买区才成立（不是现在能买）</td></tr><tr><td>B计划</td><td>岳阳林纸 600963.SH</td><td>3.49</td><td>3.49~3.57</td><td>3.49</td><td>3.39</td><td>3.93</td><td>2.00</td><td>pass</td><td>买区覆盖现价，按盘中承接执行</td></tr></tbody></table></div>
+<h2 id="逐票公式">逐票公式<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#逐票公式" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<blockquote>
+<p>buy_eligibility 是 RR 资格而非交易授权；unknown/blocked 不得新买。 D1/引擎差异留审计；合法微调按 D1 三价与实际拟委托价重算。 买区偏离>10%须 derivation_reason；来源不明/证据冲突/显式复核不得新买。 不得借用引擎 RR 代表实际委托价 RR。</p>
+</blockquote>
+<ul>
+<li>300308.SZ: unknown 来源=D1 复核=True 原因=D1_ENGINE_PRICE_REVIEW_REQUIRED</li>
+<li>688629.SH: unknown 来源=D1 复核=True 原因=D1_ENGINE_PRICE_REVIEW_REQUIRED</li>
+<li>300476.SZ: eligible 来源=D1 复核=False 原因=RR_PASS_NOT_TRADE_AUTHORIZATION</li>
+<li>000912.SZ: eligible 来源=D1 复核=False 原因=RR_PASS_NOT_TRADE_AUTHORIZATION</li>
+<li>002815.SZ: eligible 来源=engine 复核=False 原因=RR_PASS_NOT_TRADE_AUTHORIZATION</li>
+<li>603386.SH: blocked 来源=engine 复核=False 原因=INVALID_RISK_REWARD_PRICE_ORDER</li>
+<li>600722.SH: eligible 来源=engine 复核=False 原因=RR_PASS_NOT_TRADE_AUTHORIZATION</li>
+<li>002384.SZ: blocked 来源=D1 复核=False 原因=RR_FAIL</li>
+<li>000678.SZ: blocked 来源=D1 复核=False 原因=RR_FAIL</li>
+<li>600963.SH: eligible 来源=engine 复核=False 原因=RR_PASS_NOT_TRADE_AUTHORIZATION</li>
+<li>002565.SZ: blocked 来源=engine 复核=False 原因=INVALID_RISK_REWARD_PRICE_ORDER</li>
+<li>002639.SZ: blocked 来源=engine 复核=False 原因=INVALID_RISK_REWARD_PRICE_ORDER</li>
+<li>002843.SZ: blocked 来源=engine 复核=False 原因=INVALID_RISK_REWARD_PRICE_ORDER</li>
+<li>603278.SH: blocked 来源=engine 复核=False 原因=INVALID_RISK_REWARD_PRICE_ORDER</li>
+<li>603051.SH: blocked 来源=engine 复核=False 原因=INVALID_RISK_REWARD_PRICE_ORDER</li>
+<li>002463.SZ: blocked 来源=D1 复核=False 原因=RR_FAIL</li>
+<li>300502.SZ: blocked 来源=D1 复核=False 原因=RR_FAIL</li>
+<li>300394.SZ: blocked 来源=D1 复核=False 原因=RR_FAIL</li>
+<li>603228.SH: blocked 来源=D1 复核=False 原因=RR_FAIL</li>
+<li>601138.SH: blocked 来源=D1 复核=False 原因=RR_FAIL</li>
+<li>600118.SH: blocked 来源=D1 复核=False 原因=RR_FAIL</li>
+<li>000158.SZ: blocked 来源=D1 复核=False 原因=RR_FAIL</li>
+<li>601899.SH: blocked 来源=D1 复核=False 原因=RR_FAIL</li>
+<li>601398.SH: blocked 来源=D1 复核=False 原因=RR_FAIL</li>
+<li>601899.SH: eligible 来源=D1 复核=False 原因=RR_PASS_NOT_TRADE_AUTHORIZATION</li>
+<li>601398.SH: eligible 来源=D1 复核=False 原因=RR_PASS_NOT_TRADE_AUTHORIZATION</li>
+<li>002815.SZ: blocked 来源=D1 复核=True 原因=RR_FAIL</li>
+<li>603386.SH: blocked 来源=D1 复核=True 原因=RR_FAIL</li>
+<li>000678.SZ: eligible 来源=D1 复核=False 原因=RR_PASS_NOT_TRADE_AUTHORIZATION</li>
+<li>600963.SH: blocked 来源=D1 复核=False 原因=RR_FAIL</li>
+</ul>
+<h3 id="中际旭创-300308sz执行池vwap_pullback">中际旭创 300308.SZ（执行池｜vwap_pullback）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#中际旭创-300308sz执行池vwap_pullback" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=MA10×0.99 → 409.81（三者取最高: 买价×(1-8%)=395.74, MA10×0.99=409.81）</li>
+<li><strong>买区</strong> 核心票低吸口径(不看涨停): T-1 均价线 VWAP=425.89（20261126 成交额/成交量）; 买区=[VWAP×0.995=423.76, VWAP×1.01=430.15]; 站回 426.74 才算站住; 止损破 20 日线</li>
+<li><strong>止盈</strong> 2R目标 = 买430.15 + 2×(买入价-止损20.34) = 470.83</li>
+<li><strong>RR</strong> RR=(470.83-430.15)/(430.15-409.81)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=413.94 ｜ MA50=645.79 ｜ 牛线=436.99 ｜ 熊线=451.75 ｜ 20日高=636.68 ｜ 20日低=377.96</li>
+</ul>
+<h3 id="华丰科技-688629sh执行池vwap_pullback">华丰科技 688629.SH（执行池｜vwap_pullback）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#华丰科技-688629sh执行池vwap_pullback" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=MA10×0.99 → 89.73（三者取最高: 买价×(1-8%)=83.97, MA20×0.99(20日线)=79.44, 熊线×0.99=81.97, MA10×0.99=89.73）</li>
+<li><strong>买区</strong> 核心票低吸口径(不看涨停): T-1 均价线 VWAP=90.37（20261126 成交额/成交量）; 买区=[VWAP×0.995=89.92, VWAP×1.01=91.27]; 站回 90.55 才算站住; 止损破 20 日线</li>
+<li><strong>止盈</strong> 2R目标 = 买91.27 + 2×(买入价-止损1.54) = 94.35</li>
+<li><strong>RR</strong> RR=(94.35-91.27)/(91.27-89.73)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=90.64 ｜ MA50=92.53 ｜ 牛线=85.61 ｜ 熊线=82.80 ｜ 20日高=105.00 ｜ 20日低=61.00</li>
+</ul>
+<h3 id="胜宏科技-300476sz执行池vwap_pullback">胜宏科技 300476.SZ（执行池｜vwap_pullback）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#胜宏科技-300476sz执行池vwap_pullback" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=MA20×0.99(20日线) → 123.55（三者取最高: 买价×(1-8%)=116.14, MA20×0.99(20日线)=123.55, 熊线×0.99=122.83, MA10×0.99=114.51）</li>
+<li><strong>买区</strong> 核心票低吸口径(不看涨停): T-1 均价线 VWAP=124.99（20261126 成交额/成交量）; 买区=[VWAP×0.995=124.37, VWAP×1.01=126.24]; 站回 125.24 才算站住; 止损破 20 日线</li>
+<li><strong>止盈</strong> 2R目标 = 买126.24 + 2×(买入价-止损2.69) = 131.62</li>
+<li><strong>RR</strong> RR=(131.62-126.24)/(126.24-123.55)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=115.67 ｜ MA50=174.06 ｜ 牛线=121.74 ｜ 熊线=124.07 ｜ 20日高=182.97 ｜ 20日低=105.00</li>
+</ul>
+<h3 id="泸天化-000912sz执行池leader_breakout">泸天化 000912.SZ（执行池｜leader_breakout）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#泸天化-000912sz执行池leader_breakout" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=买价×(1-5%) → 3.29（三者取最高: 买价×(1-5%)=3.29, 熊线×0.99=3.16, MA10×0.99=3.08）</li>
+<li><strong>买区</strong> pivot=max(昨收3.27, 20日高3.41)=3.41; 买区=[pivot×0.995, pivot×(1+1.5%)]; 溢价上限7%</li>
+<li><strong>止盈</strong> 2R目标 = 买3.46 + 2×(买入价-止损0.17) = 3.80</li>
+<li><strong>RR</strong> RR=(3.80-3.46)/(3.46-3.29)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=3.11 ｜ MA50=3.63 ｜ 牛线=3.15 ｜ 熊线=3.20 ｜ 20日高=3.41 ｜ 20日低=2.91</li>
+</ul>
+<h3 id="崇达技术-002815sz观察池vwap_pullback">崇达技术 002815.SZ（观察池｜vwap_pullback）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#崇达技术-002815sz观察池vwap_pullback" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=MA20×0.99(20日线) → 14.60（三者取最高: 买价×(1-5%)=14.21, MA20×0.99(20日线)=14.60, 熊线×0.99=14.51, MA10×0.99=13.99）</li>
+<li><strong>买区</strong> 核心票低吸口径(不看涨停): T-1 均价线 VWAP=14.81（20261126 成交额/成交量）; 买区=[VWAP×0.995=14.74, VWAP×1.01=14.96]; 站回 14.84 才算站住; 止损破 20 日线</li>
+<li><strong>止盈</strong> 2R目标 = 买14.96 + 2×(买入价-止损0.36) = 15.68</li>
+<li><strong>RR</strong> RR=(15.68-14.96)/(14.96-14.60)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=14.14 ｜ MA50=18.67 ｜ 牛线=14.53 ｜ 熊线=14.65 ｜ 20日高=17.64 ｜ 20日低=13.00</li>
+</ul>
+<h3 id="骏亚科技-603386sh观察池leader_breakout">骏亚科技 603386.SH（观察池｜leader_breakout）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#骏亚科技-603386sh观察池leader_breakout" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=买价×(1-5%) → 16.49（三者取最高: 买价×(1-5%)=16.49, 熊线×0.99=14.03, MA10×0.99=13.79）</li>
+<li><strong>买区</strong> pivot=max(昨收14.52, 20日高17.10)=17.10; 买区=[pivot×0.995, pivot×(1+1.5%)]; 溢价上限7%</li>
+<li><strong>止盈</strong> 2R目标 = 买17.36 + 2×(买入价-止损0.87) = 19.10</li>
+<li><strong>RR</strong> RR=(19.10-17.36)/(17.36-16.49)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=13.93 ｜ MA50=16.36 ｜ 牛线=14.11 ｜ 熊线=14.17 ｜ 20日高=17.10 ｜ 20日低=12.74</li>
+</ul>
+<h3 id="金牛化工-600722sh观察池vwap_pullback">金牛化工 600722.SH（观察池｜vwap_pullback）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#金牛化工-600722sh观察池vwap_pullback" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=买价×(1-5%) → 13.43（三者取最高: 买价×(1-5%)=13.43, MA20×0.99(20日线)=11.39, 熊线×0.99=11.15, MA10×0.99=11.35）</li>
+<li><strong>买区</strong> 核心票低吸口径(不看涨停): T-1 均价线 VWAP=14.00（20261126 成交额/成交量）; 买区=[VWAP×0.995=13.93, VWAP×1.01=14.14]; 站回 14.03 才算站住; 止损破 20 日线</li>
+<li><strong>止盈</strong> 2R目标 = 买14.14 + 2×(买入价-止损0.71) = 15.56</li>
+<li><strong>RR</strong> RR=(15.56-14.14)/(14.14-13.43)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=11.46 ｜ MA50=13.58 ｜ 牛线=11.54 ｜ 熊线=11.26 ｜ 20日高=14.47 ｜ 20日低=9.83</li>
+</ul>
+<h3 id="东山精密-002384sz观察池vwap_pullback">东山精密 002384.SZ（观察池｜vwap_pullback）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#东山精密-002384sz观察池vwap_pullback" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=买价×(1-5%) → 69.06（三者取最高: 买价×(1-5%)=69.06）</li>
+<li><strong>买区</strong> 核心票低吸口径(不看涨停): T-1 均价线 VWAP=71.98（20261126 成交额/成交量）; 买区=[VWAP×0.995=71.62, VWAP×1.01=72.70]; 站回 72.12 才算站住; 止损破 20 日线</li>
+<li><strong>止盈</strong> 2R目标 = 买72.70 + 2×(买入价-止损3.64) = 79.98</li>
+<li><strong>RR</strong> RR=(79.98-72.70)/(72.70-69.06)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=72.97 ｜ MA50=124.47 ｜ 牛线=77.06 ｜ 熊线=80.06 ｜ 20日高=105.86 ｜ 20日低=66.04</li>
+</ul>
+<h3 id="襄阳轴承-000678sz观察池leader_breakout">襄阳轴承 000678.SZ（观察池｜leader_breakout）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#襄阳轴承-000678sz观察池leader_breakout" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=买价×(1-5%) → 22.48（三者取最高: 买价×(1-5%)=22.48, 熊线×0.99=18.18, MA10×0.99=18.08）</li>
+<li><strong>买区</strong> pivot=max(昨收21.96, 20日高23.31)=23.31; 买区=[pivot×0.995, pivot×(1+1.5%)]; 溢价上限7%</li>
+<li><strong>止盈</strong> 2R目标 = 买23.66 + 2×(买入价-止损1.18) = 26.02</li>
+<li><strong>RR</strong> RR=(26.02-23.66)/(23.66-22.48)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=18.27 ｜ MA50=14.25 ｜ 牛线=18.65 ｜ 熊线=18.37 ｜ 20日高=23.31 ｜ 20日低=14.59</li>
+</ul>
+<h3 id="岳阳林纸-600963sh观察池trend_pullback_buy">岳阳林纸 600963.SH（观察池｜trend_pullback_buy）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#岳阳林纸-600963sh观察池trend_pullback_buy" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=买价×(1-5%) → 3.39（三者取最高: 买价×(1-5%)=3.39, MA10×0.99=3.35）</li>
+<li><strong>买区</strong> 决策线MA50=3.54, 牛线=3.53; 买区=[min(MA50,牛线)×0.99=3.49, MA50×1.01=3.57]; 最高接受=3.64</li>
+<li><strong>止盈</strong> 2R目标 = 买3.57 + 2×(买入价-止损0.18) = 3.93</li>
+<li><strong>RR</strong> RR=(3.93-3.57)/(3.57-3.39)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=3.38 ｜ MA50=3.54 ｜ 牛线=3.53 ｜ 熊线=3.64 ｜ 20日高=4.22 ｜ 20日低=3.03</li>
+</ul>
+<h3 id="顺灏股份-002565sz观察池leader_breakout">顺灏股份 002565.SZ（观察池｜leader_breakout）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#顺灏股份-002565sz观察池leader_breakout" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=买价×(1-5%) → 11.17（三者取最高: 买价×(1-5%)=11.17, 熊线×0.99=8.92, MA10×0.99=8.32）</li>
+<li><strong>买区</strong> pivot=max(昨收8.43, 20日高11.59)=11.59; 买区=[pivot×0.995, pivot×(1+1.5%)]; 溢价上限7%</li>
+<li><strong>止盈</strong> 2R目标 = 买11.76 + 2×(买入价-止损0.59) = 12.94</li>
+<li><strong>RR</strong> RR=(12.94-11.76)/(11.76-11.17)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=8.40 ｜ MA50=8.62 ｜ 牛线=8.81 ｜ 熊线=9.01 ｜ 20日高=11.59 ｜ 20日低=6.98</li>
+</ul>
+<h3 id="雪人集团-002639sz观察池leader_breakout">雪人集团 002639.SZ（观察池｜leader_breakout）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#雪人集团-002639sz观察池leader_breakout" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=买价×(1-5%) → 15.85（三者取最高: 买价×(1-5%)=15.85, 熊线×0.99=13.94, MA10×0.99=13.03）</li>
+<li><strong>买区</strong> pivot=max(昨收12.62, 20日高16.43)=16.43; 买区=[pivot×0.995, pivot×(1+1.5%)]; 溢价上限7%</li>
+<li><strong>止盈</strong> 2R目标 = 买16.68 + 2×(买入价-止损0.83) = 18.34</li>
+<li><strong>RR</strong> RR=(18.34-16.68)/(16.68-15.85)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=13.16 ｜ MA50=14.08 ｜ 牛线=13.57 ｜ 熊线=14.08 ｜ 20日高=16.43 ｜ 20日低=11.20</li>
+</ul>
+<h3 id="泰嘉股份-002843sz观察池leader_breakout">泰嘉股份 002843.SZ（观察池｜leader_breakout）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#泰嘉股份-002843sz观察池leader_breakout" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=买价×(1-5%) → 16.72（三者取最高: 买价×(1-5%)=16.72, 熊线×0.99=14.20, MA10×0.99=14.49）</li>
+<li><strong>买区</strong> pivot=max(昨收14.15, 20日高17.34)=17.34; 买区=[pivot×0.995, pivot×(1+1.5%)]; 溢价上限7%</li>
+<li><strong>止盈</strong> 2R目标 = 买17.60 + 2×(买入价-止损0.88) = 19.36</li>
+<li><strong>RR</strong> RR=(19.36-17.60)/(17.60-16.72)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=14.64 ｜ MA50=14.50 ｜ 牛线=14.26 ｜ 熊线=14.35 ｜ 20日高=17.34 ｜ 20日低=12.38</li>
+</ul>
+<h3 id="大业股份-603278sh观察池leader_breakout">大业股份 603278.SH（观察池｜leader_breakout）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#大业股份-603278sh观察池leader_breakout" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=买价×(1-5%) → 18.97（三者取最高: 买价×(1-5%)=18.97, 熊线×0.99=13.24, MA10×0.99=11.74）</li>
+<li><strong>买区</strong> pivot=max(昨收11.98, 20日高19.67)=19.67; 买区=[pivot×0.995, pivot×(1+1.5%)]; 溢价上限7%</li>
+<li><strong>止盈</strong> 2R目标 = 买19.97 + 2×(买入价-止损1.00) = 21.97</li>
+<li><strong>RR</strong> RR=(21.97-19.97)/(19.97-18.97)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=11.85 ｜ MA50=12.23 ｜ 牛线=12.65 ｜ 熊线=13.38 ｜ 20日高=19.67 ｜ 20日低=10.10</li>
+</ul>
+<h3 id="鹿山新材-603051sh观察池leader_breakout">鹿山新材 603051.SH（观察池｜leader_breakout）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#鹿山新材-603051sh观察池leader_breakout" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=买价×(1-5%) → 25.93（三者取最高: 买价×(1-5%)=25.93, 熊线×0.99=22.72, MA10×0.99=21.32）</li>
+<li><strong>买区</strong> pivot=max(昨收21.78, 20日高26.90)=26.90; 买区=[pivot×0.995, pivot×(1+1.5%)]; 溢价上限7%</li>
+<li><strong>止盈</strong> 2R目标 = 买27.30 + 2×(买入价-止损1.37) = 30.04</li>
+<li><strong>RR</strong> RR=(30.04-27.30)/(27.30-25.93)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=21.53 ｜ MA50=23.17 ｜ 牛线=22.38 ｜ 熊线=22.95 ｜ 20日高=26.90 ｜ 20日低=18.82</li>
+</ul>
+<h3 id="沪电股份-002463sz观察池vwap_pullback">沪电股份 002463.SZ（观察池｜vwap_pullback）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#沪电股份-002463sz观察池vwap_pullback" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=熊线×0.99 → 80.89（三者取最高: 买价×(1-5%)=78.44, MA20×0.99(20日线)=80.63, 熊线×0.99=80.89, MA10×0.99=79.01）</li>
+<li><strong>买区</strong> 核心票低吸口径(不看涨停): T-1 均价线 VWAP=81.75（20261126 成交额/成交量）; 买区=[VWAP×0.995=81.34, VWAP×1.01=82.57]; 站回 81.91 才算站住; 止损破 20 日线</li>
+<li><strong>止盈</strong> 2R目标 = 买82.57 + 2×(买入价-止损1.68) = 85.93</li>
+<li><strong>RR</strong> RR=(85.93-82.57)/(82.57-80.89)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=79.81 ｜ MA50=102.51 ｜ 牛线=81.34 ｜ 熊线=81.71 ｜ 20日高=105.90 ｜ 20日低=71.77</li>
+</ul>
+<h3 id="新易盛-300502sz观察池vwap_pullback">新易盛 300502.SZ（观察池｜vwap_pullback）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#新易盛-300502sz观察池vwap_pullback" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=MA20×0.99(20日线) → 179.77（三者取最高: 买价×(1-8%)=171.65, MA20×0.99(20日线)=179.77, 熊线×0.99=179.03, MA10×0.99=171.90）</li>
+<li><strong>买区</strong> 核心票低吸口径(不看涨停): T-1 均价线 VWAP=184.73（20261126 成交额/成交量）; 买区=[VWAP×0.995=183.81, VWAP×1.01=186.58]; 站回 185.10 才算站住; 止损破 20 日线</li>
+<li><strong>止盈</strong> 2R目标 = 买186.58 + 2×(买入价-止损6.81) = 200.20</li>
+<li><strong>RR</strong> RR=(200.20-186.58)/(186.58-179.77)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=173.63 ｜ MA50=287.17 ｜ 牛线=179.34 ｜ 熊线=180.84 ｜ 20日高=257.50 ｜ 20日低=152.00</li>
+</ul>
+<h3 id="天孚通信-300394sz观察池vwap_pullback">天孚通信 300394.SZ（观察池｜vwap_pullback）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#天孚通信-300394sz观察池vwap_pullback" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=MA20×0.99(20日线) → 123.67（三者取最高: 买价×(1-8%)=121.81, MA20×0.99(20日线)=123.67, 熊线×0.99=121.86, MA10×0.99=115.22）</li>
+<li><strong>买区</strong> 核心票低吸口径(不看涨停): T-1 均价线 VWAP=131.09（20261126 成交额/成交量）; 买区=[VWAP×0.995=130.43, VWAP×1.01=132.40]; 站回 131.35 才算站住; 止损破 20 日线</li>
+<li><strong>止盈</strong> 2R目标 = 买132.40 + 2×(买入价-止损8.73) = 149.86</li>
+<li><strong>RR</strong> RR=(149.86-132.40)/(132.40-123.67)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=116.38 ｜ MA50=192.77 ｜ 牛线=121.52 ｜ 熊线=123.09 ｜ 20日高=201.90 ｜ 20日低=99.90</li>
+</ul>
+<h3 id="景旺电子-603228sh观察池vwap_pullback">景旺电子 603228.SH（观察池｜vwap_pullback）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#景旺电子-603228sh观察池vwap_pullback" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=MA20×0.99(20日线) → 57.85（三者取最高: 买价×(1-5%)=56.59, MA20×0.99(20日线)=57.85, 熊线×0.99=57.55, MA10×0.99=55.41）</li>
+<li><strong>买区</strong> 核心票低吸口径(不看涨停): T-1 均价线 VWAP=58.98（20261126 成交额/成交量）; 买区=[VWAP×0.995=58.69, VWAP×1.01=59.57]; 站回 59.10 才算站住; 止损破 20 日线</li>
+<li><strong>止盈</strong> 2R目标 = 买59.57 + 2×(买入价-止损1.72) = 63.01</li>
+<li><strong>RR</strong> RR=(63.01-59.57)/(59.57-57.85)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=55.97 ｜ MA50=80.87 ｜ 牛线=57.57 ｜ 熊线=58.13 ｜ 20日高=78.21 ｜ 20日低=50.40</li>
+</ul>
+<h3 id="工业富联-601138sh观察池vwap_pullback">工业富联 601138.SH（观察池｜vwap_pullback）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#工业富联-601138sh观察池vwap_pullback" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=熊线×0.99 → 39.99（三者取最高: 买价×(1-5%)=39.11, 熊线×0.99=39.99, MA10×0.99=38.11）</li>
+<li><strong>买区</strong> 核心票低吸口径(不看涨停): T-1 均价线 VWAP=40.76（20261126 成交额/成交量）; 买区=[VWAP×0.995=40.56, VWAP×1.01=41.17]; 站回 40.84 才算站住; 止损破 20 日线</li>
+<li><strong>止盈</strong> 2R目标 = 买41.17 + 2×(买入价-止损1.18) = 43.53</li>
+<li><strong>RR</strong> RR=(43.53-41.17)/(41.17-39.99)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=38.49 ｜ MA50=49.66 ｜ 牛线=39.96 ｜ 熊线=40.39 ｜ 20日高=48.70 ｜ 20日低=35.01</li>
+</ul>
+<h3 id="中国卫星-600118sh观察池vwap_pullback">中国卫星 600118.SH（观察池｜vwap_pullback）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#中国卫星-600118sh观察池vwap_pullback" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=买价×(1-5%) → 44.60（三者取最高: 买价×(1-5%)=44.60）</li>
+<li><strong>买区</strong> 核心票低吸口径(不看涨停): T-1 均价线 VWAP=46.49（20261126 成交额/成交量）; 买区=[VWAP×0.995=46.26, VWAP×1.01=46.95]; 站回 46.58 才算站住; 止损破 20 日线</li>
+<li><strong>止盈</strong> 2R目标 = 买46.95 + 2×(买入价-止损2.35) = 51.65</li>
+<li><strong>RR</strong> RR=(51.65-46.95)/(46.95-44.60)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=49.20 ｜ MA50=53.94 ｜ 牛线=51.27 ｜ 熊线=52.80 ｜ 20日高=60.82 ｜ 20日低=44.92</li>
+</ul>
+<h3 id="常山北明-000158sz观察池leader_breakout">常山北明 000158.SZ（观察池｜leader_breakout）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#常山北明-000158sz观察池leader_breakout" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=买价×(1-5%) → 13.90（三者取最高: 买价×(1-5%)=13.90, 熊线×0.99=11.71, MA10×0.99=12.50）</li>
+<li><strong>买区</strong> pivot=max(昨收13.88, 20日高14.41)=14.41; 买区=[pivot×0.995, pivot×(1+1.5%)]; 溢价上限7%</li>
+<li><strong>止盈</strong> 2R目标 = 买14.63 + 2×(买入价-止损0.73) = 16.09</li>
+<li><strong>RR</strong> RR=(16.09-14.63)/(14.63-13.90)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=12.62 ｜ MA50=12.16 ｜ 牛线=12.26 ｜ 熊线=11.83 ｜ 20日高=14.41 ｜ 20日低=10.26</li>
+</ul>
+<h3 id="紫金矿业-601899sh观察池vwap_pullback">紫金矿业 601899.SH（观察池｜vwap_pullback）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#紫金矿业-601899sh观察池vwap_pullback" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=买价×(1-5%) → 22.70（三者取最高: 买价×(1-5%)=22.70）</li>
+<li><strong>买区</strong> 核心票低吸口径(不看涨停): T-1 均价线 VWAP=23.65（20261126 成交额/成交量）; 买区=[VWAP×0.995=23.53, VWAP×1.01=23.89]; 站回 23.70 才算站住; 止损破 20 日线</li>
+<li><strong>止盈</strong> 2R目标 = 买23.89 + 2×(买入价-止损1.19) = 26.27</li>
+<li><strong>RR</strong> RR=(26.27-23.89)/(23.89-22.70)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=24.47 ｜ MA50=28.66 ｜ 牛线=25.26 ｜ 熊线=26.02 ｜ 20日高=29.95 ｜ 20日低=22.56</li>
+</ul>
+<h3 id="工商银行-601398sh观察池vwap_pullback">工商银行 601398.SH（观察池｜vwap_pullback）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#工商银行-601398sh观察池vwap_pullback" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=MA10×0.99 → 9.04（三者取最高: 买价×(1-5%)=8.80, MA20×0.99(20日线)=8.76, 熊线×0.99=8.77, MA10×0.99=9.04）</li>
+<li><strong>买区</strong> 核心票低吸口径(不看涨停): T-1 均价线 VWAP=9.17（20261126 成交额/成交量）; 买区=[VWAP×0.995=9.12, VWAP×1.01=9.26]; 站回 9.19 才算站住; 止损破 20 日线</li>
+<li><strong>止盈</strong> 2R目标 = 买9.26 + 2×(买入价-止损0.22) = 9.70</li>
+<li><strong>RR</strong> RR=(9.70-9.26)/(9.26-9.04)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=9.13 ｜ MA50=8.53 ｜ 牛线=8.96 ｜ 熊线=8.86 ｜ 20日高=9.49 ｜ 20日低=8.17</li>
+</ul>
+<h3 id="紫金矿业-601899shb计划vwap_pullback">紫金矿业 601899.SH（B计划｜vwap_pullback）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#紫金矿业-601899shb计划vwap_pullback" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=买价×(1-5%) → 22.70（三者取最高: 买价×(1-5%)=22.70）</li>
+<li><strong>买区</strong> 核心票低吸口径(不看涨停): T-1 均价线 VWAP=23.65（20261126 成交额/成交量）; 买区=[VWAP×0.995=23.53, VWAP×1.01=23.89]; 站回 23.70 才算站住; 止损破 20 日线</li>
+<li><strong>止盈</strong> 2R目标 = 买23.89 + 2×(买入价-止损1.19) = 26.27</li>
+<li><strong>RR</strong> RR=(26.27-23.89)/(23.89-22.70)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=24.47 ｜ MA50=28.66 ｜ 牛线=25.26 ｜ 熊线=26.02 ｜ 20日高=29.95 ｜ 20日低=22.56</li>
+</ul>
+<h3 id="工商银行-601398shb计划vwap_pullback">工商银行 601398.SH（B计划｜vwap_pullback）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#工商银行-601398shb计划vwap_pullback" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=MA10×0.99 → 9.04（三者取最高: 买价×(1-5%)=8.80, MA20×0.99(20日线)=8.76, 熊线×0.99=8.77, MA10×0.99=9.04）</li>
+<li><strong>买区</strong> 核心票低吸口径(不看涨停): T-1 均价线 VWAP=9.17（20261126 成交额/成交量）; 买区=[VWAP×0.995=9.12, VWAP×1.01=9.26]; 站回 9.19 才算站住; 止损破 20 日线</li>
+<li><strong>止盈</strong> 2R目标 = 买9.26 + 2×(买入价-止损0.22) = 9.70</li>
+<li><strong>RR</strong> RR=(9.70-9.26)/(9.26-9.04)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=9.13 ｜ MA50=8.53 ｜ 牛线=8.96 ｜ 熊线=8.86 ｜ 20日高=9.49 ｜ 20日低=8.17</li>
+</ul>
+<h3 id="崇达技术-002815szb计划vwap_pullback">崇达技术 002815.SZ（B计划｜vwap_pullback）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#崇达技术-002815szb计划vwap_pullback" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=MA20×0.99(20日线) → 14.60（三者取最高: 买价×(1-5%)=14.21, MA20×0.99(20日线)=14.60, 熊线×0.99=14.51, MA10×0.99=13.99）</li>
+<li><strong>买区</strong> 核心票低吸口径(不看涨停): T-1 均价线 VWAP=14.81（20261126 成交额/成交量）; 买区=[VWAP×0.995=14.74, VWAP×1.01=14.96]; 站回 14.84 才算站住; 止损破 20 日线</li>
+<li><strong>止盈</strong> 2R目标 = 买14.96 + 2×(买入价-止损0.36) = 15.68</li>
+<li><strong>RR</strong> RR=(15.68-14.96)/(14.96-14.60)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=14.14 ｜ MA50=18.67 ｜ 牛线=14.53 ｜ 熊线=14.65 ｜ 20日高=17.64 ｜ 20日低=13.00</li>
+</ul>
+<h3 id="骏亚科技-603386shb计划leader_breakout">骏亚科技 603386.SH（B计划｜leader_breakout）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#骏亚科技-603386shb计划leader_breakout" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=买价×(1-5%) → 16.49（三者取最高: 买价×(1-5%)=16.49, 熊线×0.99=14.03, MA10×0.99=13.79）</li>
+<li><strong>买区</strong> pivot=max(昨收14.52, 20日高17.10)=17.10; 买区=[pivot×0.995, pivot×(1+1.5%)]; 溢价上限7%</li>
+<li><strong>止盈</strong> 2R目标 = 买17.36 + 2×(买入价-止损0.87) = 19.10</li>
+<li><strong>RR</strong> RR=(19.10-17.36)/(17.36-16.49)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=13.93 ｜ MA50=16.36 ｜ 牛线=14.11 ｜ 熊线=14.17 ｜ 20日高=17.10 ｜ 20日低=12.74</li>
+</ul>
+<h3 id="襄阳轴承-000678szb计划leader_breakout">襄阳轴承 000678.SZ（B计划｜leader_breakout）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#襄阳轴承-000678szb计划leader_breakout" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=买价×(1-5%) → 22.48（三者取最高: 买价×(1-5%)=22.48, 熊线×0.99=18.18, MA10×0.99=18.08）</li>
+<li><strong>买区</strong> pivot=max(昨收21.96, 20日高23.31)=23.31; 买区=[pivot×0.995, pivot×(1+1.5%)]; 溢价上限7%</li>
+<li><strong>止盈</strong> 2R目标 = 买23.66 + 2×(买入价-止损1.18) = 26.02</li>
+<li><strong>RR</strong> RR=(26.02-23.66)/(23.66-22.48)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=18.27 ｜ MA50=14.25 ｜ 牛线=18.65 ｜ 熊线=18.37 ｜ 20日高=23.31 ｜ 20日低=14.59</li>
+</ul>
+<h3 id="岳阳林纸-600963shb计划trend_pullback_buy">岳阳林纸 600963.SH（B计划｜trend_pullback_buy）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#岳阳林纸-600963shb计划trend_pullback_buy" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>止损</strong> 止损=买价×(1-5%) → 3.39（三者取最高: 买价×(1-5%)=3.39, MA10×0.99=3.35）</li>
+<li><strong>买区</strong> 决策线MA50=3.54, 牛线=3.53; 买区=[min(MA50,牛线)×0.99=3.49, MA50×1.01=3.57]; 最高接受=3.64</li>
+<li><strong>止盈</strong> 2R目标 = 买3.57 + 2×(买入价-止损0.18) = 3.93</li>
+<li><strong>RR</strong> RR=(3.93-3.57)/(3.57-3.39)=2.0 → <code>pass</code></li>
+<li><strong>技术位</strong> MA10=3.38 ｜ MA50=3.54 ｜ 牛线=3.53 ｜ 熊线=3.64 ｜ 20日高=4.22 ｜ 20日低=3.03</li>
+</ul></div></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>关系图谱</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc"><button type="button" class="toc-header" aria-controls="toc-994" aria-expanded="true"><h3>目录</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-0" class="toc-content overflow"><li class="depth-0"><a href="#20261127-价位推导明细规则引擎非模型拍价" data-for="20261127-价位推导明细规则引擎非模型拍价">20261127 价位推导明细（规则引擎，非模型拍价）</a></li><li class="depth-1"><a href="#逐票公式" data-for="逐票公式">逐票公式</a></li><li class="depth-2"><a href="#中际旭创-300308sz执行池vwap_pullback" data-for="中际旭创-300308sz执行池vwap_pullback">中际旭创 300308.SZ（执行池｜vwap_pullback）</a></li><li class="depth-2"><a href="#华丰科技-688629sh执行池vwap_pullback" data-for="华丰科技-688629sh执行池vwap_pullback">华丰科技 688629.SH（执行池｜vwap_pullback）</a></li><li class="depth-2"><a href="#胜宏科技-300476sz执行池vwap_pullback" data-for="胜宏科技-300476sz执行池vwap_pullback">胜宏科技 300476.SZ（执行池｜vwap_pullback）</a></li><li class="depth-2"><a href="#泸天化-000912sz执行池leader_breakout" data-for="泸天化-000912sz执行池leader_breakout">泸天化 000912.SZ（执行池｜leader_breakout）</a></li><li class="depth-2"><a href="#崇达技术-002815sz观察池vwap_pullback" data-for="崇达技术-002815sz观察池vwap_pullback">崇达技术 002815.SZ（观察池｜vwap_pullback）</a></li><li class="depth-2"><a href="#骏亚科技-603386sh观察池leader_breakout" data-for="骏亚科技-603386sh观察池leader_breakout">骏亚科技 603386.SH（观察池｜leader_breakout）</a></li><li class="depth-2"><a href="#金牛化工-600722sh观察池vwap_pullback" data-for="金牛化工-600722sh观察池vwap_pullback">金牛化工 600722.SH（观察池｜vwap_pullback）</a></li><li class="depth-2"><a href="#东山精密-002384sz观察池vwap_pullback" data-for="东山精密-002384sz观察池vwap_pullback">东山精密 002384.SZ（观察池｜vwap_pullback）</a></li><li class="depth-2"><a href="#襄阳轴承-000678sz观察池leader_breakout" data-for="襄阳轴承-000678sz观察池leader_breakout">襄阳轴承 000678.SZ（观察池｜leader_breakout）</a></li><li class="depth-2"><a href="#岳阳林纸-600963sh观察池trend_pullback_buy" data-for="岳阳林纸-600963sh观察池trend_pullback_buy">岳阳林纸 600963.SH（观察池｜trend_pullback_buy）</a></li><li class="depth-2"><a href="#顺灏股份-002565sz观察池leader_breakout" data-for="顺灏股份-002565sz观察池leader_breakout">顺灏股份 002565.SZ（观察池｜leader_breakout）</a></li><li class="depth-2"><a href="#雪人集团-002639sz观察池leader_breakout" data-for="雪人集团-002639sz观察池leader_breakout">雪人集团 002639.SZ（观察池｜leader_breakout）</a></li><li class="depth-2"><a href="#泰嘉股份-002843sz观察池leader_breakout" data-for="泰嘉股份-002843sz观察池leader_breakout">泰嘉股份 002843.SZ（观察池｜leader_breakout）</a></li><li class="depth-2"><a href="#大业股份-603278sh观察池leader_breakout" data-for="大业股份-603278sh观察池leader_breakout">大业股份 603278.SH（观察池｜leader_breakout）</a></li><li class="depth-2"><a href="#鹿山新材-603051sh观察池leader_breakout" data-for="鹿山新材-603051sh观察池leader_breakout">鹿山新材 603051.SH（观察池｜leader_breakout）</a></li><li class="depth-2"><a href="#沪电股份-002463sz观察池vwap_pullback" data-for="沪电股份-002463sz观察池vwap_pullback">沪电股份 002463.SZ（观察池｜vwap_pullback）</a></li><li class="depth-2"><a href="#新易盛-300502sz观察池vwap_pullback" data-for="新易盛-300502sz观察池vwap_pullback">新易盛 300502.SZ（观察池｜vwap_pullback）</a></li><li class="depth-2"><a href="#天孚通信-300394sz观察池vwap_pullback" data-for="天孚通信-300394sz观察池vwap_pullback">天孚通信 300394.SZ（观察池｜vwap_pullback）</a></li><li class="depth-2"><a href="#景旺电子-603228sh观察池vwap_pullback" data-for="景旺电子-603228sh观察池vwap_pullback">景旺电子 603228.SH（观察池｜vwap_pullback）</a></li><li class="depth-2"><a href="#工业富联-601138sh观察池vwap_pullback" data-for="工业富联-601138sh观察池vwap_pullback">工业富联 601138.SH（观察池｜vwap_pullback）</a></li><li class="depth-2"><a href="#中国卫星-600118sh观察池vwap_pullback" data-for="中国卫星-600118sh观察池vwap_pullback">中国卫星 600118.SH（观察池｜vwap_pullback）</a></li><li class="depth-2"><a href="#常山北明-000158sz观察池leader_breakout" data-for="常山北明-000158sz观察池leader_breakout">常山北明 000158.SZ（观察池｜leader_breakout）</a></li><li class="depth-2"><a href="#紫金矿业-601899sh观察池vwap_pullback" data-for="紫金矿业-601899sh观察池vwap_pullback">紫金矿业 601899.SH（观察池｜vwap_pullback）</a></li><li class="depth-2"><a href="#工商银行-601398sh观察池vwap_pullback" data-for="工商银行-601398sh观察池vwap_pullback">工商银行 601398.SH（观察池｜vwap_pullback）</a></li><li class="depth-2"><a href="#紫金矿业-601899shb计划vwap_pullback" data-for="紫金矿业-601899shb计划vwap_pullback">紫金矿业 601899.SH（B计划｜vwap_pullback）</a></li><li class="depth-2"><a href="#工商银行-601398shb计划vwap_pullback" data-for="工商银行-601398shb计划vwap_pullback">工商银行 601398.SH（B计划｜vwap_pullback）</a></li><li class="depth-2"><a href="#崇达技术-002815szb计划vwap_pullback" data-for="崇达技术-002815szb计划vwap_pullback">崇达技术 002815.SZ（B计划｜vwap_pullback）</a></li><li class="depth-2"><a href="#骏亚科技-603386shb计划leader_breakout" data-for="骏亚科技-603386shb计划leader_breakout">骏亚科技 603386.SH（B计划｜leader_breakout）</a></li><li class="depth-2"><a href="#襄阳轴承-000678szb计划leader_breakout" data-for="襄阳轴承-000678szb计划leader_breakout">襄阳轴承 000678.SZ（B计划｜leader_breakout）</a></li><li class="depth-2"><a href="#岳阳林纸-600963shb计划trend_pullback_buy" data-for="岳阳林纸-600963shb计划trend_pullback_buy">岳阳林纸 600963.SH（B计划｜trend_pullback_buy）</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>反向链接</h3><ul id="list-0" class="overflow"><li><a href="../../未命名.base" class="internal">未命名</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v5.0.0</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script src="../../static/resource-after-e13fffa1.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-8b336f9a.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-baba652b.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-509bcb48.js" type="module" data-persist="true"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../../postscript-171b89dc.js" type="module" data-persist="true"></script></html>
