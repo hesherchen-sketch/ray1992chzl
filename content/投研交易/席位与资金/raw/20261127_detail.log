@@ -1,0 +1,916 @@
+================ 候选窗口内全部增持记录 ================
+
+### 301179.SZ 泽宇智能 close=16.7 circ=39.65832984
+ ann_date holder_type      holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261126           C 智联新能电力科技有限公司及其股东  10510985.0       18.6  19584.3    20261126    20261126        实施          NaN
+
+### 600292.SH 电投水电 close=10.19 circ=200.2584013
+ ann_date holder_type    holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261106           C 国家电投集团创新投资有限公司    361900.0       10.0    362.1    20261104    20261105        实施          0.1
+ 20261121           C 国家电投集团创新投资有限公司  11006523.0       10.1  11090.6    20261106    20261120        实施          0.6
+
+### 002655.SZ 共达电声 close=27.29 circ=99.96868324
+ ann_date holder_type    holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261124           C 上海韦豪创芯投资管理有限公司    960400.0       23.2   2229.5    20261123    20261123        实施          9.6
+ 20261126           C 上海韦豪创芯投资管理有限公司   3398460.0       25.7   8742.7    20261124    20261125        实施         10.5
+
+### 601456.SH 国联民生 close=8.18 circ=358.55117647000003
+ ann_date holder_type     holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261121           C 无锡市国联发展(集团)有限公司   9580000.0        8.4   8031.4    20261106    20261120        实施         31.1
+
+### 600141.SH 兴发集团 close=21.12 circ=252.62976436
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261028           C  宜昌兴发投资有限公司    212000.0       23.7    501.9    20261027    20261027        实施          NaN
+ 20261102           C  宜昌兴发投资有限公司    870000.0       22.7   1977.2    20261029    20261030        实施          NaN
+ 20261121           C  宜昌兴发投资有限公司   3023800.0       22.6   6827.1    20261102    20261120        实施          0.3
+ 20261022           G         鲍伯颖     30000.0       23.8     71.5    20261021    20261021        实施          0.0
+ 20261022           G          赵勇     20000.0       24.2     48.3    20261021    20261021        实施          0.0
+ 20261022           G         胡坤裔     20000.0       24.1     48.1    20261021    20261021        实施          0.0
+ 20261022           G         程亚利     30000.0       24.0     72.0    20261021    20261021        实施          0.0
+ 20261022           G          王琛     30000.0       24.1     72.3    20261021    20261021        实施          0.0
+ 20261022           G         杨铁军     20000.0       24.2     48.4    20261021    20261021        实施          0.0
+ 20261022           G         李美辉     20000.0       23.9     47.8    20261021    20261021        实施          0.0
+ 20261022           G         李国璋     30000.0       24.1     72.4    20261021    20261021        实施          0.0
+ 20261022           G          张桥     20000.0       24.1     48.1    20261021    20261021        实施          0.0
+ 20261024           G         杨坤明     30000.0       23.5     70.4    20261021    20261023        实施          0.0
+ 20261024           G         彭亚利     30000.0       23.5     70.6    20261021    20261023        实施          0.0
+ 20261024           G          张桥     10000.0       23.4     23.4    20261022    20261023        实施          0.0
+ 20261024           G          王杰     30000.0       23.5     70.6    20261022    20261022        实施          0.0
+ 20261024           G          刘畅     20000.0       23.6     47.2    20261022    20261022        实施          0.0
+
+### 603223.SH 恒通股份 close=8.58 circ=60.55954416
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261121           C    南山集团有限公司   5466700.0        8.0   4355.6    20261120    20261120        实施         42.6
+ 20261127           C    南山集团有限公司   1530100.0        NaN      NaN    20261121    20261127        实施         43.4
+
+### 002851.SZ 麦格米特 close=66.14 circ=325.47306493
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261124           G         童永胜    522300.0       59.0   3079.9    20261119    20261123        实施         20.2
+ 20261124           G          王涛    100000.0       58.9    589.4    20261119    20261123        实施          0.7
+ 20261124           G          张志    102000.0       59.0    601.6    20261119    20261123        实施          3.3
+
+### 600160.SH 巨化股份 close=24.42 circ=659.27799298
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261124           C  浙江巨化投资有限公司   1450000.0       25.5   3698.2    20261123    20261123        实施          NaN
+
+### 002540.SZ 亚太科技 close=4.52 circ=38.79070138
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261121           P         周津伊   6351900.0        4.8   3026.6    20260909    20261119        实施          0.7
+
+### 002367.SZ 康力电梯 close=4.98 circ=39.5832427
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261120           P         朱美娟   2817400.0        4.9   1375.5    20261119    20261119        实施         47.6
+ 20261124           P         朱美娟   3365300.0        4.8   1624.1    20261120    20261124        实施         48.1
+ 20261126           P         朱美娟   1940400.0        4.8    925.6    20261125    20261125        实施         48.3
+
+### 600787.SH 中储股份 close=4.4 circ=95.48350161
+ ann_date holder_type  holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261023           C 中国物资储运集团有限公司   4916400.0        4.6   2238.1    20260930    20261022        实施         47.0
+ 20261121           C 中国物资储运集团有限公司   1100000.0        4.4    479.4    20261023    20261120        实施         47.0
+ 20261125           C 中国物资储运集团有限公司   2000000.0        4.3    861.9    20261123    20261124        实施          NaN
+ 20261126           C 中国物资储运集团有限公司   2743900.0        4.3   1179.8    20261125    20261125        实施          NaN
+
+### 601615.SH 明阳智能 close=7.09 circ=160.34011646
+ ann_date holder_type   holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20260904           G           王成奎    108000.0        9.4    101.1    20260903    20260903        实施          0.0
+ 20261121           G            韩冰     40000.0        7.4     29.6    20261031    20261120        实施          0.0
+ 20261121           G           邹荔兵     55000.0        7.4     40.5    20261031    20261120        实施          0.0
+ 20261121           G           王成奎    101500.0        8.0     81.0    20261031    20261120        实施          0.0
+ 20261121           G           王冬冬     40000.0        7.1     28.5    20261031    20261120        实施          0.0
+ 20261121           G           樊元峰     26000.0        7.2     18.7    20261031    20261120        实施          0.0
+ 20261121           G           易菱娜    130000.0        7.7     99.7    20261031    20261120        实施          0.0
+ 20261121           G            房猛      1000.0        7.1      0.7    20261031    20261120        实施          0.0
+ 20261121           G            张瑞    278500.0        7.2    200.0    20261031    20261120        实施          0.0
+ 20261121           G           张新宇    194300.0        7.7    150.0    20261031    20261120        实施          0.0
+ 20261121           G           张传卫    400000.0        7.9    315.9    20261031    20261120        实施          1.2
+ 20261121           P 核心业务骨干(合计42人)   1409500.0        7.9   1117.6    20261031    20261120        实施          0.1
+
+### 301571.SZ 国科天成 close=62.74 circ=74.76296972
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261126           G         罗珏典     88200.0       56.6    499.7    20261126    20261126        实施         12.7
+ 20261126           G         吴明星     88500.0       56.6    500.6    20261126    20261126        实施          9.4
+ 20261126           G         罗珏典     87500.0       57.1    499.9    20261123    20261123        实施         12.7
+ 20261126           G         吴明星     90800.0       57.3    519.9    20261123    20261123        实施          9.4
+
+### 600487.SH 亨通光电 close=38.13 circ=935.57531779
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261121           C    亨通集团有限公司    550000.0       36.6   2013.2    20261120    20261120        实施         24.2
+
+### 603656.SH 泰禾智能 close=15.85 circ=28.83252784
+ ann_date holder_type   holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261017           C 阳光新能源开发股份有限公司   1770000.0       17.9   3173.2    20261013    20261016        实施         27.0
+ 20261106           C 阳光新能源开发股份有限公司   1100400.0       19.0   2096.0    20261017    20261105        实施         27.8
+ 20261126           C 阳光新能源开发股份有限公司   1213500.0       16.3   1976.2    20261106    20261125        实施         28.4
+
+### 688387.SH 信科移动-U close=9.93 circ=339.481875
+ ann_date holder_type    holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261125           C 中国信息通信科技集团有限公司   2000000.0        9.5   1899.1    20261124    20261124        实施         41.1
+
+### 600686.SH 金龙汽车 close=8.18 circ=58.65447870999999
+ ann_date holder_type   holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261121           C 福建省汽车工业集团有限公司   1984900.0        8.6   1707.9    20261113    20261120        实施         33.5
+
+### 600188.SH 兖矿能源 close=16.88 circ=1006.27622098
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261024           C  山东能源集团有限公司    937940.0       18.1   1701.0    20261023    20261023        实施         89.0
+ 20261029           C  山东能源集团有限公司    706900.0       18.1   1276.4    20261026    20261028        实施          NaN
+ 20261121           C  山东能源集团有限公司    972170.0       17.3   1686.2    20261103    20261120        实施         89.0
+
+### 600352.SH 浙江龙盛 close=11.03 circ=358.84250416000003
+ ann_date holder_type  holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261125           C 绍兴锦泽企业管理有限公司   1406200.0       10.3   1452.7    20261123    20261124        实施          1.3
+
+### 603856.SH 东宏股份 close=9.24 circ=26.06197994
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20260916           C  山东东宏集团有限公司    627800.0       11.4    714.1    20260915    20260915        实施          NaN
+ 20261020           C  山东东宏集团有限公司    155400.0       11.4    176.9    20260916    20261019        实施          NaN
+ 20261110           C  山东东宏集团有限公司    669000.0       10.5    703.0    20261020    20261109        实施         47.0
+ 20261121           C  山东东宏集团有限公司   1317199.0       10.1   1331.7    20261110    20261120        实施         47.5
+
+### 688607.SH 康众科技 close=28.04 circ=24.71137917
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261121           G         陈咏虹    380000.0       33.2   1261.8    20261021    20261120        实施          0.4
+
+### 603319.SH 美湖股份 close=18.46 circ=62.60703056
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261127           G         许仲秋    576100.0       19.1   1102.3    20261019    20261125        实施         17.1
+
+### 600733.SH 北汽蓝谷 close=3.82 circ=230.91692883
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261103           C  北京汽车集团有限公司  10640000.0        4.2   4500.0    20261102    20261102        实施          NaN
+ 20261124           C  北京汽车集团有限公司   1234900.0        4.3    530.0    20261103    20261123        实施         22.6
+ 20261124           C  北京汽车集团有限公司   1234900.0        4.3    530.0    20261103    20261124        实施         22.6
+
+### 000766.SZ 通化金马 close=10.51 circ=101.48598474
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261121           G         张玉富    905500.0       11.1   1000.8    20261119    20261120        实施          0.2
+
+### 601965.SH 中国汽研 close=14.72 circ=147.53824161
+ ann_date holder_type    holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261121           C 中国检验认证(集团)有限公司    720600.0       13.9    998.9    20260930    20261120        实施         53.4
+
+### 600757.SH 长江传媒 close=8.23 circ=99.87081158
+ ann_date holder_type    holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261127           C 湖北长江出版传媒集团有限公司    220000.0        8.2    180.0    20261124    20261124        实施          NaN
+ 20261127           C 湖北长江出版传媒集团有限公司    937400.0        8.2    766.0    20261123    20261123        实施          NaN
+
+### 605020.SH 永和股份 close=26.65 circ=136.13318968
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261121           G         童建国    171500.0       27.8    476.1    20261119    20261119        实施         36.5
+ 20261121           G         程文霞    103100.0       25.3    260.8    20261120    20261120        实施          0.1
+ 20261121           G         姜根法     68800.0       25.4    174.5    20261120    20261120        实施          0.0
+ 20261125           G         童建国    623800.0        NaN      NaN    20261124    20261124        实施         36.6
+ 20261125           G         童建国    100000.0        NaN      NaN    20261123    20261123        实施         36.5
+ 20261127           G         童建国    397600.0        NaN      NaN    20261125    20261125        实施         36.7
+ 20261127           G         童建国    300000.0        NaN      NaN    20261126    20261126        实施         36.8
+
+### 603150.SH 万朗磁塑 close=37.3 circ=31.885159
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261127           G         陈雨海     19400.0       33.5     65.1    20261125    20261126        实施          0.1
+ 20261127           G         邵燕妮     29700.0       33.2     98.6    20261125    20261126        实施          0.0
+ 20261127           G          许进     29000.0       33.7     97.8    20261125    20261126        实施          0.0
+ 20261127           G          沈刚     25300.0       33.5     84.7    20261125    20261126        实施          0.1
+ 20261127           G         时金敏     25000.0       33.4     83.5    20261125    20261126        实施          0.0
+ 20261127           G         张芳芳     15000.0       33.3     49.9    20261125    20261126        实施          0.1
+ 20261127           G         张小梅     22300.0       33.7     75.1    20261125    20261126        实施          0.1
+ 20261127           G         刘跃玲     12300.0       33.5     41.2    20261125    20261126        实施          0.0
+ 20261127           G         万和国     30000.0       33.3    100.0    20261125    20261126        实施          0.2
+ 20261127           G          丁芳     18000.0       33.4     60.2    20261125    20261126        实施          0.1
+
+### 688418.SH 震有科技 close=20.56 circ=39.58923275
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261016           G          姜坤      5000.0       26.1     13.0    20261014    20261014        实施          0.0
+ 20261124           G         吴闽华    355000.0       21.1    750.7    20261116    20261123        实施         16.9
+
+### 600106.SH 重庆路桥 close=3.94 circ=52.36358744
+ ann_date holder_type  holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261121           C 重庆国际信托股份有限公司    394400.0        4.0    157.6    20261120    20261120        实施         15.0
+ 20261121           C   杭州临芯科创有限公司   1249300.0        4.0    500.0    20261120    20261120        实施         11.1
+
+### 688210.SH 统联精密 close=20.04 circ=32.59721831
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261114           G          杨虎    400000.0       25.9   1034.4    20261111    20261113        实施         17.9
+ 20261125           G          杨虎    100000.0       20.0    200.4    20261114    20261124        实施         18.0
+
+### 688196.SH 卓越新能 close=28.04 circ=35.66429892
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261111           G         郑学东     51110.0       31.9    163.3    20261110    20261110        实施          0.0
+ 20261111           G         曾庆平     50000.0       31.7    158.5    20261110    20261110        实施          0.0
+ 20261118           G         王高祥     80000.0       29.0    231.9    20261116    20261117        实施          0.1
+ 20261118           G         何正凌    168000.0       31.0    521.4    20261113    20261116        实施          0.1
+ 20261121           G         何正凌     32000.0       26.7     85.5    20261118    20261120        实施          0.2
+
+### 000967.SZ 盈峰环境 close=5.8 circ=194.74477602
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261126           G          马刚   1400300.0        NaN      NaN    20261104    20261124        实施          0.1
+
+### 002024.SZ ST易购 close=1.05 circ=96.51943167
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261126           G          郝嘉    188700.0        1.1     20.0    20261026    20261125        实施          NaN
+ 20261126           G          柳赛    188800.0        1.1     20.0    20261026    20261125        实施          NaN
+ 20261126           G         徐海澜    188600.0        1.1     20.0    20261026    20261125        实施          NaN
+ 20261126           G          徐仲    188700.0        1.1     20.0    20261026    20261125        实施          NaN
+ 20261126           P    其他核心业务骨干    378900.0        1.1     40.1    20261026    20261125        实施          NaN
+
+### 301158.SZ 德石股份 close=10.62 circ=20.19438284
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261125           G          陈振     10000.0       10.4     10.4    20261124    20261124        实施          0.0
+ 20261125           G         程贵华     20000.0       10.2     20.3    20261124    20261124        实施          1.4
+ 20261125           G         王泽涛     10000.0       10.5     10.5    20261124    20261124        实施          0.0
+ 20261125           G          李涛     10000.0       10.2     10.2    20261124    20261124        实施          0.0
+ 20261125           G         李战军     18000.0       10.4     18.7    20261124    20261124        实施          0.2
+ 20261125           G         孙宝生     10000.0       10.2     10.2    20261124    20261124        实施          0.0
+ 20261125           G         于广海     10000.0       10.2     10.2    20261124    20261124        实施          0.0
+
+### 600022.SH 山东钢铁 close=1.2 circ=128.38619465000002
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20260925           G         高凤娟     70000.0        1.3      9.0    20260924    20260924        实施          0.0
+ 20260925           G         郭小龙    100000.0        1.3     12.9    20260924    20260924        实施          0.0
+ 20260925           G         李洪建     20000.0        1.3      2.6    20260924    20260924        实施          0.0
+ 20260925           G         唐邦秀     40000.0        1.3      5.2    20260924    20260924        实施          0.0
+ 20261001           G         郭伟达     28000.0        1.3      3.6    20260929    20260929        实施          0.0
+ 20261001           G         王培文     40000.0        1.3      5.2    20260930    20260930        实施          0.0
+ 20261020           G         王培文     23400.0        1.3      3.0    20261016    20261016        实施          0.0
+ 20261023           G         郭伟达     30000.0        1.3      3.8    20261022    20261022        实施          0.0
+ 20261114           G         唐邦秀    101800.0        1.2     12.6    20261112    20261112        实施          0.0
+ 20261118           G         王培文     94700.0        1.2     11.6    20261116    20261116        实施          0.0
+ 20261121           G         郭伟达     46000.0        1.2      5.5    20261120    20261120        实施          0.0
+
+### 002480.SZ 新筑股份 close=5.36 circ=41.13732845
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261121           G          郑宇     42800.0        4.8     20.5    20261120    20261120        实施          0.0
+ 20261121           G         贾秀英     63400.0        4.8     30.3    20261120    20261120        实施          0.1
+ 20261121           P         王钒宇     10600.0        4.8      5.1    20261120    20261120        实施          0.0
+
+### 600382.SH 广东明珠 close=4.61 circ=29.887419280000003
+ ann_date holder_type holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20261127           G          王海     93000.0        4.4     40.5    20261126    20261126        实施          0.0
+ 20261127           G         刘文清    116000.0        4.4     51.0    20261126    20261126        实施          0.0
+
+### 000425.SZ 徐工机械 close=6.57 circ=591.17417754
+ ann_date holder_type  holder_name  change_vol  avg_price  amt_wan  begin_date  close_date cur_stage  after_ratio
+ 20260901           C 徐州工程机械集团有限公司   1276100.0        7.8   1000.5    20260831    20260831        实施         27.5
+ 20261009           C 徐州工程机械集团有限公司   2664400.0        7.5   2000.9    20260901    20261008        实施         27.5
+ 20261103           C 徐州工程机械集团有限公司   4428200.0        6.8   2999.2    20261009    20261030        实施         27.5
+
+
+================ 公告标题 (20261001-20261127) ================
+
+### 301179.SZ 泽宇智能 (1 条)
+   20261126 关于现金收购智联新能电力科技有限公司51%股权进展暨交易对方完成增持公司股份的公告 | http://static.cninfo.com.cn/finalpage/2026-11-26/1225690407.PDF
+
+### 600292.SH 电投水电 (9 条)
+   20261031 中国国际金融股份有限公司关于国家电投集团水电股份有限公司使用部分闲置募集资金临时补充流动资金的核查意见 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647931.PDF
+   20261031 中信建投证券股份有限公司关于国家电投集团水电股份有限公司使用部分闲置募集资金临时补充流动资金的核查意见 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647986.PDF
+   20261103 电投水电关于实际控制人增持股份计划公告 | http://static.cninfo.com.cn/finalpage/2026-11-03/1225652948.PDF
+   20261106 电投水电关于实际控制人全资子公司增持股份进展暨首次增持公司股份的公告 | http://static.cninfo.com.cn/finalpage/2026-11-06/1225659549.PDF
+   20261107 电投水电关于发行股份及支付现金购买资产并募集配套资金暨关联交易之部分限售股上市流通公告 | http://static.cninfo.com.cn/finalpage/2026-11-07/1225662029.PDF
+   20261107 中信建投证券股份有限公司关于国家电投集团水电股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之部分限售股上市流通的核查意见 | http://static.cninfo.com.cn/finalpage/2026-11-07/1225662032.PDF
+   20261107 中国国际金融股份有限公司关于国家电投集团水电股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之部分限售股上市流通的核查意见 | http://static.cninfo.com.cn/finalpage/2026-11-07/1225662038.PDF
+   20261117 北京市中咨律师事务所关于国家电投集团水电股份有限公司2026年第三次（临时）股东会的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-11-17/1225673678.PDF
+   20261121 电投水电关于实际控制人全资子公司增持公司股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225681514.PDF
+
+### 002655.SZ 共达电声 (12 条)
+   20261009 共达电声股份有限公司关于拟设立境外二级子公司的公告 | http://static.cninfo.com.cn/finalpage/2026-10-09/1225597906.PDF
+   20261009 共达电声股份有限公司第六届董事会第二十四次会议决议公告 | http://static.cninfo.com.cn/finalpage/2026-10-09/1225597908.PDF
+   20261009 共达电声股份有限公司2026年第三次临时股东会决议公告 | http://static.cninfo.com.cn/finalpage/2026-10-09/1225597909.PDF
+   20261009 北京市时代九和律师事务所关于共达电声股份有限公司2026年第三次临时股东会的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-10-09/1225597910.PDF
+   20261028 共达电声股份有限公司关于对外投资暨关联交易的进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-28/1225628052.PDF
+   20261110 共达电声股份有限公司关于对外投资设立全资子公司的公告 | http://static.cninfo.com.cn/finalpage/2026-11-10/1225663055.PDF
+   20261110 共达电声股份有限公司第六届董事会第二十六次会议决议公告 | http://static.cninfo.com.cn/finalpage/2026-11-10/1225663056.PDF
+   20261117 共达电声股份有限公司关于控股股东的一致行动人增持公司股份计划暨取得增持专项贷款承诺函的公告 | http://static.cninfo.com.cn/finalpage/2026-11-17/1225674145.PDF
+   20261119 共达电声股份有限公司关于全资子公司完成工商登记并取得营业执照的公告 | http://static.cninfo.com.cn/finalpage/2026-11-19/1225677598.PDF
+   20261120 共达电声股份有限公司关于为控股子公司提供担保的进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-20/1225679001.PDF
+   20261124 共达电声股份有限公司关于控股股东的一致行动人增持公司股份权益变动触及1%整数倍暨增持计划进展情况的公告 | http://static.cninfo.com.cn/finalpage/2026-11-24/1225683670.PDF
+   20261126 共达电声股份有限公司关于控股股东的一致行动人增持公司股份权益变动触及1%整数倍暨增持计划进展情况的公告 | http://static.cninfo.com.cn/finalpage/2026-11-26/1225688284.PDF
+
+### 601456.SH 国联民生 (26 条)
+   20261001 国联民生证券股份有限公司关于以集中竞价交易方式回购公司A股股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-01/1225590817.PDF
+   20261001 国联民生证券股份有限公司关于向香港子公司增资事项获得中国证监会复函的公告 | http://static.cninfo.com.cn/finalpage/2026-10-01/1225590818.PDF
+   20261009 国联民生证券股份有限公司关于召开2026年第一次临时股东会的通知 | http://static.cninfo.com.cn/finalpage/2026-10-09/1225597654.PDF
+   20261009 国联民生证券股份有限公司2026年第一次临时股东会会议资料 | http://static.cninfo.com.cn/finalpage/2026-10-09/1225597656.PDF
+   20261009 国联民生证券股份有限公司关于触发控股股东增持公司股份承诺的提示性公告 | http://static.cninfo.com.cn/finalpage/2026-10-09/1225597658.PDF
+   20261009 国联民生证券股份有限公司第六届董事会第十次会议决议公告 | http://static.cninfo.com.cn/finalpage/2026-10-09/1225597659.PDF
+   20261029 国联民生证券股份有限公司2026年第三季度报告 | http://static.cninfo.com.cn/finalpage/2026-10-29/1225637635.PDF
+   20261029 国联民生证券股份有限公司2026年第一次临时股东会决议公告 | http://static.cninfo.com.cn/finalpage/2026-10-29/1225637647.PDF
+   20261029 国联民生证券股份有限公司关于董事任职的公告 | http://static.cninfo.com.cn/finalpage/2026-10-29/1225637650.PDF
+   20261029 国联民生证券股份有限公司募集资金管理制度（2026年10月修订） | http://static.cninfo.com.cn/finalpage/2026-10-29/1225637668.PDF
+   20261029 北京德恒（无锡）律师事务所关于国联民生证券股份有限公司2026年第一次临时股东会的法律意见 | http://static.cninfo.com.cn/finalpage/2026-10-29/1225637670.PDF
+   20261029 国联民生证券股份有限公司第六届董事会第十一次会议决议公告 | http://static.cninfo.com.cn/finalpage/2026-10-29/1225637679.PDF
+   20261103 国联民生证券股份有限公司关于以集中竞价交易方式回购公司A股股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-03/1225653566.PDF
+   20261104 国联民生证券股份有限公司关于控股股东增持股份计划的公告 | http://static.cninfo.com.cn/finalpage/2026-11-04/1225655457.PDF
+   20261105 国联期货股份有限公司2026年9月30日审计报告 | http://static.cninfo.com.cn/finalpage/2026-11-05/1225658288.PDF
+   20261105 国联民生证券股份有限公司关于首席风险官离任的公告 | http://static.cninfo.com.cn/finalpage/2026-11-05/1225658290.PDF
+   20261105 国联期货股份有限公司2025年度财务报表审计报告 | http://static.cninfo.com.cn/finalpage/2026-11-05/1225658291.PDF
+   20261105 国联民生证券股份有限公司关于全资子公司民生证券参与国联期货换股吸收合并民生期货暨关联交易的公告 | http://static.cninfo.com.cn/finalpage/2026-11-05/1225658294.PDF
+   20261105 国联民生证券股份有限公司第六届董事会第十二次会议决议公告 | http://static.cninfo.com.cn/finalpage/2026-11-05/1225658295.PDF
+   20261111 国联民生证券股份有限公司关于以集中竞价交易方式回购公司A股股份实施结果暨股份变动的公告 | http://static.cninfo.com.cn/finalpage/2026-11-11/1225665691.PDF
+   20261117 国联民生证券股份有限公司关于召开2026年第三季度业绩说明会的公告 | http://static.cninfo.com.cn/finalpage/2026-11-17/1225672910.PDF
+   20261119 国联民生证券股份有限公司关于与全资子公司民生证券无偿划转相关资产暨民生证券减资的进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-19/1225677905.PDF
+   20261121 国联民生证券股份有限公司关于聘任首席风险官的公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682428.PDF
+   20261121 国联民生证券股份有限公司第六届董事会第十三次会议决议公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682429.PDF
+   20261121 国联民生证券股份有限公司关于控股股东增持股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682431.PDF
+   20261121 国联民生证券股份有限公司关于修订《公司章程》的公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682432.PDF
+
+### 600141.SH 兴发集团 (33 条)
+   20261010 湖北兴发化工集团股份有限公司2026年度向特定对象发行A股股票募集资金使用可行性分析报告（修订稿） | http://static.cninfo.com.cn/finalpage/2026-10-10/1225599337.PDF
+   20261010 湖北兴发化工集团股份有限公司关于2026年度向特定对象发行A股股票摊薄即期回报、填补措施及相关主体承诺（修订稿）的公告 | http://static.cninfo.com.cn/finalpage/2026-10-10/1225599338.PDF
+   20261010 湖北兴发化工集团股份有限公司2026年度向特定对象发行A股股票预案（修订稿） | http://static.cninfo.com.cn/finalpage/2026-10-10/1225599339.PDF
+   20261010 湖北兴发化工集团股份有限公司关于2026年度向特定对象发行A股股票预案（修订稿）披露的提示性公告 | http://static.cninfo.com.cn/finalpage/2026-10-10/1225599341.PDF
+   20261010 湖北兴发化工集团股份有限公司关于召开2026年度第四次临时股东会的通知 | http://static.cninfo.com.cn/finalpage/2026-10-10/1225599342.PDF
+   20261010 湖北兴发化工集团股份有限公司十一届二十一次董事会决议公告 | http://static.cninfo.com.cn/finalpage/2026-10-10/1225599343.PDF
+   20261010 湖北兴发化工集团股份有限公司关于2026年9月担保进展的公告 | http://static.cninfo.com.cn/finalpage/2026-10-10/1225599344.PDF
+   20261010 湖北兴发化工集团股份有限公司董事会审计委员会关于第十一届董事会第二十一次会议相关议案的书面审核意见 | http://static.cninfo.com.cn/finalpage/2026-10-10/1225599346.PDF
+   20261010 湖北兴发化工集团股份有限公司关于2026年度向特定对象发行A股股票预案（修订稿）及相关文件修订情况说明的公告 | http://static.cninfo.com.cn/finalpage/2026-10-10/1225599351.PDF
+   20261010 湖北兴发化工集团股份有限公司2026年度向特定对象发行A股股票方案论证分析报告（修订稿） | http://static.cninfo.com.cn/finalpage/2026-10-10/1225599354.PDF
+   20261012 湖北兴发化工集团股份有限公司关于2026年度向特定对象发行A股股票有关事项获得宜昌市国资委批复的公告 | http://static.cninfo.com.cn/finalpage/2026-10-12/1225600385.PDF
+   20261017 湖北兴发化工集团股份有限公司关于提前归还部分临时补充流动资金的募集资金的公告 | http://static.cninfo.com.cn/finalpage/2026-10-17/1225608313.PDF
+   20261020 湖北兴发化工集团股份有限公司2026年度第四次临时股东会会议材料 | http://static.cninfo.com.cn/finalpage/2026-10-20/1225610526.PDF
+   20261021 湖北兴发化工集团股份有限公司关于董事、高级管理人员增持股份计划的公告 | http://static.cninfo.com.cn/finalpage/2026-10-21/1225611997.PDF
+   20261022 湖北兴发化工集团股份有限公司关于董事、高级管理人员增持股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-22/1225614195.PDF
+   20261023 湖北兴发化工集团股份有限公司关于董事、高级管理人员增持股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-23/1225615487.PDF
+   20261024 湖北兴发化工集团股份有限公司关于董事、高级管理人员增持股份结果公告 | http://static.cninfo.com.cn/finalpage/2026-10-24/1225618558.PDF
+   20261026 湖北兴发化工集团股份有限公司关于控股股东全资子公司增持公司股份计划的公告 | http://static.cninfo.com.cn/finalpage/2026-10-26/1225621866.PDF
+   20261027 湖北兴发化工集团股份有限公司2026年度第四次临时股东会决议公告 | http://static.cninfo.com.cn/finalpage/2026-10-27/1225625643.PDF
+   20261027 北京中伦（武汉）律师事务所关于湖北兴发化工集团股份有限公司二〇二六年度第四次临时股东会的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-10-27/1225625655.PDF
+   20261028 湖北兴发化工集团股份有限公司关于控股股东全资子公司增持股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-28/1225628761.PDF
+   20261031 湖北兴发化工集团股份有限公司关于投资建设200万吨/年磷石膏制酸项目的公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647763.PDF
+   20261031 湖北兴发化工集团股份有限公司2026年前三季度主要经营数据公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647798.PDF
+   20261031 湖北兴发化工集团股份有限公司2026年第三季度报告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647898.PDF
+   20261031 湖北兴发化工集团股份有限公司董事会审计委员会关于第十一届董事会第二十二次会议相关议案的书面审核意见 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647924.PDF
+   20261031 湖北兴发化工集团股份有限公司十一届二十二次董事会决议公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647952.PDF
+   20261031 湖北兴发化工集团股份有限公司关于调整2026年度日常关联交易预计的公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647999.PDF
+   20261031 湖北兴发化工集团股份有限公司关于召开2026年第三季度网上业绩说明会的公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225648008.PDF
+   20261102 湖北兴发化工集团股份有限公司关于控股股东全资子公司增持股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-02/1225650997.PDF
+   20261107 湖北兴发化工集团股份有限公司关于2026年10月担保进展的公告 | http://static.cninfo.com.cn/finalpage/2026-11-07/1225661045.PDF
+   20261111 湖北兴发化工集团股份有限公司2026年半年度权益分派实施公告 | http://static.cninfo.com.cn/finalpage/2026-11-11/1225665687.PDF
+   20261119 湖北兴发化工集团股份有限公司关于对外投资设立控股子公司的公告 | http://static.cninfo.com.cn/finalpage/2026-11-19/1225678537.PDF
+   20261121 湖北兴发化工集团股份有限公司关于控股股东全资子公司增持股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225680675.PDF
+
+### 603223.SH 恒通股份 (13 条)
+   20261009 恒通物流股份有限公司关于股份回购进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-09/1225596157.PDF
+   20261017 恒通物流股份有限公司关于股份回购进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-17/1225607899.PDF
+   20261020 恒通物流股份有限公司第五届董事会第二十一次会议决议公告 | http://static.cninfo.com.cn/finalpage/2026-10-20/1225610271.PDF
+   20261020 恒通物流股份有限公司关于召开2026年第三季度业绩说明会的公告 | http://static.cninfo.com.cn/finalpage/2026-10-20/1225610272.PDF
+   20261020 恒通物流股份有限公司2026年第三季度报告 | http://static.cninfo.com.cn/finalpage/2026-10-20/1225610274.PDF
+   20261027 恒通物流股份有限公司关于控股股东部分股份冻结的公告 | http://static.cninfo.com.cn/finalpage/2026-10-27/1225623913.PDF
+   20261030 恒通物流股份有限公司关于控股股东一致行动人增持公司股份结果的公告 | http://static.cninfo.com.cn/finalpage/2026-10-30/1225640724.PDF
+   20261030 上海泽昌律师事务所关于控股股东一致行动人增持恒通物流股份有限公司股份的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-10-30/1225640789.PDF
+   20261103 恒通物流股份有限公司关于股份回购进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-03/1225651578.PDF
+   20261121 恒通物流股份有限公司关于股份回购进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225681038.PDF
+   20261121 恒通物流股份有限公司关于控股股东权益变动触及1%刻度暨增持股份进展的提示性公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225681041.PDF
+   20261125 恒通物流股份有限公司关于回购公司股份比例达1%暨回购进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-25/1225686016.PDF
+   20261127 恒通物流股份有限公司关于股份回购实施结果暨股份变动的公告 | http://static.cninfo.com.cn/finalpage/2026-11-27/1225689909.PDF
+
+### 002851.SZ 麦格米特 (9 条)
+   20261030 国金证券股份有限公司关于深圳麦格米特电气股份有限公司增加2026年度日常性关联交易预计的核查意见 | http://static.cninfo.com.cn/finalpage/2026-10-30/1225642990.PDF
+   20261117 关于董事长提议回购公司股份的提示性公告 | http://static.cninfo.com.cn/finalpage/2026-11-17/1225673005.PDF
+   20261119 关于控股股东、实际控制人及部分董事、高级管理人员增持公司股份计划的公告 | http://static.cninfo.com.cn/finalpage/2026-11-19/1225678347.PDF
+   20261119 关于回购公司股份方案的公告 | http://static.cninfo.com.cn/finalpage/2026-11-19/1225678348.PDF
+   20261121 回购报告书 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682434.PDF
+   20261121 关于首次回购公司股份的公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682435.PDF
+   20261121 关于回购事项前十名股东及前十名无限售条件股东持股情况的公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682436.PDF
+   20261124 关于控股股东、实际控制人及部分董事、高级管理人员增持公司股份的进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-24/1225684788.PDF
+   20261124 关于公司持股5%以上股东股份补充质押的公告 | http://static.cninfo.com.cn/finalpage/2026-11-24/1225684789.PDF
+
+### 600160.SH 巨化股份 (13 条)
+   20261024 巨化股份董事会十届三次（通讯方式）会议决议公告 | http://static.cninfo.com.cn/finalpage/2026-10-24/1225619040.PDF
+   20261024 巨化股份2026年第三季度报告 | http://static.cninfo.com.cn/finalpage/2026-10-24/1225619070.PDF
+   20261024 巨化股份关于召开2026第三季度业绩说明会的公告 | http://static.cninfo.com.cn/finalpage/2026-10-24/1225619077.PDF
+   20261024 巨化股份关于为控股子公司提供担保进展的公告 | http://static.cninfo.com.cn/finalpage/2026-10-24/1225619087.PDF
+   20261024 巨化股份2026年1-9月主要经营数据公告 | http://static.cninfo.com.cn/finalpage/2026-10-24/1225619098.PDF
+   20261114 巨化股份关于为控股子公司提供担保进展情况的公告 | http://static.cninfo.com.cn/finalpage/2026-11-14/1225670496.PDF
+   20261121 巨化股份关于控股股东增持股份计划的公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225680805.PDF
+   20261124 巨化股份关于控股股东首次增持股份的公告 | http://static.cninfo.com.cn/finalpage/2026-11-24/1225683450.PDF
+   20261126 巨化股份董事会十届四次（通讯方式）会议决议公告 | http://static.cninfo.com.cn/finalpage/2026-11-26/1225687630.PDF
+   20261126 巨化股份关于拟与控股股东续签《日常生产经营合同书》暨关联交易公告 | http://static.cninfo.com.cn/finalpage/2026-11-26/1225687631.PDF
+   20261126 巨化股份2027年度日常关联交易计划的公告 | http://static.cninfo.com.cn/finalpage/2026-11-26/1225687645.PDF
+   20261126 巨化股份关于召开2026年第二次临时股东会的通知 | http://static.cninfo.com.cn/finalpage/2026-11-26/1225687653.PDF
+   20261126 巨化股份2027年度“提质增效重回报”2.0行动方案 | http://static.cninfo.com.cn/finalpage/2026-11-26/1225687662.PDF
+
+### 002540.SZ 亚太科技 (6 条)
+   20261010 中信建投证券股份有限公司关于公司向不特定对象发行可转换公司债券2026年度第三次临时受托管理事务报告 | http://static.cninfo.com.cn/finalpage/2026-10-10/1225598338.PDF
+   20261024 关于调整第二期股票期权和限制性股票激励计划股票期权行权价格和限制性股票回购价格的公告 | http://static.cninfo.com.cn/finalpage/2026-10-24/1225618828.PDF
+   20261024 江苏世纪同仁律师事务所关于公司第二期股票期权和限制性股票激励计划调整股票期权行权价格和限制性股票回购价格的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-10-24/1225618829.PDF
+   20261120 中信建投证券股份有限公司关于公司部分募投项目结项、终止并将募集资金永久补充流动资金及部分募投项目调整实施进度的核查意见 | http://static.cninfo.com.cn/finalpage/2026-11-20/1225680043.PDF
+   20261121 关于控股股东之一致行动人增持公司股份的进展情况暨权益变动触及1%整数倍的公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682384.PDF
+   20261121 中信建投证券股份有限公司关于公司向不特定对象发行可转换公司债券2026年度第四次临时受托管理事务报告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682385.PDF
+
+### 002367.SZ 康力电梯 (3 条)
+   20261120 关于控股股东、实际控制人首次增持公司股份及后续增持计划的公告 | http://static.cninfo.com.cn/finalpage/2026-11-20/1225679917.PDF
+   20261124 关于控股股东、实际控制人调整增持股份计划暨增加增持金额的公告 | http://static.cninfo.com.cn/finalpage/2026-11-24/1225684213.PDF
+   20261126 关于控股股东、实际控制人增持公司股份权益变动触及1%整数倍暨增持计划实施进展的公告 | http://static.cninfo.com.cn/finalpage/2026-11-26/1225687876.PDF
+
+### 600787.SH 中储股份 (8 条)
+   20261013 中储发展股份有限公司关于参股设立合资公司暨关联交易的公告 | http://static.cninfo.com.cn/finalpage/2026-10-13/1225601373.PDF
+   20261023 中储发展股份有限公司关于控股股东权益变动触及1%刻度暨增持股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-23/1225616530.PDF
+   20261030 中储发展股份有限公司2026年第三季度报告 | http://static.cninfo.com.cn/finalpage/2026-10-30/1225643060.PDF
+   20261121 中储发展股份有限公司关于召开2026年第三季度业绩说明会的公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682349.PDF
+   20261121 中储发展股份有限公司关于控股股东增持股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682352.PDF
+   20261124 中储发展股份有限公司关于在上海期货交易所开展集团交割业务的进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-24/1225683872.PDF
+   20261125 中储发展股份有限公司关于控股股东增持股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-25/1225685846.PDF
+   20261126 中储发展股份有限公司关于控股股东增持股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-26/1225688006.PDF
+
+### 601615.SH 明阳智能 (8 条)
+   20261010 关于控股股东非公开发行可交换公司债券（2023年第一期）完成摘牌暨拟办理股份解除质押的公告 | http://static.cninfo.com.cn/finalpage/2026-10-10/1225598422.PDF
+   20261023 关于发行股份及支付现金购买资产并募集配套资金暨关联交易事项的进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-23/1225616361.PDF
+   20261024 关于注销回购股份减少注册资本通知债权人的公告 | http://static.cninfo.com.cn/finalpage/2026-10-24/1225620710.PDF
+   20261024 关于明阳智慧能源集团股份公司2026年第三次临时股东会的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-10-24/1225620724.PDF
+   20261031 关于控股股东非公开发行可交换公司债券（2023年第一期）完成股份解除质押的公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225649773.PDF
+   20261031 关于公司董事长兼首席执行官、实际控制人、部分董事、高级管理人员及核心业务骨干增持股份计划公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225650551.PDF
+   20261121 关于发行股份及支付现金购买资产并募集配套资金暨关联交易事项的进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682399.PDF
+   20261121 关于公司董事长兼首席执行官、实际控制人、部分董事、高级管理人员及核心业务骨干增持股份的进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682405.PDF
+
+### 301571.SZ 国科天成 (22 条)
+   20261014 国科天成科技股份有限公司向不特定对象发行可转换公司债券上市公告书 | http://static.cninfo.com.cn/finalpage/2026-10-14/1225605656.PDF
+   20261014 国科天成科技股份有限公司向不特定对象发行可转换公司债券并在深圳证券交易所上市的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-10-14/1225605658.PDF
+   20261019 国科天成科技股份有限公司关于签订募集资金三方监管协议的公告 | http://static.cninfo.com.cn/finalpage/2026-10-19/1225610087.PDF
+   20261022 国科天成科技股份有限公司关于使用募集资金向全资子公司提供借款以实施募投项目的公告 | http://static.cninfo.com.cn/finalpage/2026-10-22/1225615157.PDF
+   20261022 国泰海通证券股份有限公司关于国科天成科技股份有限公司使用募集资金向全资子公司提供借款以实施募投项目的核查意见 | http://static.cninfo.com.cn/finalpage/2026-10-22/1225615158.PDF
+   20261103 国科天成科技股份有限公司关于部分核心技术人员变动的公告 | http://static.cninfo.com.cn/finalpage/2026-11-03/1225654814.PDF
+   20261112 国科天成科技股份有限公司关于增加募投项目实施主体和实施地点并使用部分募集资金向新增实施主体提供借款以实施募投项目的公告 | http://static.cninfo.com.cn/finalpage/2026-11-12/1225669605.PDF
+   20261112 国泰海通证券股份有限公司关于国科天成科技股份有限公司使用自筹资金支付募投项目部分款项并以募集资金等额置换的核查意见 | http://static.cninfo.com.cn/finalpage/2026-11-12/1225669600.PDF
+   20261112 国科天成科技股份有限公司关于调整募投项目募集资金投入金额的公告 | http://static.cninfo.com.cn/finalpage/2026-11-12/1225669601.PDF
+   20261112 国科天成科技股份有限公司关于使用自筹资金支付募投项目部分款项并以募集资金等额置换的公告 | http://static.cninfo.com.cn/finalpage/2026-11-12/1225669602.PDF
+   20261112 国科天成科技股份有限公司关于使用募集资金置换预先投入募投项目及已支付发行费用的自筹资金的公告 | http://static.cninfo.com.cn/finalpage/2026-11-12/1225669603.PDF
+   20261112 国泰海通证券股份有限公司关于国科天成科技股份有限公司使用募集资金置换预先投入募投项目及已支付发行费用的自筹资金的核查意见 | http://static.cninfo.com.cn/finalpage/2026-11-12/1225669604.PDF
+   20261112 国泰海通证券股份有限公司关于国科天成科技股份有限公司调整募投项目募集资金投入金额的核查意见 | http://static.cninfo.com.cn/finalpage/2026-11-12/1225669598.PDF
+   20261112 国泰海通证券股份有限公司关于国科天成科技股份有限公司增加募投项目实施主体和实施地点并使用部分募集资金向新增实施主体提供借款以实施募投项目的核查意见 | http://static.cninfo.com.cn/finalpage/2026-11-12/1225669606.PDF
+   20261112 国科天成科技股份有限公司关于使用部分闲置募集资金暂时补充流动资金的公告 | http://static.cninfo.com.cn/finalpage/2026-11-12/1225669607.PDF
+   20261112 国泰海通证券股份有限公司关于国科天成科技股份有限公司使用部分闲置募集资金暂时补充流动资金的核查意见 | http://static.cninfo.com.cn/finalpage/2026-11-12/1225669608.PDF
+   20261119 国科天成科技股份有限公司关于新增实施主体后设立募集资金专户并签订募集资金三方监管协议的公告 | http://static.cninfo.com.cn/finalpage/2026-11-19/1225678871.PDF
+   20261119 国科天成科技股份有限公司关于设立募集资金暂时补流专户并签署募集资金三方监管协议的公告 | http://static.cninfo.com.cn/finalpage/2026-11-19/1225678872.PDF
+   20261120 国科天成科技股份有限公司关于控股股东、实际控制人增持股份计划的公告 | http://static.cninfo.com.cn/finalpage/2026-11-20/1225682378.PDF
+   20261123 国科天成科技股份有限公司关于控股股东、实际控制人增持计划实施的进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-23/1225683337.PDF
+   20261126 国科天成科技股份有限公司关于控股股东、实际控制人增持计划实施的进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-26/1225689926.PDF
+   20261127 国科天成科技股份有限公司关于国科转债预计触发转股价格向下修正条件的提示性公告 | http://static.cninfo.com.cn/finalpage/2026-11-27/1225691864.PDF
+
+### 600487.SH 亨通光电 (11 条)
+   20261001 亨通光电关于控股股东部分股权解除质押公告 | http://static.cninfo.com.cn/finalpage/2026-10-01/1225589741.PDF
+   20261013 安徽承义律师事务所关于江苏亨通光电股份有限公司召开2026年第五次临时股东会的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-10-13/1225601418.PDF
+   20261102 亨通光电关于公司董事长提议公司回购股份的提示性公告 | http://static.cninfo.com.cn/finalpage/2026-11-02/1225651028.PDF
+   20261105 亨通光电关于控股股东增持公司股份计划的公告 | http://static.cninfo.com.cn/finalpage/2026-11-05/1225658262.PDF
+   20261105 申万宏源证券承销保荐有限责任公司关于江苏亨通光电股份有限公司2026年员工持股计划（草案修订稿）之独立财务顾问报告 | http://static.cninfo.com.cn/finalpage/2026-11-05/1225658268.PDF
+   20261105 亨通光电关于以集中竞价交易方式回购股份方案暨回购报告书 | http://static.cninfo.com.cn/finalpage/2026-11-05/1225658261.PDF
+   20261105 安徽承义律师事务所关于江苏亨通光电股份有限公司修订2026年员工持股计划相关事项的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-11-05/1225658272.PDF
+   20261106 亨通光电关于控股股东获得增持专项贷款承诺函的公告 | http://static.cninfo.com.cn/finalpage/2026-11-06/1225660612.PDF
+   20261110 亨通光电关于回购事项前十大股东和前十大无限售条件股东持股情况的公告 | http://static.cninfo.com.cn/finalpage/2026-11-10/1225664371.PDF
+   20261121 亨通光电关于控股股东增持公司股份计划的进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682103.PDF
+   20261125 亨通光电关于首次实施回购公司股份的公告 | http://static.cninfo.com.cn/finalpage/2026-11-25/1225685853.PDF
+
+### 603656.SH 泰禾智能 (8 条)
+   20261001 上海市通力律师事务所关于合肥泰禾智能科技集团股份有限公司2026年第二次临时股东会的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-10-01/1225591437.PDF
+   20261001 上海市通力律师事务所关于合肥泰禾智能科技集团股份有限公司2026年限制性股票激励计划首次授予事项的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-10-01/1225591443.PDF
+   20261013 泰禾智能关于控股股东权益变动触及1%刻度暨增持计划实施进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-13/1225601381.PDF
+   20261017 泰禾智能关于控股股东权益变动触及1%刻度暨增持计划实施进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-17/1225608282.PDF
+   20261103 泰禾智能关于股份性质变更暨2026年限制性股票激励计划首次授予的进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-03/1225654095.PDF
+   20261105 国元证券股份有限公司关于合肥泰禾智能科技集团股份有限公司详式权益变动报告书之2026年第三季度持续督导意见 | http://static.cninfo.com.cn/finalpage/2026-11-05/1225657310.PDF
+   20261106 泰禾智能关于控股股东增持计划实施进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-06/1225658935.PDF
+   20261126 泰禾智能关于控股股东权益变动触及1%刻度暨增持计划实施进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-26/1225687509.PDF
+
+### 688387.SH 信科移动 (7 条)
+   20261024 申万宏源证券承销保荐有限责任公司关于中信科移动通信技术股份有限公司2026年度向特定对象发行A股股票之上市保荐书 | http://static.cninfo.com.cn/finalpage/2026-10-24/1225619976.PDF
+   20261024 中信科移动通信技术股份有限公司2026年度向特定对象发行A股股票募集说明书（申报稿） | http://static.cninfo.com.cn/finalpage/2026-10-24/1225619990.PDF
+   20261024 申万宏源证券承销保荐有限责任公司关于中信科移动通信技术股份有限公司2026年度向特定对象发行A股股票之发行保荐书 | http://static.cninfo.com.cn/finalpage/2026-10-24/1225619997.PDF
+   20261024 致同会计师事务所（特殊普通合伙）关于中信科移动通信技术股份有限公司向特定对象发行股票申请文件的审核问询函的回复 | http://static.cninfo.com.cn/finalpage/2026-10-24/1225620002.PDF
+   20261024 关于中信科移动通信技术股份有限公司向特定对象发行股票申请文件的审核问询函的回复 | http://static.cninfo.com.cn/finalpage/2026-10-24/1225620013.PDF
+   20261118 关于子公司重大诉讼的进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-18/1225676224.PDF
+   20261125 关于控股股东增持公司股份及后续增持计划的公告 | http://static.cninfo.com.cn/finalpage/2026-11-25/1225686540.PDF
+
+### 600686.SH 金龙汽车 (8 条)
+   20261016 金龙汽车关于全资子公司重大仲裁的公告 | http://static.cninfo.com.cn/finalpage/2026-10-16/1225606304.PDF
+   20261021 金龙汽车关于控股股东权益变动触及1%刻度暨增持计划进展情况的提示性公告 | http://static.cninfo.com.cn/finalpage/2026-10-21/1225613226.PDF
+   20261021 金龙汽车关于持股5%以上股东减持股份结果公告 | http://static.cninfo.com.cn/finalpage/2026-10-21/1225613228.PDF
+   20261030 金龙汽车重大信息内部报告制度 | http://static.cninfo.com.cn/finalpage/2026-10-30/1225643292.PDF
+   20261030 金龙汽车年报信息披露重大差错责任追究制度 | http://static.cninfo.com.cn/finalpage/2026-10-30/1225643302.PDF
+   20261121 金龙汽车关于控股股东增持计划进展情况的自愿性披露公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682268.PDF
+   20261125 金龙汽车关于控股股东增持计划实施完毕暨增持结果公告 | http://static.cninfo.com.cn/finalpage/2026-11-25/1225686062.PDF
+   20261125 北京大成（厦门）律师事务所关于厦门金龙汽车集团股份有限公司控股股东增持公司股份的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-11-25/1225686068.PDF
+
+### 600188.SH 兖矿能源 (13 条)
+   20261008 兖矿能源集团股份有限公司关于购买资产事项完成交割的公告 | http://static.cninfo.com.cn/finalpage/2026-10-08/1225595310.PDF
+   20261021 兖矿能源集团股份有限公司2026年前三季度业绩预增公告 | http://static.cninfo.com.cn/finalpage/2026-10-21/1225612264.PDF
+   20261021 兖矿能源集团股份有限公司2026年第三季度主要运营数据公告 | http://static.cninfo.com.cn/finalpage/2026-10-21/1225612267.PDF
+   20261021 兖矿能源集团股份有限公司境外控股子公司发布2026年第三季度产量销量 | http://static.cninfo.com.cn/finalpage/2026-10-21/1225612269.PDF
+   20261024 兖矿能源集团股份有限公司关于控股股东增持计划进展的公告 | http://static.cninfo.com.cn/finalpage/2026-10-24/1225621324.PDF
+   20261029 兖矿能源集团股份有限公司关于控股股东增持计划进展的公告 | http://static.cninfo.com.cn/finalpage/2026-10-29/1225637717.PDF
+   20261029 兖矿能源集团股份有限公司关于2026年度第三期中期票据（并购）发行结果的公告 | http://static.cninfo.com.cn/finalpage/2026-10-29/1225637723.PDF
+   20261029 兖矿能源集团股份有限公司关于举办2026年第三季度业绩说明会的公告 | http://static.cninfo.com.cn/finalpage/2026-10-29/1225637734.PDF
+   20261031 兖矿能源集团股份有限公司第十届董事会第三次会议决议公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647906.PDF
+   20261031 兖矿能源集团股份有限公司2026年第三季度报告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647914.PDF
+   20261031 兖矿能源集团股份有限公司关于2026年度暨2027年度“提质增效重回报”2.0行动方案的公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225648027.PDF
+   20261118 兖矿能源集团股份有限公司关于关联交易完成工商变更登记的公告 | http://static.cninfo.com.cn/finalpage/2026-11-18/1225676380.PDF
+   20261121 兖矿能源集团股份有限公司关于控股股东增持计划进展的公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225681986.PDF
+
+### 600352.SH 浙江龙盛 (2 条)
+   20261125 浙江龙盛关于持股5%以上股东权益变动触及1%刻度的提示性公告 | http://static.cninfo.com.cn/finalpage/2026-11-25/1225685929.PDF
+   20261125 浙江龙盛股东增持股份公告 | http://static.cninfo.com.cn/finalpage/2026-11-25/1225685945.PDF
+
+### 603856.SH 东宏股份 (15 条)
+   20261014 东宏股份关于项目预中标公示的提示性公告 | http://static.cninfo.com.cn/finalpage/2026-10-14/1225603262.PDF
+   20261020 东宏股份关于控股股东增持公司股份的进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-20/1225610605.PDF
+   20261022 东宏股份关于使用部分闲置募集资金进行现金管理到期赎回的公告 | http://static.cninfo.com.cn/finalpage/2026-10-22/1225614569.PDF
+   20261031 东宏股份关于2026年前三季度利润分配方案的公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647460.PDF
+   20261031 东宏股份2026年第三季度报告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647471.PDF
+   20261031 东宏股份关于变更证券事务代表的公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647492.PDF
+   20261031 东宏股份关于全资子公司投资建设新型防腐复合智能钢管及配套项目的公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647502.PDF
+   20261031 东宏股份关于召开2026年第三季度业绩说明会的公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647553.PDF
+   20261031 东宏股份第五届董事会第三次会议决议公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647857.PDF
+   20261031 东宏股份2026年三季度主要经营数据公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647968.PDF
+   20261110 东宏股份关于控股股东权益变动触及1%刻度暨增持股份进展的提示性公告 | http://static.cninfo.com.cn/finalpage/2026-11-10/1225663685.PDF
+   20261111 东宏股份关于2026年第三季度业绩说明会召开情况的公告 | http://static.cninfo.com.cn/finalpage/2026-11-11/1225665376.PDF
+   20261121 东宏股份关于控股股东增持公司股份的进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225681557.PDF
+   20261124 东宏股份关于公司实际控制人部分股份补充质押的公告 | http://static.cninfo.com.cn/finalpage/2026-11-24/1225683461.PDF
+   20261125 东宏股份关于公司股东部分股份补充质押的公告 | http://static.cninfo.com.cn/finalpage/2026-11-25/1225685718.PDF
+
+### 688607.SH 康众科技 (2 条)
+   20261013 康众科技关于董事、高级管理人员增持股份计划公告 | http://static.cninfo.com.cn/finalpage/2026-10-13/1225601544.PDF
+   20261121 康众科技关于董事、高级管理人员增持股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225681031.PDF
+
+### 603319.SH 美湖股份 (12 条)
+   20261017 关于控股股东增持股份计划公告 | http://static.cninfo.com.cn/finalpage/2026-10-17/1225608280.PDF
+   20261024 关于公司控股股东、实际控制人提议回购公司股份的公告 | http://static.cninfo.com.cn/finalpage/2026-10-24/1225617896.PDF
+   20261027 关于以集中竞价交易方式回购股份的预案 | http://static.cninfo.com.cn/finalpage/2026-10-27/1225622570.PDF
+   20261028 关于取得金融机构回购专项贷款承诺函的公告 | http://static.cninfo.com.cn/finalpage/2026-10-28/1225629170.PDF
+   20261030 关于回购股份事项前十大股东和前十大无限售条件股东持股情况的公告 | http://static.cninfo.com.cn/finalpage/2026-10-30/1225641073.PDF
+   20261107 关于回购股份事项股东会股权登记日前十大股东和前十大无限售条件股东持股情况的公告 | http://static.cninfo.com.cn/finalpage/2026-11-07/1225660755.PDF
+   20261107 关于以集中竞价交易方式回购股份的回购报告书 | http://static.cninfo.com.cn/finalpage/2026-11-07/1225660760.PDF
+   20261112 关于回购部分股份用于注销并减少注册资本暨通知债权人的公告 | http://static.cninfo.com.cn/finalpage/2026-11-12/1225666716.PDF
+   20261112 北京市康达律师事务所关于湖南美湖智造股份有限公司2026年第四次临时股东会的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-11-12/1225666722.PDF
+   20261119 关于以集中竞价交易方式首次回购公司股份的公告 | http://static.cninfo.com.cn/finalpage/2026-11-19/1225677050.PDF
+   20261127 关于股份回购实施结果暨股份变动的公告 | http://static.cninfo.com.cn/finalpage/2026-11-27/1225690470.PDF
+   20261127 关于控股股东及董事长增持股份结果公告 | http://static.cninfo.com.cn/finalpage/2026-11-27/1225690472.PDF
+
+### 600733.SH 北汽蓝谷 (15 条)
+   20261016 中信建投证券股份有限公司关于北汽蓝谷新能源科技股份有限公司与控股股东共同向控股子公司增资暨关联交易的核查意见 | http://static.cninfo.com.cn/finalpage/2026-10-16/1225607145.PDF
+   20261016 北京新能源汽车股份有限公司审计报告（天职业字[2026]35797号） | http://static.cninfo.com.cn/finalpage/2026-10-16/1225607155.PDF
+   20261024 关于控股股东增持股份计划的进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-24/1225619984.PDF
+   20261031 中信建投证券股份有限公司关于北汽蓝谷新能源科技股份有限公司子公司使用部分闲置募集资金临时补充流动资金的核查意见 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225649002.PDF
+   20261031 中信建投证券股份有限公司关于北汽蓝谷新能源科技股份有限公司子公司募集资金余额以协定存款方式存放的核查意见 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225649051.PDF
+   20261031 中信建投证券股份有限公司关于北汽蓝谷新能源科技股份有限公司部分募集资金投资项目重新论证并延期的核查意见 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225649084.PDF
+   20261103 关于控股股东增持股份进展暨首次增持公司股份的公告 | http://static.cninfo.com.cn/finalpage/2026-11-03/1225653175.PDF
+   20261104 北京德恒律师事务所关于北汽蓝谷新能源科技股份有限公司2026年第五次临时股东会的法律意见 | http://static.cninfo.com.cn/finalpage/2026-11-04/1225655593.PDF
+   20261124 关于控股股东增持股份实施进展的公告 | http://static.cninfo.com.cn/finalpage/2026-11-24/1225683909.PDF
+   20261126 北京新能源汽车股份有限公司拟进行资产转让对其涉及的部分PACK相关资产市场价值评估项目资产评估报告 | http://static.cninfo.com.cn/finalpage/2026-11-26/1225688557.PDF
+   20261126 北汽蓝谷新能源科技股份有限公司经理工作细则 | http://static.cninfo.com.cn/finalpage/2026-11-26/1225688561.PDF
+   20261126 中信建投证券股份有限公司关于北汽蓝谷新能源科技股份有限公司子公司与关联方共同投资的核查意见 | http://static.cninfo.com.cn/finalpage/2026-11-26/1225688562.PDF
+   20261126 中信建投证券股份有限公司关于北汽蓝谷新能源科技股份有限公司子公司出售资产暨关联交易的核查意见 | http://static.cninfo.com.cn/finalpage/2026-11-26/1225688602.PDF
+   20261126 中信建投证券股份有限公司关于北汽蓝谷新能源科技股份有限公司2027年度日常关联交易预计额度的核查意见 | http://static.cninfo.com.cn/finalpage/2026-11-26/1225688605.PDF
+   20261126 北汽蓝谷新能源科技股份有限公司章程 | http://static.cninfo.com.cn/finalpage/2026-11-26/1225688607.PDF
+
+### 000766.SZ 通化金马 (2 条)
+   20261119 关于董事长兼总经理增持公司股份计划的公告 | http://static.cninfo.com.cn/finalpage/2026-11-19/1225677345.PDF
+   20261121 关于董事长兼总经理增持股份计划实施完成的公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225680816.PDF
+
+### 601965.SH 中国汽研 (1 条)
+   20261121 临2026-040 中国汽研关于控股股东增持公司股份进展的公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225680512.PDF
+
+### 600757.SH 长江传媒 (1 条)
+   20261127 长江传媒关于控股股东增持本公司股份的进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-27/1225690110.PDF
+
+### 605020.SH 永和股份 (34 条)
+   20261009 浙江永和制冷股份有限公司2026年第四次临时股东会会议资料 | http://static.cninfo.com.cn/finalpage/2026-10-09/1225597371.PDF
+   20261009 浙江永和制冷股份有限公司关于以集中竞价交易方式回购公司股份的进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-09/1225597535.PDF
+   20261009 浙江永和制冷股份有限公司2026年前三季度业绩预增公告 | http://static.cninfo.com.cn/finalpage/2026-10-09/1225597543.PDF
+   20261010 浙江永和制冷股份有限公司关于以集中竞价交易方式回购公司股份的进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-10/1225599848.PDF
+   20261010 立信会计师事务所（特殊普通合伙）关于浙江永和制冷股份有限公司向不特定对象发行可转换公司债券申请文件审核问询函回复报告 | http://static.cninfo.com.cn/finalpage/2026-10-10/1225599850.PDF
+   20261010 浙江永和制冷股份有限公司关于关于向不特定对象发行可转换公司债券的审核问询函回复的提示性公告 | http://static.cninfo.com.cn/finalpage/2026-10-10/1225599851.PDF
+   20261010 浙江永和制冷股份有限公司向不特定对象发行可转换公司债券审核问询函回复报告（豁免版） | http://static.cninfo.com.cn/finalpage/2026-10-10/1225599853.PDF
+   20261014 浙江永和制冷股份有限公司关于以集中竞价交易方式回购公司股份比例达到1%暨回购进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-14/1225603103.PDF
+   20261014 北京市环球律师事务所上海分所关于浙江永和制冷股份有限公司2026年员工持股计划的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-10-14/1225603107.PDF
+   20261015 浙江永和制冷股份有限公司关于以集中竞价交易方式回购公司股份的进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-15/1225604971.PDF
+   20261016 浙江永和制冷股份有限公司关于以集中竞价交易方式回购公司股份的进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-16/1225607312.PDF
+   20261016 浙江永和制冷股份有限公司2026年第四次临时股东会决议公告 | http://static.cninfo.com.cn/finalpage/2026-10-16/1225607316.PDF
+   20261016 浙江永和制冷股份有限公司关于注销回购股份并减少注册资本暨通知债权人的公告 | http://static.cninfo.com.cn/finalpage/2026-10-16/1225607318.PDF
+   20261016 北京市环球律师事务所上海分所关于浙江永和制冷股份有限公司2026年第四次临时股东会的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-10-16/1225607319.PDF
+   20261017 浙江永和制冷股份有限公司关于以集中竞价交易方式回购公司股份的进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-17/1225608275.PDF
+   20261020 浙江永和制冷股份有限公司2026年第三季度报告 | http://static.cninfo.com.cn/finalpage/2026-10-20/1225610693.PDF
+   20261020 浙江永和制冷股份有限公司2026年前三季度主要经营数据公告 | http://static.cninfo.com.cn/finalpage/2026-10-20/1225610690.PDF
+   20261020 浙江永和制冷股份有限公司关于以集中竞价交易方式回购公司股份的进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-20/1225610696.PDF
+   20261021 浙江永和制冷股份有限公司关于以集中竞价交易方式回购公司股份的进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-21/1225612113.PDF
+   20261022 浙江永和制冷股份有限公司关于召开2026年第三季度业绩说明会的公告 | http://static.cninfo.com.cn/finalpage/2026-10-22/1225613959.PDF
+   20261023 浙江永和制冷股份有限公司关于以集中竞价交易方式回购公司股份的进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-23/1225616054.PDF
+   20261027 浙江永和制冷股份有限公司关于以集中竞价交易方式回购公司股份的进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-27/1225623812.PDF
+   20261103 立信会计师事务所（特殊普通合伙）关于浙江永和制冷股份有限公司向不特定对象发行可转换公司债券申请文件审核问询函回复报告 | http://static.cninfo.com.cn/finalpage/2026-11-03/1225654087.PDF
+   20261103 浙江永和制冷股份有限公司关于以集中竞价交易方式回购公司股份的进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-03/1225654088.PDF
+   20261103 浙江永和制冷股份有限公司向不特定对象发行可转换公司债券申请文件审核问询函回复报告（豁免版） | http://static.cninfo.com.cn/finalpage/2026-11-03/1225654091.PDF
+   20261103 浙江永和制冷股份有限公司关于向不特定对象发行可转换公司债券申请文件审核问询函回复更新的提示性公告 | http://static.cninfo.com.cn/finalpage/2026-11-03/1225654092.PDF
+   20261110 浙江永和制冷股份有限公司2027年度“提质增效重回报”2.0行动方案 | http://static.cninfo.com.cn/finalpage/2026-11-10/1225663665.PDF
+   20261114 浙江永和制冷股份有限公司关于募集资金专户及临时补充流动资金专户销户完成的公告 | http://static.cninfo.com.cn/finalpage/2026-11-14/1225671481.PDF
+   20261121 北京市环球律师事务所上海分所关于浙江永和制冷股份有限公司控股股东增持公司股份的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682231.PDF
+   20261121 浙江永和制冷股份有限公司关于控股股东、实际控制人兼董事长及部分高级管理人员增持公司股份的公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682242.PDF
+   20261125 浙江永和制冷股份有限公司关于控股股东、实际控制人兼董事长增持公司股份的公告 | http://static.cninfo.com.cn/finalpage/2026-11-25/1225686758.PDF
+   20261125 北京市环球律师事务所上海分所关于浙江永和制冷股份有限公司控股股东增持公司股份的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-11-25/1225686763.PDF
+   20261127 浙江永和制冷股份有限公司关于控股股东、实际控制人兼董事长增持公司股份的公告 | http://static.cninfo.com.cn/finalpage/2026-11-27/1225691162.PDF
+   20261127 北京市环球律师事务所上海分所关于浙江永和制冷股份有限公司控股股东增持公司股份的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-11-27/1225691163.PDF
+
+### 603150.SH 万朗磁塑 (3 条)
+   20261020 国元证券股份有限公司关于安徽万朗磁塑股份有限公司使用部分募集资金投资项目节余资金投资新项目的核查意见 | http://static.cninfo.com.cn/finalpage/2026-10-20/1225610999.PDF
+   20261105 上海市锦天城律师事务所关于安徽万朗磁塑股份有限公司2026年第二次临时股东会的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-11-05/1225657787.PDF
+   20261127 万朗磁塑关于董事、高级管理人员首次增持及增持股份计划的公告 | http://static.cninfo.com.cn/finalpage/2026-11-27/1225690768.PDF
+
+### 688418.SH 震有科技 (4 条)
+   20261001 国浩律师（深圳）事务所关于深圳震有科技股份有限公司终止实施2026年限制性股票激励计划之法律意见书 | http://static.cninfo.com.cn/finalpage/2026-10-01/1225591050.PDF
+   20261016 关于董事首次增持公司股份暨增持计划的公告 | http://static.cninfo.com.cn/finalpage/2026-10-16/1225607149.PDF
+   20261021 国浩律师（深圳）事务所关于深圳震有科技股份有限公司2026年第四次临时股东会之法律意见书 | http://static.cninfo.com.cn/finalpage/2026-10-21/1225612970.PDF
+   20261124 关于控股股东、实际控制人兼董事长、总经理增持股份的进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-24/1225684970.PDF
+
+### 600106.SH 重庆路桥 (7 条)
+   20261031 重庆路桥股份有限公司章程（2026修订） | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647514.PDF
+   20261031 重庆路桥股份有限公司信息披露管理制度（2026修订） | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647946.PDF
+   20261118 重庆路桥股份有限公司章程（2026修订） | http://static.cninfo.com.cn/finalpage/2026-11-18/1225676975.PDF
+   20261119 重庆路桥关于第一大股东增持股份计划公告 | http://static.cninfo.com.cn/finalpage/2026-11-19/1225678756.PDF
+   20261120 重庆路桥关于第二大股东增持股份计划公告 | http://static.cninfo.com.cn/finalpage/2026-11-20/1225680336.PDF
+   20261121 重庆路桥关于第一大股东增持股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682736.PDF
+   20261121 重庆路桥关于第二大股东增持股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682737.PDF
+
+### 688210.SH 统联精密 (6 条)
+   20261009 关于可转债转股结果暨股份变动的公告 | http://static.cninfo.com.cn/finalpage/2026-10-09/1225597292.PDF
+   20261030 关于公司董事、高级管理人员未减持公司股份并提前终止减持股份计划的公告 | http://static.cninfo.com.cn/finalpage/2026-10-30/1225644624.PDF
+   20261031 深圳市泛海统联精密制造股份有限公司2026年第三季度报告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225650399.PDF
+   20261111 关于控股股东、实际控制人、董事长兼总经理增持股份计划的公告 | http://static.cninfo.com.cn/finalpage/2026-11-11/1225665821.PDF
+   20261114 关于控股股东、实际控制人及一致行动人权益变动触及1%刻度的提示性公告 | http://static.cninfo.com.cn/finalpage/2026-11-14/1225671565.PDF
+   20261125 关于控股股东、实际控制人、董事长兼总经理增持股份结果公告 | http://static.cninfo.com.cn/finalpage/2026-11-25/1225685927.PDF
+
+### 688196.SH 卓越新能 (8 条)
+   20261031 华福证券股份有限公司关于龙岩卓越新能源股份有限公司部分募集资金投资项目延期的核查意见 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647956.PDF
+   20261031 华福证券股份有限公司关于龙岩卓越新能源股份有限公司日常关联交易预计额度的核查意见 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225647991.PDF
+   20261031 华福证券股份有限公司关于龙岩卓越新能源股份有限公司使用部分暂时闲置募集资金进行现金管理的核查意见 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225648035.PDF
+   20261111 卓越新能关于部分董事、高级管理人员增持股份公告 | http://static.cninfo.com.cn/finalpage/2026-11-11/1225665135.PDF
+   20261111 龙岩卓越新能源股份有限公司2026年第一次临时股东会会议资料 | http://static.cninfo.com.cn/finalpage/2026-11-11/1225665139.PDF
+   20261118 卓越新能关于部分董事、高级管理人员增持股份公告 | http://static.cninfo.com.cn/finalpage/2026-11-18/1225675402.PDF
+   20261121 卓越新能部分董事、高管增持结果公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225681474.PDF
+   20261121 北京德恒（深圳）律师事务所关于龙岩卓越新能源股份有限公司2026年第一次临时股东会的法律意见 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225681531.PDF
+
+### 000967.SZ 盈峰环境 (5 条)
+   20261009 关于回购公司股份进展情况的公告 | http://static.cninfo.com.cn/finalpage/2026-10-09/1225597802.PDF
+   20261029 关于调整回购股份价格上限的公告 | http://static.cninfo.com.cn/finalpage/2026-10-29/1225636604.PDF
+   20261103 关于回购公司股份进展情况的公告 | http://static.cninfo.com.cn/finalpage/2026-11-03/1225653635.PDF
+   20261104 关于董事长兼总裁增持公司股份计划的公告 | http://static.cninfo.com.cn/finalpage/2026-11-04/1225656361.PDF
+   20261126 关于回购公司股份进展暨回购实施完成的公告 | http://static.cninfo.com.cn/finalpage/2026-11-26/1225687725.PDF
+
+### 002024.SZ ST易购 (6 条)
+   20261026 部分董事、高管及核心业务骨干增持股份计划的公告 | http://static.cninfo.com.cn/finalpage/2026-10-26/1225620312.PDF
+   20261030 回购股份报告书公告 | http://static.cninfo.com.cn/finalpage/2026-10-30/1225644420.PDF
+   20261030 回购股份方案 | http://static.cninfo.com.cn/finalpage/2026-10-30/1225644421.PDF
+   20261031 关于回购股份事项前十名股东和前十名无限售条件股东持股情况的公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225648421.PDF
+   20261104 关于首次回购公司股份暨回购公司股份进展的公告 | http://static.cninfo.com.cn/finalpage/2026-11-04/1225655493.PDF
+   20261126 部分董事、高管及核心业务骨干增持股份计划的进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-26/1225688952.PDF
+
+### 301158.SZ 德石股份 (5 条)
+   20261022 国新证券股份有限公司关于德州联合石油科技股份有限公司使用自筹资金支付募投项目所需资金并以募集资金等额置换的核查意见 | http://static.cninfo.com.cn/finalpage/2026-10-22/1225614044.PDF
+   20261124 国新证券股份有限公司关于德州联合石油科技股份有限公司使用部分超募资金永久补充流动资金的核查意见 | http://static.cninfo.com.cn/finalpage/2026-11-24/1225684405.PDF
+   20261124 德州联合石油科技股份有限公司章程（2026年11月） | http://static.cninfo.com.cn/finalpage/2026-11-24/1225684410.PDF
+   20261124 关于公司部分董事及高级管理人员增持股份计划的公告 | http://static.cninfo.com.cn/finalpage/2026-11-24/1225684386.PDF
+   20261125 关于公司部分董事及高级管理人员首次增持公司股份暨增持股份计划进展的公告 | http://static.cninfo.com.cn/finalpage/2026-11-25/1225686663.PDF
+
+### 600022.SH 山东钢铁 (14 条)
+   20261001 山东钢铁股份有限公司高级管理人员增持公司股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-01/1225589656.PDF
+   20261020 山东钢铁股份有限公司高级管理人员增持公司股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-20/1225611319.PDF
+   20261023 山东钢铁股份有限公司高级管理人员增持公司股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-23/1225615852.PDF
+   20261031 山东钢铁股份有限公司关于召开2026年第三季度业绩说明会的公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225646669.PDF
+   20261031 山东钢铁股份有限公司第八届董事会第三十一次会议决议公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225646684.PDF
+   20261031 山东钢铁股份有限公司2026年前三季度主要经营数据公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225646699.PDF
+   20261031 山东钢铁股份有限公司2026年第三季度报告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225646716.PDF
+   20261103 山东钢铁股份有限公司关于收到非公开发行科技创新公司债券挂牌转让无异议函的公告 | http://static.cninfo.com.cn/finalpage/2026-11-03/1225652216.PDF
+   20261111 山东钢铁股份有限公司投资者关系活动记录表 | http://static.cninfo.com.cn/finalpage/2026-11-11/1225665596.PDF
+   20261114 山东钢铁股份有限公司高级管理人员增持公司股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-14/1225670298.PDF
+   20261118 山东钢铁股份有限公司高级管理人员增持公司股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-18/1225676413.PDF
+   20261118 山东钢铁股份有限公司第八届董事会第三十二次会议决议公告 | http://static.cninfo.com.cn/finalpage/2026-11-18/1225676415.PDF
+   20261118 山东钢铁股份有限公司关于向控股子公司转让产能指标的公告 | http://static.cninfo.com.cn/finalpage/2026-11-18/1225676416.PDF
+   20261121 山东钢铁股份有限公司高级管理人员增持公司股份进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225680800.PDF
+
+### 002480.SZ 新筑股份 (1 条)
+   20261121 关于董事、高级管理人员及其他管理人员增持公司股份计划的进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225682178.PDF
+
+### 600382.SH 广东明珠 (32 条)
+   20261001 广东明珠集团股份有限公司关于变更董事会秘书的公告 | http://static.cninfo.com.cn/finalpage/2026-10-01/1225590211.PDF
+   20261009 广东明珠集团股份有限公司关于以集中竞价交易方式回购股份的进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-09/1225597317.PDF
+   20261015 广东明珠集团股份有限公司关于2026年前三季度业绩预告的公告 | http://static.cninfo.com.cn/finalpage/2026-10-15/1225605539.PDF
+   20261020 广东明珠集团股份有限公司关于全资子公司涉及诉讼的执行进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-20/1225610547.PDF
+   20261022 广东明珠集团股份有限公司关于控股股东一致行动人部分股份质押的公告 | http://static.cninfo.com.cn/finalpage/2026-10-22/1225614714.PDF
+   20261024 广东明珠集团股份有限公司关于控股股东部分股份解除质押的公告 | http://static.cninfo.com.cn/finalpage/2026-10-24/1225620093.PDF
+   20261024 广东明珠集团股份有限公司关于增加回购股份金额的公告 | http://static.cninfo.com.cn/finalpage/2026-10-24/1225620118.PDF
+   20261027 广东明珠集团股份有限公司关于以集中竞价交易方式回购股份达到4%暨回购进展的公告 | http://static.cninfo.com.cn/finalpage/2026-10-27/1225624557.PDF
+   20261028 广东明珠集团股份有限公司关于控股股东部分股份质押的公告 | http://static.cninfo.com.cn/finalpage/2026-10-28/1225631880.PDF
+   20261029 广东明珠集团股份有限公司关于控股股东及其一致行动人部分股份质押及部分股份解除质押的公告 | http://static.cninfo.com.cn/finalpage/2026-10-29/1225636875.PDF
+   20261030 广东明珠集团股份有限公司第十一届董事会2026年第八次临时会议决议公告 | http://static.cninfo.com.cn/finalpage/2026-10-30/1225641289.PDF
+   20261030 广东明珠集团股份有限公司关于公司2026年前三季度利润分配方案的公告 | http://static.cninfo.com.cn/finalpage/2026-10-30/1225641301.PDF
+   20261030 广东明珠集团股份有限公司2026年第三季度报告 | http://static.cninfo.com.cn/finalpage/2026-10-30/1225641303.PDF
+   20261030 广东明珠集团股份有限公司关于召开2026年第四次临时股东会的通知 | http://static.cninfo.com.cn/finalpage/2026-10-30/1225641336.PDF
+   20261031 广东明珠集团股份有限公司关于控股股东及其一致行动人部分股份质押及部分股份解除质押的公告 | http://static.cninfo.com.cn/finalpage/2026-10-31/1225649387.PDF
+   20261103 广东明珠集团股份有限公司关于以集中竞价交易方式回购股份达到5%暨回购进展的公告 | http://static.cninfo.com.cn/finalpage/2026-11-03/1225652804.PDF
+   20261107 广东明珠集团股份有限公司2026年第四次临时股东会会议资料 | http://static.cninfo.com.cn/finalpage/2026-11-07/1225661824.PDF
+   20261107 广东明珠集团股份有限公司关于控股股东及其一致行动人部分股份质押及部分股份解除质押的公告 | http://static.cninfo.com.cn/finalpage/2026-11-07/1225661828.PDF
+   20261110 广东明珠集团股份有限公司关于全资子公司涉及诉讼的执行进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-10/1225664029.PDF
+   20261111 广东明珠集团股份有限公司关于以集中竞价交易方式回购股份达到6%暨回购进展的公告 | http://static.cninfo.com.cn/finalpage/2026-11-11/1225665112.PDF
+   20261112 广东明珠集团股份有限公司关于控股股东部分股份解除质押的公告 | http://static.cninfo.com.cn/finalpage/2026-11-12/1225667033.PDF
+   20261117 广东明珠集团股份有限公司2026年第四次临时股东会决议公告 | http://static.cninfo.com.cn/finalpage/2026-11-17/1225674029.PDF
+   20261117 北京市康达（广州）律师事务所关于广东明珠集团股份有限公司二O二六年第四次临时股东会的法律意见书（康达（广州）股会字【2026】第0063号） | http://static.cninfo.com.cn/finalpage/2026-11-17/1225674035.PDF
+   20261121 广东明珠集团股份有限公司关于控股股东一致行动人部分股份补充质押的公告 | http://static.cninfo.com.cn/finalpage/2026-11-21/1225681825.PDF
+   20261125 广东明珠集团股份有限公司关于控股股东及其一致行动人部分股份补充质押的公告 | http://static.cninfo.com.cn/finalpage/2026-11-25/1225686376.PDF
+   20261125 广东明珠集团股份有限公司关于调整2026年前三季度利润分配现金分红总额的公告 | http://static.cninfo.com.cn/finalpage/2026-11-25/1225686380.PDF
+   20261125 广东明珠集团股份有限公司2026年前三季度权益分派实施公告 | http://static.cninfo.com.cn/finalpage/2026-11-25/1225686383.PDF
+   20261125 北京市康达（广州）律师事务所关于广东明珠集团股份有限公司差异化分红事项之法律意见书【康达（广州）法意字[2026]第0265号】 | http://static.cninfo.com.cn/finalpage/2026-11-25/1225686385.PDF
+   20261127 广东明珠集团股份有限公司关于董事、高管增持公司股份的公告 | http://static.cninfo.com.cn/finalpage/2026-11-27/1225690964.PDF
+   20261127 广东明珠集团股份有限公司关于股份回购实施结果暨股份变动的公告 | http://static.cninfo.com.cn/finalpage/2026-11-27/1225690965.PDF
+   20261127 广东明珠集团股份有限公司第十一届董事会2026年第九次临时会议决议公告 | http://static.cninfo.com.cn/finalpage/2026-11-27/1225690967.PDF
+   20261127 广东明珠集团股份有限公司关于以集中竞价方式回购股份的方案暨回购报告书 | http://static.cninfo.com.cn/finalpage/2026-11-27/1225690968.PDF
+
+### 000425.SZ 徐工机械 (9 条)
+   20261009 关于控股股东增持公司股份计划的进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-09/1225596763.PDF
+   20261009 关于回购公司股份并用于注销的进展公告 | http://static.cninfo.com.cn/finalpage/2026-10-09/1225596764.PDF
+   20261016 关于调整公司2025年股票期权与限制性股票激励计划限制性股票回购价格并回购注销部分限制性股票的公告 | http://static.cninfo.com.cn/finalpage/2026-10-16/1225606551.PDF
+   20261016 关于调整公司2023年限制性股票激励计划回购价格并回购注销部分限制性股票的公告 | http://static.cninfo.com.cn/finalpage/2026-10-16/1225606553.PDF
+   20261016 北京大成（南京）律师事务所关于徐工机械调整2023年限制性股票激励计划回购价格并回购注销部分限制性股票事项的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-10-16/1225606555.PDF
+   20261016 北京云亭（徐州）律师事务所关于徐工机械2025年股票期权与限制性股票激励计划调整及回购注销部分限制性股票与注销部分股票期权的法律意见书 | http://static.cninfo.com.cn/finalpage/2026-10-16/1225606556.PDF
+   20261016 关于回购注销部分限制性股票通知债权人的公告 | http://static.cninfo.com.cn/finalpage/2026-10-16/1225606557.PDF
+   20261103 关于控股股东增持公司股份计划的进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-03/1225652006.PDF
+   20261103 关于回购公司股份并用于注销的进展公告 | http://static.cninfo.com.cn/finalpage/2026-11-03/1225652007.PDF
+
+
+================ 职务核对 ================
+301179.SZ 现任: 徐晓晨：董事; 徐晓晨：副总经理\副总裁; 丁伟：副总经理\副总裁; 刘振宇：副总经理\副总裁; 陈小飞：财务总监\总会计师\首席财务官(CFO); 张蜀英：薪酬与考核委员会成员; 张蜀英：独立董事; 张蜀英：提名委员会成员; 张蜀英：战略委员会成员; 吴中家：独立董事; 吴中家：提名委员会成员; 吴中家：审计委员会成员; 袁亚男：薪酬与考核委员会成员; 袁亚男：独立董事; 袁亚男：审计委员会成员; 张树民：副总经理\副总裁; 陈益波：副总经理\副总裁; 赵耀：董事; 赵耀：监事会主席; 赵耀：监事; 赵耀：提名委员会成员; 赵耀：副总经理\副总裁; 杨天晨：董事会秘书; 杨天晨：副总经理\副总裁; 张晓飞：证券事务代表; 张晓飞：职工监事; 张剑：董事长; 张剑：董事; 张剑：提名委员会成员; 张剑：战略委员会成员; 张剑：审计委员会成员; 孔乐：副总经理\副总裁; 夏耿耿：薪酬与考核委员会成员; 夏耿耿：董事; 夏耿耿：战略委员会成员; 夏耿耿：总经理\总裁
+600292.SH 现任: 汪涛：副总经理\副总裁; 刘勇先：副总经理\副总裁; 高发伟：董事; 高发伟：其他委员会成员; 粟刚：董事; 粟刚：副董事长; 粟刚：其他委员会成员; 白俊光：独立董事; 白俊光：提名委员会成员; 白俊光：其他委员会成员; 彭李昕：董事; 彭李昕：提名委员会成员; 周杰：薪酬与考核委员会成员; 周杰：董事; 周杰：其他委员会成员; 莫育军：副总经理\副总裁; 李铁：董事; 李铁：总经理\总裁; 李铁：其他委员会成员; 姚小彦：董事长; 姚小彦：董事; 姚小彦：提名委员会成员; 姚小彦：其他委员会成员; 黄樱：财务总监\总会计师\首席财务官(CFO); 汪波：副总经理\副总裁; 章朝晖：薪酬与考核委员会成员; 章朝晖：独立董事; 章朝晖：提名委员会成员; 章朝晖：其他委员会成员; 邓立春：证券事务代表; 王彭果：薪酬与考核委员会成员; 王彭果：独立董事; 王彭果：提名委员会成员; 王彭果：其他委员会成员; 廖成林：薪酬与考核委员会成员; 廖成林：独立董事; 廖成林：提名委员会成员; 廖成林：战略委员会成员; 廖成林：其他委员会成员; 凌娟：证券事务代表; 凌娟：董事会秘书; 黄青华：薪酬与考核委员会成员; 黄青华：董事会秘书; 黄青华：董事; 黄青华：总法律顾问; 黄青华：副总经理\副总裁; 黄青华：其他委员会成员; 学习：None
+002655.SZ 现任: 胡凌：独立董事; 杜曦：董事; 杜曦：战略委员会成员; 杜曦：总经理\总裁; 陆正杨：董事; 陆正杨：监事会主席; 陆正杨：监事; 李云泽：薪酬与考核委员会成员; 李云泽：独立董事; 李云泽：提名委员会成员; 李云泽：审计委员会成员; 周思远：薪酬与考核委员会成员; 周思远：董事长; 周思远：董事; 周思远：提名委员会成员; 周思远：战略委员会成员; 周思远：审计委员会成员; 侯杰：副总经理\副总裁; 张常善：财务总监\总会计师\首席财务官(CFO); 张常善：董事会秘书; 张常善：董事; 张常善：提名委员会成员; 张常善：战略委员会成员; 张常善：副总经理\副总裁; 宋颖：证券事务代表; 辛付东：职工董事; 辛付东：职工监事; 杨毅：独立董事; 杨毅：提名委员会成员; 杨毅：战略委员会成员; 杨毅：审计委员会成员; 张辉玉：薪酬与考核委员会成员; 张辉玉：独立董事; 张辉玉：提名委员会成员; 杨志勇：董事; 杨志勇：监事; 杨志勇：副总经理\副总裁; 傅爱善：董事; 傅爱善：战略委员会成员; 傅爱善：总经理\总裁; 傅爱善：副总经理\副总裁
+601456.SH 现任: 江洁：董事; 惠宇：公司秘书\联席公司秘书\授权代表; 陈正章：证券事务代表; 郑亮：副总经理\副总裁; 胡又文：副总经理\副总裁; 熊雷鸣：执行副总经理\执行副总裁; 徐慧敏：独立董事; 徐慧敏：审计委员会成员; 徐慧敏：其他委员会成员; 王卫：副总经理\副总裁; 杨海：副总经理\副总裁; 吴哲锐：首席信息官(CIO); 任凯锋：副总经理\副总裁; 顾伟：风险管理委员会成员; 顾伟：董事长; 顾伟：董事; 顾伟：其他委员会成员; 杨振兴：董事; 郭春明：风险管理委员会成员; 郭春明：独立董事; 郭春明：审计委员会成员; 郭春明：其他委员会成员; 徐春：副总经理\副总裁; 高伟：独立董事; 高伟：审计委员会成员; 高伟：其他委员会成员; 吴卫华：董事; 吴卫华：其他委员会成员; 尹磊：财务总监\总会计师\首席财务官(CFO); 尹磊：副总经理\副总裁; 戴洁春：其他; 葛小波：风险管理委员会成员; 葛小波：财务总监\总会计师\首席财务官(CFO); 葛小波：董事长; 葛小波：董事; 葛小波：总经理\总裁; 葛小波：其他委员会成员; 葛小波：代理董事长; 王捷：董事会秘书; 汪锦岭：首席信息官(CIO); 汪锦岭：执行副总经理\执行副总裁; 李钦：副总经理\副总裁; 陈兴君：风险管理委员会成员; 陈兴君：风控总监\首席风险官(CRO); 陈兴君：职工董事; 江志强：风控总监\首席风险官(CRO); 江志强：监事会主席; 江志强：监事; 周卫平：风险管理委员会成员; 周卫平：董事; 周卫平：其他委员会成员
+600141.SH 现任: 郭月梅：独立董事; 郭月梅：审计委员会成员; 郭月梅：其他委员会成员; 杨坤明：副总经理\副总裁; 彭亚利：副总经理\副总裁; 杨光亮：独立董事; 杨光亮：战略委员会成员; 杨光亮：审计委员会成员; 张桥：副总经理\副总裁; 薛冬峰：独立董事; 薛冬峰：战略委员会成员; 薛冬峰：其他委员会成员; 胡国荣：独立董事; 胡国荣：战略委员会成员; 胡国荣：其他委员会成员; 蒋春黔：独立董事; 蒋春黔：审计委员会成员; 蒋春黔：其他委员会成员; 李美辉：职工董事; 李美辉：职工监事; 李美辉：监事; 曹先军：独立董事; 曹先军：战略委员会成员; 曹先军：审计委员会成员; 赵勇：副总经理\副总裁; 刘畅：副总经理\副总裁; 鲍伯颖：证券事务代表; 鲍伯颖：董事会秘书; 王琛：财务总监\总会计师\首席财务官(CFO); 王琛：董事; 王琛：副总经理\副总裁; 俞少俊：独立董事; 俞少俊：战略委员会成员; 俞少俊：审计委员会成员; 俞少俊：其他委员会成员; 程亚利：证券事务代表; 程亚利：董事会秘书; 程亚利：董事; 程亚利：战略委员会成员; 程亚利：总经理\总裁; 王杰：董事; 王杰：常务副总\常务副总裁; 王杰：副总经理\副总裁; 杨铁军：副总经理\副总裁; 李国璋：董事长; 李国璋：董事; 李国璋：战略委员会成员; 胡坤裔：财务总监\总会计师\首席财务官(CFO); 胡坤裔：董事; 胡坤裔：副董事长; 胡坤裔：副总经理\副总裁
+603223.SH 现任: 王进：董事; 王进：总经理\总裁; 崔裕昌：证券事务代表; 隋永峰：薪酬与考核委员会成员; 隋永峰：董事长; 隋永峰：董事; 隋永峰：提名委员会成员; 隋永峰：战略委员会成员; 隋永峰：审计委员会成员; 胡元木：薪酬与考核委员会成员; 胡元木：独立董事; 胡元木：提名委员会成员; 胡元木：战略委员会成员; 龚晨曦：副总经理\副总裁; 高建军：独立董事; 高建军：提名委员会成员; 高建军：战略委员会成员; 高建军：审计委员会成员; 曲俊宇：董事; 曲俊宇：职工董事; 孙德坤：薪酬与考核委员会成员; 孙德坤：独立董事; 孙德坤：审计委员会成员; 李华山：董事; 李华山：副总经理\副总裁; 姜舒文：财务总监\总会计师\首席财务官(CFO); 姜舒文：董事; 宋之文：证券事务代表; 宋之文：其他; 王仁权：董事会秘书; 王仁权：董事; 王仁权：副总经理\副总裁; 刘国阳：副总经理\副总裁
+002851.SZ 现任: 梁芷晴：公司秘书\联席公司秘书\授权代表; 何承晓：独立董事; 屈万园：薪酬与考核委员会成员; 屈万园：独立董事; 屈万园：提名委员会成员; 屈万园：战略委员会成员; 屈万园：审计委员会成员; 沈华玉：薪酬与考核委员会成员; 沈华玉：独立董事; 沈华玉：提名委员会成员; 沈华玉：审计委员会成员; 辛梦云：证券事务代表; 王雪芬：董事; 王雪芬：提名委员会成员; 王雪芬：审计委员会成员; 童永胜：薪酬与考核委员会成员; 童永胜：董事长; 童永胜：董事; 童永胜：核心技术人员; 童永胜：提名委员会成员; 童永胜：战略委员会成员; 童永胜：总经理\总裁; 童永胜：审计委员会成员; 童永胜：公司秘书\联席公司秘书\授权代表; 王涛：财务总监\总会计师\首席财务官(CFO); 王涛：董事会秘书; 王涛：公司秘书\联席公司秘书\授权代表; 沈楚春：核心技术人员; 沈楚春：技术总监\首席技术官(CTO); 毛栋材：职工董事; 毛栋材：职工监事; 毛栋材：审计委员会成员; 张志：董事; 张志：战略委员会成员; 张志：副总经理\副总裁
+600160.SH 现任: 余国军：总经理\总裁; 任向欣：董事; 任向欣：提名委员会成员; 史建兵：薪酬与考核委员会成员; 史建兵：独立董事; 史建兵：提名委员会成员; 史建兵：审计委员会成员; 俞善民：薪酬与考核委员会成员; 俞善民：独立董事; 俞善民：审计委员会成员; 俞善民：其他委员会成员; 万源星：独立董事; 万源星：提名委员会成员; 万源星：审计委员会成员; 万源星：其他委员会成员; 黄波：副总经理\副总裁; 龚黎燕：职工董事; 龚黎燕：职工监事; 鲁桂华：薪酬与考核委员会成员; 鲁桂华：独立董事; 鲁桂华：提名委员会成员; 鲁桂华：审计委员会成员; 唐顺良：董事; 唐顺良：战略委员会成员; 唐顺良：审计委员会成员; 唐顺良：其他委员会成员; 韩金铭：薪酬与考核委员会成员; 韩金铭：董事; 韩金铭：战略委员会成员; 韩金铭：总经理\总裁; 韩金铭：副董事长; 韩金铭：副总经理\副总裁; 韩金铭：其他委员会成员; 韩金铭：代理总经理\代理总裁; 郑积林：董事; 郑积林：副总经理\副总裁; 郑积林：其他委员会成员; 洪江永：副总经理\副总裁; 周强：副总经理\副总裁; 王笑明：财务总监\总会计师\首席财务官(CFO); 王笑明：董事会秘书; 王笑明：董事; 王笑明：监事; 王笑明：审计委员会成员; 王笑明：代理董事会秘书; 朱丽：证券事务代表; 周黎旸：财务总监\总会计师\首席财务官(CFO); 周黎旸：薪酬与考核委员会成员; 周黎旸：董事长; 周黎旸：董事; 周黎旸：提名委员会成员; 周黎旸：战略委员会成员; 周黎旸：总经理\总裁; 周黎旸：副董事长; 周黎旸：副总经理\副总裁; 周黎旸：其他委员会成员; 周黎旸：代理董事长; 刘云华：董事会秘书; 刘云华：董事; 刘云华：审计委员会成员; 刘云华：副总经理\副总裁; 刘云华：其他委员会成员
+002540.SZ 现任: 周静怡：财务总监\总会计师\首席财务官(CFO); 植万宁：审计负责人\总审计师\CAE; 方东新：总经理\总裁; 钱美芳：薪酬与考核委员会成员; 钱美芳：独立董事; 钱美芳：提名委员会成员; 钱美芳：审计委员会成员; 钱美芳：其他委员会成员; 邹苏意：证券事务代表; 蔡永民：薪酬与考核委员会成员; 蔡永民：独立董事; 蔡永民：提名委员会成员; 蔡永民：审计委员会成员; 蔡永民：其他委员会成员; 沈琳：证券事务代表; 沈琳：董事会秘书; 沈琳：职工监事; 沈琳：总经理助理\总裁助理; 罗功武：财务总监\总会计师\首席财务官(CFO); 罗功武：薪酬与考核委员会成员; 罗功武：董事会秘书; 罗功武：董事; 罗功武：副总经理\副总裁; 罗功武：其他委员会成员; 彭俊芳：董事; 彭俊芳：职工董事; 彭俊芳：核心技术人员; 彭俊芳：其他委员会成员; 彭俊芳：其他; 周福海：董事长; 周福海：董事; 周福海：核心技术人员; 周福海：提名委员会成员; 周福海：总经理\总裁; 周福海：审计委员会成员; 周福海：其他委员会成员
+002367.SZ 现任: 王立凡：副总经理\副总裁; 王立凡：其他高级管理人员; 张敏：薪酬与考核委员会成员; 张敏：独立董事; 张敏：审计委员会成员; 陈建春：财务总监\总会计师\首席财务官(CFO); 陈建春：董事; 陈建春：监事; 陈建春：审计负责人\总审计师\CAE; 陈建春：副总经理\副总裁; 陈建春：其他高级管理人员; 刘向宁：薪酬与考核委员会成员; 刘向宁：独立董事; 刘向宁：提名委员会成员; 刘向宁：审计委员会成员; 朱琳昊：董事长; 朱琳昊：董事; 朱琳昊：提名委员会成员; 朱琳昊：战略委员会成员; 朱琳昊：总经理\总裁; 崔清华：职工董事; 崔清华：职工监事; 崔清华：审计委员会成员; 陈振华：其他高级管理人员; 陈振华：其他; 陈振华：人力资源总监\首席人事官(CH0); 朱琳懿：董事; 朱琳懿：审计委员会成员; 朱琳懿：副董事长; 朱琳懿：副总经理\副总裁; 朱琳懿：其他高级管理人员; 吴贤：董事会秘书; 吴贤：董事; 吴贤：副总经理\副总裁; 吴贤：其他高级管理人员; 夏永祥：独立董事; 夏永祥：提名委员会成员; 夏永祥：战略委员会成员; 陆玲燕：证券事务代表; 强永昌：薪酬与考核委员会成员; 强永昌：董事; 强永昌：独立董事; 强永昌：战略委员会成员; 强永昌：审计委员会成员; 朱玲花：董事; 朱玲花：监事; 朱玲花：审计负责人\总审计师\CAE; 朱玲花：其他; 沈舟群：财务总监\总会计师\首席财务官(CFO); 沈舟群：薪酬与考核委员会成员; 沈舟群：董事; 沈舟群：审计负责人\总审计师\CAE; 沈舟群：副总经理\副总裁; 沈舟群：其他高级管理人员; 孟庆东：核心技术人员; 孟庆东：总工程师; 孟庆东：其他高级管理人员
+600787.SH 现任: 李敬：董事; 刘功润：独立董事; 钱琳：薪酬与考核委员会成员; 钱琳：独立董事; 钱琳：提名委员会成员; 钱琳：战略委员会成员; 邹善童：董事; 邹善童：提名委员会成员; 邓玉山：副总经理\副总裁; 杨飚：副总经理\副总裁; 马德印：董事; 马德印：职工董事; 马德印：战略委员会成员; 马德印：其他委员会成员; 许多奇：薪酬与考核委员会成员; 许多奇：独立董事; 许多奇：提名委员会成员; 许多奇：其他委员会成员; 朱桐：薪酬与考核委员会成员; 朱桐：董事; 朱桐：提名委员会成员; 朱桐：战略委员会成员; 张秋生：薪酬与考核委员会成员; 张秋生：独立董事; 张秋生：提名委员会成员; 张秋生：战略委员会成员; 张秋生：其他委员会成员; 王海滨：董事; 王海滨：战略委员会成员; 王海滨：总经理\总裁; 王海滨：副总经理\副总裁; 王勇：副总经理\副总裁; 房永斌：董事长; 房永斌：董事; 房永斌：战略委员会成员; 武凯：财务总监\总会计师\首席财务官(CFO); 李勇昭：薪酬与考核委员会成员; 李勇昭：董事; 李勇昭：战略委员会成员; 郑佳珍：证券事务代表; 郑佳珍：监事; 薛斌：董事会秘书; 薛斌：监事会主席; 薛斌：监事; 薛斌：副总经理\副总裁; 王于猛：None
+601615.SH 现任: 张新宇：技术总监\首席技术官(CTO); 张津源：董事; 魏会龙：审计负责人\总审计师\CAE; 林茂亮：董事; 房猛：财务总监\总会计师\首席财务官(CFO); 王成奎：董事会秘书; 王成奎：副总经理\副总裁; 韩冰：副总经理\副总裁; 叶凡：副总经理\副总裁; 王荣昌：薪酬与考核委员会成员; 王荣昌：独立董事; 王荣昌：审计委员会成员; 王利民：薪酬与考核委员会成员; 王利民：职工董事; 王利民：监事会主席; 王利民：监事; 樊元峰：董事; 樊元峰：审计委员会成员; 朱滔：独立董事; 朱滔：提名委员会成员; 朱滔：审计委员会成员; 施少斌：薪酬与考核委员会成员; 施少斌：独立董事; 施少斌：战略委员会成员; 刘瑛：独立董事; 刘瑛：提名委员会成员; 刘瑛：战略委员会成员; 张超：董事; 张超：副总经理\副总裁; 郑洁珊：证券事务代表; 王冬冬：首席营运官(COO); 王冬冬：副总经理\副总裁; 易菱娜：副总经理\副总裁; 翟拥军：职工监事; 翟拥军：监事; 翟拥军：审计负责人\总审计师\CAE; 张瑞：董事; 张瑞：副总经理\副总裁; 张启应：首席营运官(COO); 张启应：董事; 张启应：核心技术人员; 张启应：提名委员会成员; 张启应：技术总监\首席技术官(CTO); 张启应：其他高级管理人员; 张启应：业务总监; 张传卫：首席执行官(CEO); 张传卫：董事长; 张传卫：董事; 张传卫：战略委员会成员; 刘建军：董事会秘书; 刘建军：其他高级管理人员
+301571.SZ 现任: 伊春：证券事务代表; 沈正祥：独立董事; 沈正祥：提名委员会成员; 沈正祥：战略委员会成员; 韩璐：董事; 韩璐：审计委员会成员; 陈浩：薪酬与考核委员会成员; 陈浩：独立董事; 陈浩：审计委员会成员; 罗珏典：董事长; 罗珏典：董事; 罗珏典：战略委员会成员; 罗珏典：总经理\总裁; 罗珏典：审计委员会成员; 王玥：董事; 王启林：董事会秘书; 王启林：副总经理\副总裁; 潘亚：薪酬与考核委员会成员; 潘亚：独立董事; 潘亚：提名委员会成员; 潘亚：审计委员会成员; 吴明星：财务总监\总会计师\首席财务官(CFO); 吴明星：薪酬与考核委员会成员; 吴明星：董事; 吴明星：提名委员会成员; 吴明星：战略委员会成员; 吴明星：副总经理\副总裁
+600487.SH 现任: 王志超：证券事务代表; 王金猛：财务总监\总会计师\首席财务官(CFO); 钱志康：副总经理\副总裁; 王新国：副总经理\副总裁; 潘文林：技术总监\首席技术官(CTO); 屠建宾：副总经理\副总裁; 姚福荣：副总经理\副总裁; 刘振华：副总经理\副总裁; 田国才：董事; 田国才：技术总监\首席技术官(CTO); 王僚俊：董事会秘书; 王僚俊：副总经理\副总裁; 孙中林：董事; 孙中林：其他委员会成员; 陆春良：董事; 陆春良：其他委员会成员; 孙建锋：职工董事; 孙建锋：职工监事; 顾怡倩：董事会秘书; 顾怡倩：合规负责人; 蔡绍宽：薪酬与考核委员会成员; 蔡绍宽：独立董事; 蔡绍宽：提名委员会成员; 蔡绍宽：战略委员会成员; 蔡绍宽：审计委员会成员; 蔡绍宽：其他委员会成员; 杨钧辉：薪酬与考核委员会成员; 杨钧辉：独立董事; 杨钧辉：提名委员会成员; 杨钧辉：审计委员会成员; 张建峰：董事; 张建峰：总经理\总裁; 乔久华：薪酬与考核委员会成员; 乔久华：独立董事; 乔久华：提名委员会成员; 乔久华：战略委员会成员; 乔久华：审计委员会成员; 谭会良：董事; 谭会良：其他委员会成员; 崔巍：薪酬与考核委员会成员; 崔巍：董事长; 崔巍：董事; 崔巍：提名委员会成员; 崔巍：战略委员会成员; 崔巍：审计委员会成员; 崔巍：其他委员会成员; 崔巍：代理董事会秘书; 钱建林：薪酬与考核委员会成员; 钱建林：董事长; 钱建林：董事; 钱建林：提名委员会成员; 钱建林：战略委员会成员; 钱建林：总经理\总裁; 钱建林：审计委员会成员; 钱建林：代理总会计师\代理财务总监\代理首席财务官(CFO); 许劲：None; 任晓敏：独立董事; 任晓敏：战略委员会成员
+603656.SH 现任: 郑天勇：财务总监\总会计师\首席财务官(CFO); 王素玲：薪酬与考核委员会成员; 王素玲：独立董事; 王素玲：审计委员会成员; 梁茜：证券事务代表; 杨学志：薪酬与考核委员会成员; 杨学志：独立董事; 杨学志：提名委员会成员; 杨学志：战略委员会成员; 方达夫：独立董事; 方达夫：提名委员会成员; 方达夫：审计委员会成员; 张许成：董事长; 张许成：董事; 张许成：战略委员会成员; 张许成：审计委员会成员; 康茂磊：薪酬与考核委员会成员; 康茂磊：董事; 孙伟：董事会秘书; 孙伟：董事; 孙伟：职工董事; 孙伟：提名委员会成员; 孙伟：总经理\总裁; 孙伟：审计委员会成员; 黄慧丽：财务总监\总会计师\首席财务官(CFO); 黄慧丽：薪酬与考核委员会成员; 黄慧丽：董事会秘书; 黄慧丽：董事; 黄慧丽：副总经理\副总裁; 许大红：董事长; 许大红：董事; 许大红：提名委员会成员; 许大红：战略委员会成员; 许大红：总经理\总裁; 许大红：副董事长; 石江涛：董事; 石江涛：核心技术人员; 石江涛：战略委员会成员; 石江涛：总工程师; 石江涛：副总经理\副总裁
+688387.SH 现任: 
+600686.SH 现任: 黄循铀：薪酬与考核委员会成员; 黄循铀：董事; 黄循铀：战略委员会成员; 彭晓冬：财务总监\总会计师\首席财务官(CFO); 刘晓霞：副总经理\副总裁; 温桂香：董事; 温桂香：战略委员会成员; 陈锋：董事长; 陈锋：董事; 陈锋：战略委员会成员; 陈锋：审计委员会成员; 马文雄：证券事务代表; 彭东庆：副总经理\副总裁; 刘志军：副总经理\副总裁; 张盛利：薪酬与考核委员会成员; 张盛利：独立董事; 张盛利：审计委员会成员; 赵蓓：薪酬与考核委员会成员; 赵蓓：独立董事; 赵蓓：审计委员会成员; 叶盛基：独立董事; 叶盛基：战略委员会成员; 陈炜：董事; 陈炜：战略委员会成员; 季晓健：证券事务代表; 季晓健：董事会秘书; 马祥：副总经理\副总裁; 张修强：None; 曾明娜：None; 吴国庆：None
+600188.SH 现任: 张伟：副总经理\副总裁; 王保齐：总工程师; 岳广省：董事; 李建忠：副总经理\副总裁; 高井祥：薪酬与考核委员会成员; 高井祥：独立董事; 高井祥：提名委员会成员; 高井祥：战略委员会成员; 齐俊铭：其他高级管理人员; 徐长厚：副总经理\副总裁; 高春雷：总工程师; 赵治国：财务总监\总会计师\首席财务官(CFO); 岳宁：副总经理\副总裁; 康丹：副总经理\副总裁; 康丹：其他高级管理人员; 靳家皓：职工监事; 靳家皓：其他高级管理人员; 胡家栋：薪酬与考核委员会成员; 胡家栋：独立董事; 胡家栋：提名委员会成员; 胡家栋：审计委员会成员; 朱睿：薪酬与考核委员会成员; 朱睿：独立董事; 朱睿：提名委员会成员; 朱睿：审计委员会成员; 朱睿：其他委员会成员; 张海军：董事; 王九红：董事; 王九红：战略委员会成员; 王九红：总经理\总裁; 王九红：副总经理\副总裁; 王九红：其他委员会成员; 王九红：代理总经理\代理总裁; 苏力：职工董事; 苏力：职工监事; 李士鹏：董事; 李士鹏：监事副主席; 李士鹏：监事会主席; 李士鹏：监事; 商晓宇：证券事务代表; 李伟：董事长; 李伟：董事; 李伟：提名委员会成员; 李伟：战略委员会成员; 李伟：副董事长; 李伟：其他委员会成员; 李维安：薪酬与考核委员会成员; 李维安：独立董事; 李维安：审计委员会成员; 李维安：其他委员会成员; 黄霄龙：证券事务代表; 黄霄龙：董事会秘书; 黄霄龙：董事; 马厚亮：None; 陈永阁：None; 钱秀兰：None; 许天恩：None; 范国强：None; 肖立方：None; 罗太炎：None; 罗坚明：None; 管维立：None; 杜铭山：None; 徐新民：None; 周鸿彬：None; 吴则智：None; 刘玉彬：None
+600352.SH 现任: RUAN CUNFAN：董事; RUAN CUNFAN：提名委员会成员; 赵刚：薪酬与考核委员会成员; 赵刚：独立董事; 赵刚：战略委员会成员; 赵刚：审计委员会成员; 卢邦义：财务总监\总会计师\首席财务官(CFO); 卢邦义：董事; 卢邦义：战略委员会成员; 卢邦义：审计委员会成员; 卢邦义：其他; 卢邦义：代理总会计师\代理财务总监\代理首席财务官(CFO); 梁永明：独立董事; 梁永明：提名委员会成员; 梁永明：战略委员会成员; 梁永明：审计委员会成员; 姚建芳：董事会秘书; 姚建芳：董事; 姚建芳：战略委员会成员; 姚建芳：副总经理\副总裁; 贡晗：薪酬与考核委员会成员; 贡晗：董事; 贡晗：提名委员会成员; 贡晗：审计委员会成员; 贡晗：副总经理\副总裁; 徐金发：薪酬与考核委员会成员; 徐金发：独立董事; 徐金发：提名委员会成员; 顾晓晓：None; 陈国江：证券事务代表; 阮伟祥：董事长; 阮伟祥：董事会秘书; 阮伟祥：董事; 阮伟祥：技术总监\首席技术官(CTO); 阮伟祥：战略委员会成员; 阮伟祥：总经理\总裁; 何旭斌：董事; 何旭斌：职工董事; 何旭斌：核心技术人员; 何旭斌：战略委员会成员; 何旭斌：副总经理\副总裁
+603856.SH 现任: 田野：证券事务代表; 孔泽华：董事; 孔泽华：副总经理\副总裁; 孔令彬：财务总监\总会计师\首席财务官(CFO); 孔令彬：总经理助理\总裁助理; 孔令彬：副总经理\副总裁; 卢勇：董事; 卢勇：总经理助理\总裁助理; 卢勇：审计委员会成员; 魏学军：薪酬与考核委员会成员; 魏学军：独立董事; 魏学军：审计委员会成员; 王立凯：董事; 王立凯：职工董事; 寻金龙：证券事务代表; 寻金龙：董事会秘书; 寻金龙：董事; 寻金龙：战略委员会成员; 鲁昕：薪酬与考核委员会成员; 鲁昕：独立董事; 鲁昕：提名委员会成员; 鲁昕：审计委员会成员; 毕兴涛：董事; 毕兴涛：常务副总\常务副总裁; 毕兴涛：副总经理\副总裁; 孔祥勇：独立董事; 孔祥勇：提名委员会成员; 孔祥勇：审计委员会成员; 孔智勇：董事; 孔智勇：核心技术人员; 孔智勇：战略委员会成员; 孔智勇：副总经理\副总裁; 刘彬：董事; 刘彬：常务副总\常务副总裁; 刘彬：副总经理\副总裁; 倪立营：董事长; 倪立营：董事; 倪立营：战略委员会成员; 倪奉尧：财务总监\总会计师\首席财务官(CFO); 倪奉尧：薪酬与考核委员会成员; 倪奉尧：董事; 倪奉尧：提名委员会成员; 倪奉尧：战略委员会成员; 倪奉尧：总经理\总裁; 倪奉尧：副董事长
+688607.SH 现任: 陈咏虹：董事
+603319.SH 现任: 马杰：独立董事; 刘洋：独立董事; 陆顺刚：董事会秘书; 魏彪：副总经理\副总裁; 秦谯：董事; 秦谯：总经理\总裁; 秦谯：副董事长; 邱阳：独立董事; 邱阳：审计委员会成员; PAN JAN WEI：薪酬与考核委员会成员; PAN JAN WEI：独立董事; PAN JAN WEI：提名委员会成员; PAN JAN WEI：战略委员会成员; 蔡皓：副总经理\副总裁; 王斌：副总经理\副总裁; 黄金辉：副总经理\副总裁; 曹衡燕：审计负责人\总审计师\CAE; 周兵：薪酬与考核委员会成员; 周兵：独立董事; 周兵：提名委员会成员; 周兵：审计委员会成员; 陈欢：职工董事; 陈欢：监事; 夏国喜：董事; 夏国喜：职工监事; 夏国喜：监事会主席; 夏国喜：监事; 许文慧：董事; 许文慧：战略委员会成员; 许文慧：审计委员会成员; 许文慧：副董事长; 陈国荣：财务总监\总会计师\首席财务官(CFO); 陈国荣：董事会秘书; 陈国荣：副总经理\副总裁; 谭雄毅：证券事务代表; 谭小平：监事; 谭小平：核心技术人员; 谭小平：副总经理\副总裁; 许仲秋：薪酬与考核委员会成员; 许仲秋：董事长; 许仲秋：董事; 许仲秋：提名委员会成员; 许仲秋：战略委员会成员; 许仲秋：总经理\总裁; 许仲秋：代理董事会秘书; 佘笑梅：董事; 佘笑梅：核心技术人员; 佘笑梅：副总经理\副总裁
+600733.SH 现任: 谢燕琦：董事; 谢燕琦：战略委员会成员; 王莎：财务总监\总会计师\首席财务官(CFO); 王莎：副总经理\副总裁; 陈智：职工董事; 乔元华：董事会秘书; 马磊：副总经理\副总裁; 刘观桥：董事长; 刘观桥：董事; 刘观桥：提名委员会成员; 刘观桥：战略委员会成员; 刘观桥：总经理\总裁; 刘观桥：副总经理\副总裁; 庞新福：副总经理\副总裁; 孙佳：副总经理\副总裁; 高建军：副总经理\副总裁; 董骁：证券事务代表; 马静：薪酬与考核委员会成员; 马静：独立董事; 马静：审计委员会成员; 郑建明：薪酬与考核委员会成员; 郑建明：独立董事; 郑建明：提名委员会成员; 郑建明：审计委员会成员; 成波：独立董事; 成波：提名委员会成员; 成波：战略委员会成员; 胡勇：董事; 顾鑫：薪酬与考核委员会成员; 顾鑫：董事; 顾鑫：审计委员会成员; 宋军：财务总监\总会计师\首席财务官(CFO); 宋军：董事; 宋军：职工董事; 宋军：总经理\总裁; 宋军：副总经理\副总裁; 宋军：代理总会计师\代理财务总监\代理首席财务官(CFO); 王兵：None; 闫强：None; 王金信：None; 殷大地：None; 林光和：None; 杨达荣：None; 施正岩：None; 彭越：None; 张东：None; 宋家胜：None; 刘书：None; 付学坤：None
+000766.SZ 现任: 张忠伟：独立董事; 张忠伟：提名委员会成员; 张忠伟：审计委员会成员; 苗艳东：副总经理\副总裁; 张玲：薪酬与考核委员会成员; 张玲：独立董事; 张玲：提名委员会成员; 张玲：审计委员会成员; 张皓琰：薪酬与考核委员会成员; 张皓琰：董事; 张皓琰：战略委员会成员; 张皓琰：总经理\总裁; 荆宇：董事; 荆宇：提名委员会成员; 荆宇：战略委员会成员; 荆宇：副总经理\副总裁; 魏英杰：董事; 魏英杰：审计委员会成员; 周强：董事; 王欢：薪酬与考核委员会成员; 王欢：董事; 王欢：职工董事; 王欢：提名委员会成员; 王欢：副总经理\副总裁; 张玉富：董事长; 张玉富：董事; 张玉富：战略委员会成员; 张玉富：总经理\总裁; 赵微：薪酬与考核委员会成员; 赵微：独立董事; 赵微：提名委员会成员; 赵微：审计委员会成员; 刘红光：证券事务代表; 于军：财务总监\总会计师\首席财务官(CFO); 于军：董事; 于军：副总经理\副总裁; 石胜利：None; 杜卫京：None; 张海龙：常务副总\常务副总裁; 张海龙：副总经理\副总裁; 贾伟林：董事会秘书; 贾伟林：副总经理\副总裁; 王亚东：None; 潘富：None; 孙焕忠：None; 侯柱：None; 韩志华：None; 高富贵：None; 马平：None; 王兴业：None; 刘兴堂：None
+601965.SH 现任: 黄英君：薪酬与考核委员会成员; 黄英君：独立董事; 黄英君：提名委员会成员; 黄英君：审计委员会成员; 王镭：董事; 王镭：战略委员会成员; 王锐：副总经理\副总裁; 马健：董事; 马健：战略委员会成员; 黄延君：财务总监\总会计师\首席财务官(CFO); 黄延君：董事会秘书; 抄佩佩：其他高级管理人员; 田冠军：薪酬与考核委员会成员; 田冠军：独立董事; 田冠军：提名委员会成员; 田冠军：战略委员会成员; 田冠军：审计委员会成员; 周玉林：董事长; 周玉林：董事; 周玉林：战略委员会成员; 刘江：董事; 刘江：战略委员会成员; 温倩：职工董事; 温倩：监事; 王红钢：副总经理\副总裁; 叶丰瑞：证券事务代表; 刘安民：董事会秘书; 刘安民：董事; 刘安民：战略委员会成员; 刘安民：总经理\总裁; 刘安民：副总经理\副总裁; 赵福全：薪酬与考核委员会成员; 赵福全：独立董事; 赵福全：提名委员会成员; 赵福全：战略委员会成员; 赵福全：审计委员会成员
+600757.SH 现任: 程家忠：董事; 程家忠：审计委员会成员; 何龙：董事; 何龙：提名委员会成员; 何龙：审计委员会成员; 章雪峰：副总经理\副总裁; 金林：薪酬与考核委员会成员; 金林：独立董事; 金林：提名委员会成员; 金林：审计委员会成员; 杨柳：独立董事; 杨柳：提名委员会成员; 杨柳：战略委员会成员; 卢盛峰：薪酬与考核委员会成员; 卢盛峰：独立董事; 卢盛峰：战略委员会成员; 卢盛峰：审计委员会成员; 黄国斌：董事长; 黄国斌：董事; 黄国斌：战略委员会成员; 黄国斌：代理董事长; 李植：董事; 李植：战略委员会成员; 李植：总经理\总裁; 李植：副总经理\副总裁; 邱从军：薪酬与考核委员会成员; 邱从军：董事; 邱从军：监事; 邱从军：战略委员会成员; 邓涛：证券事务代表; 王勇：财务总监\总会计师\首席财务官(CFO); 冷雪：薪酬与考核委员会成员; 冷雪：董事会秘书; 冷雪：董事; 冷雪：提名委员会成员; 冷雪：审计委员会成员; 喻景忠：薪酬与考核委员会成员; 喻景忠：独立董事; 喻景忠：提名委员会成员; 喻景忠：审计委员会成员; 罗英：总经济师; 顾光宗：None; 赵大川：None; 董韫美：None; 程介禄：None; 王美玲：None; 梅寿椿：None; 杨峻：None; 李忠诚：None; 张建瑛：None; 张国清：None; 孙效良：None; 周竟成：None; 俞荣生：None; 俞朝阳：None
+605020.SH 现任: 余利霞：审计负责人\总审计师\CAE; 谢东颖：副总经理\副总裁; 王建中：薪酬与考核委员会成员; 王建中：独立董事; 王建中：提名委员会成员; 王建中：战略委员会成员; 陈文亮：董事; 陈文亮：职工董事; 陈文亮：总工程师; 李清伟：独立董事; 李清伟：提名委员会成员; 李清伟：审计委员会成员; 胡继荣：薪酬与考核委员会成员; 胡继荣：独立董事; 胡继荣：审计委员会成员; 王琳：证券事务代表; 姜根法：财务总监\总会计师\首席财务官(CFO); 程文霞：董事会秘书; 程文霞：副总经理\副总裁; 赵景平：董事; 赵景平：战略委员会成员; 赵景平：常务副总\常务副总裁; 赵景平：副总经理\副总裁; 童建国：薪酬与考核委员会成员; 童建国：董事长; 童建国：董事; 童建国：提名委员会成员; 童建国：战略委员会成员; 童建国：总经理\总裁; 童建国：代理董事会秘书; 童嘉成：董事; 童嘉成：总经理\总裁; 童嘉成：副总经理\副总裁; 徐水土：董事; 徐水土：副董事长; 徐水土：副总经理\副总裁; 余锋：董事; 余锋：审计委员会成员
+603150.SH 现任: 许进：副总经理\副总裁; 沈刚：薪酬与考核委员会成员; 沈刚：职工董事; 沈刚：副总经理\副总裁; 时金敏：副总经理\副总裁; 刘跃玲：副总经理\副总裁; 张炳力：薪酬与考核委员会成员; 张炳力：独立董事; 张炳力：提名委员会成员; 张炳力：战略委员会成员; 余敏：证券事务代表; 陈矜：独立董事; 陈矜：审计委员会成员; 杜鹏程：薪酬与考核委员会成员; 杜鹏程：独立董事; 杜鹏程：提名委员会成员; 杜鹏程：审计委员会成员; 陈雨海：董事; 陈雨海：战略委员会成员; 陈雨海：总经理\总裁; 陈雨海：副总经理\副总裁; 丁芳：财务总监\总会计师\首席财务官(CFO); 张小梅：证券事务代表; 张小梅：董事会秘书; 邵燕妮：职工监事; 邵燕妮：副总经理\副总裁; 张芳芳：董事; 张芳芳：提名委员会成员; 张芳芳：副总经理\副总裁; 万和国：财务总监\总会计师\首席财务官(CFO); 万和国：董事长; 万和国：董事会秘书; 万和国：董事; 万和国：战略委员会成员; 万和国：总经理\总裁; 万和国：审计委员会成员
+688418.SH 现任: 李小根：独立董事; 李小根：提名委员会成员; 李小根：战略委员会成员
+600106.SH 现任: 董波：联席总经理\联席总裁; 马赟：风险管理委员会成员; 马赟：董事; 欧家路：薪酬与考核委员会成员; 欧家路：独立董事; 欧家路：审计委员会成员; 李之光：风险管理委员会成员; 李之光：董事; 李丹奇：董事会秘书; 李丹奇：董事; 李丹奇：提名委员会成员; 宋延延：董事; 宋延延：战略委员会成员; 李勇(2)：副总经理\副总裁; 吴振平：薪酬与考核委员会成员; 吴振平：独立董事; 吴振平：提名委员会成员; 吴振平：战略委员会成员; 吴振平：审计委员会成员; 何春明：薪酬与考核委员会成员; 何春明：独立董事; 何春明：提名委员会成员; 何春明：审计委员会成员; 贾琳：财务总监\总会计师\首席财务官(CFO); 贾琳：总经理助理\总裁助理; 张志华：副总经理\副总裁; 刘影：风险管理委员会成员; 刘影：董事; 刘影：监事; 刘影：审计委员会成员; 刘爽朗：证券事务代表; 黄荣军：None; 雷迅：None; 陶渝：None; 翁振杰：风险管理委员会成员; 翁振杰：薪酬与考核委员会成员; 翁振杰：董事长; 翁振杰：董事; 翁振杰：战略委员会成员; 肖丽娟：None; 陈国栋：None; 夏正荣：None
+688210.SH 现任: 
+688196.SH 现任: 
+000967.SZ 现任: 吴青锋：审计负责人\总审计师\CAE; 魏霆：董事; 魏霆：战略委员会成员; 韩践：薪酬与考核委员会成员; 韩践：独立董事; 韩践：提名委员会成员; 杨笃志：董事; 杨笃志：战略委员会成员; 杨榕桦：薪酬与考核委员会成员; 杨榕桦：董事; 杨小强：薪酬与考核委员会成员; 杨小强：独立董事; 杨小强：审计委员会成员; 张田余：独立董事; 张田余：提名委员会成员; 张田余：审计委员会成员; 何清：董事; 何清：提名委员会成员; 黄俊杰：董事会秘书; 赖智耀：职工董事; 赖智耀：监事会主席; 赖智耀：监事; 赖智耀：审计委员会成员; 王庆波：财务总监\总会计师\首席财务官(CFO); 王庆波：副总经理\副总裁; 王妃：证券事务代表; 马刚：董事长; 马刚：董事; 马刚：提名委员会成员; 马刚：战略委员会成员; 马刚：总经理\总裁
+002024.SZ 现任: 郝嘉：副总经理\副总裁; 柳赛：职工董事; 徐海澜：副总经理\副总裁; 徐仲：副总经理\副总裁; 翟照磊：董事; 李翔：独立董事; 曹志坚：董事; 曹志坚：提名委员会成员; 曹志坚：战略委员会成员; 陆耀：副总经理\副总裁; 周斌：财务总监\总会计师\首席财务官(CFO); 陈志斌：薪酬与考核委员会成员; 陈志斌：独立董事; 陈志斌：提名委员会成员; 陈志斌：审计委员会成员; 贾红刚：薪酬与考核委员会成员; 贾红刚：董事; 贾红刚：战略委员会成员; 杨波：薪酬与考核委员会成员; 杨波：独立董事; 杨波：提名委员会成员; 杨波：审计委员会成员; 冯永强：薪酬与考核委员会成员; 冯永强：独立董事; 冯永强：提名委员会成员; 冯永强：战略委员会成员; 冯永强：审计委员会成员; 关成华：董事; 关成华：战略委员会成员; 张康阳：董事; 张康阳：战略委员会成员; 姚凯：其他; 刘结：证券事务代表; 黄巍：财务总监\总会计师\首席财务官(CFO); 黄巍：董事会秘书; 黄巍：执行委员会成员; 侯恩龙：总经理\总裁; 侯恩龙：副总经理\副总裁; 王蓓：审计负责人\总审计师\CAE; 张近东：董事长; 张近东：董事; 张近东：名誉董事长; 任峻：薪酬与考核委员会成员; 任峻：董事长; 任峻：董事会秘书; 任峻：董事; 任峻：提名委员会成员; 任峻：战略委员会成员; 任峻：总经理\总裁; 任峻：副总经理\副总裁; 任峻：代理董事长
+301158.SZ 现任: 杨鑫蕊：证券事务代表; 宋翔：董事会秘书; 郑毅：独立董事; 张玉红：独立董事; 刘华洁：独立董事; 王泽涛：副总经理\副总裁; 孙宝生：总经理\总裁; 严金花：审计负责人\总审计师\CAE; 陈振：财务总监\总会计师\首席财务官(CFO); 陈振：董事; 路伟：董事; 路伟：战略委员会成员; 李志勇：董事; 张峰：证券事务代表; 贾延军：副总经理\副总裁; 谢光义：薪酬与考核委员会成员; 谢光义：独立董事; 谢光义：提名委员会成员; 范忠廷：薪酬与考核委员会成员; 范忠廷：独立董事; 范忠廷：审计委员会成员; 程贵华：薪酬与考核委员会成员; 程贵华：董事长; 程贵华：董事; 程贵华：提名委员会成员; 程贵华：战略委员会成员; 程贵华：总经理\总裁; 王继平：董事; 王继平：副总经理\副总裁; 王海斌：财务总监\总会计师\首席财务官(CFO); 王海斌：董事会秘书; 王海斌：董事; 王海斌：副总经理\副总裁; 柳喜军：独立董事; 柳喜军：提名委员会成员; 柳喜军：战略委员会成员; 柳喜军：审计委员会成员; 李战军：副总经理\副总裁; 任鸿源：董事; 任鸿源：审计委员会成员; 于广海：总工程师
+600022.SH 现任: 张殿华：独立董事; 郭小龙：董事长; 郭小龙：董事; 郭小龙：提名委员会成员; 郭小龙：其他委员会成员; 乔立海：董事; 乔立海：其他委员会成员; 景菊：证券事务代表; 郭伟达：副总经理\副总裁; 孟庆春：薪酬与考核委员会成员; 孟庆春：独立董事; 孟庆春：提名委员会成员; 孟庆春：其他委员会成员; 唐邦秀：财务总监\总会计师\首席财务官(CFO); 唐邦秀：董事会秘书; 唐邦秀：副总经理\副总裁; 唐邦秀：代理董事会秘书; 徐科：薪酬与考核委员会成员; 徐科：独立董事; 徐科：其他委员会成员; 高凤娟：职工董事; 高凤娟：监事会主席; 高凤娟：监事; 高凤娟：提名委员会成员; 高凤娟：其他委员会成员; 李洪建：董事; 李洪建：总经理\总裁; 李洪建：其他委员会成员; 王培文：副总经理\副总裁; 王爱国：薪酬与考核委员会成员; 王爱国：独立董事; 王爱国：提名委员会成员; 王爱国：其他委员会成员; 王向东：董事长; 王向东：董事; 王向东：副总经理\副总裁; 王向东：其他委员会成员; 王向东：代理董事会秘书
+002480.SZ 现任: 周兵：财务总监\总会计师\首席财务官(CFO); 郑宇：副总经理\副总裁; 翟潇雨：副总经理\副总裁; 谭洪涛：薪酬与考核委员会成员; 谭洪涛：独立董事; 谭洪涛：提名委员会成员; 谭洪涛：战略委员会成员; 谭洪涛：审计委员会成员; 唐岚：薪酬与考核委员会成员; 唐岚：独立董事; 唐岚：提名委员会成员; 唐岚：战略委员会成员; 唐岚：审计委员会成员; 卫德佳：薪酬与考核委员会成员; 卫德佳：独立董事; 卫德佳：提名委员会成员; 卫德佳：战略委员会成员; 卫德佳：审计委员会成员; 周凤岗：薪酬与考核委员会成员; 周凤岗：董事长; 周凤岗：董事; 周凤岗：提名委员会成员; 周凤岗：战略委员会成员; 周凤岗：审计委员会成员; 王思程：董事; 朱劲：董事; 朱劲：审计委员会成员; 陈思遥：董事会秘书; 陈思遥：副总经理\副总裁; 贾珺：合规负责人; 冯树庆：董事; 简杰：证券事务代表; 黄晓波：董事; 杨丽：监事; 杨丽：副总经理\副总裁; 贾秀英：财务总监\总会计师\首席财务官(CFO); 贾秀英：薪酬与考核委员会成员; 贾秀英：董事; 贾秀英：提名委员会成员; 贾秀英：战略委员会成员; 贾秀英：总经理\总裁; 龚勇：职工监事; 龚勇：审计负责人\总审计师\CAE
+600382.SH 现任: 唐黎明：董事会秘书; 王海：董事; 王海：总经理\总裁; 陈亦文：董事; 凌炜：财务总监\总会计师\首席财务官(CFO); 刘文清：董事; 刘文清：副总经理\副总裁; 薛山：证券事务代表; 黄桂莲：薪酬与考核委员会成员; 黄桂莲：独立董事; 黄桂莲：审计委员会成员; 周荣：薪酬与考核委员会成员; 周荣：独立董事; 周荣：提名委员会成员; 周荣：战略委员会成员; 周荣：审计委员会成员; 刘庆伟：独立董事; 刘庆伟：提名委员会成员; 刘庆伟：战略委员会成员; 刘庆伟：审计委员会成员; 张媚：证券事务代表; 张媚：董事会秘书; 张媚：职工监事; 黄丙娣：薪酬与考核委员会成员; 黄丙娣：董事长; 黄丙娣：董事; 黄丙娣：提名委员会成员; 黄丙娣：战略委员会成员; 黄丙娣：总经理\总裁; 黄丙娣：代理董事会秘书; 朱海涛：董事; 幸柳斌：董事; 幸柳斌：监事; 幸柳斌：总经理助理\总裁助理; 幸柳斌：审计委员会成员; 高兴嘉：None; 赵永前：None; 王治福：None
+000425.SZ 现任: 胡军：副总经理\副总裁; 申岩：职工董事; 申岩：提名委员会成员; 李栋：董事会秘书; 罗光杰：副总经理\副总裁; 闫君：副总经理\副总裁; 宋之克：副总经理\副总裁; 孟文：副总经理\副总裁; 单增海：副总经理\副总裁; 于红雨：财务总监\总会计师\首席财务官(CFO); 于红雨：副总经理\副总裁; 邵丹蕾：董事; 邵丹蕾：审计委员会成员; 田宇：薪酬与考核委员会成员; 田宇：董事; 田宇：其他委员会成员; 杨林：独立董事; 杨林：提名委员会成员; 杨林：战略委员会成员; 杨林：其他委员会成员; 孙雷：董事; 孙雷：战略委员会成员; 孙雷：其他委员会成员; 万广善：董事; 万广善：副总经理\副总裁; 况世道：薪酬与考核委员会成员; 况世道：独立董事; 况世道：审计委员会成员; 耿成轩：薪酬与考核委员会成员; 耿成轩：独立董事; 耿成轩：提名委员会成员; 耿成轩：审计委员会成员; 刘建森：副总经理\副总裁; 陆川：董事; 陆川：提名委员会成员; 陆川：战略委员会成员; 陆川：总经理\总裁; 陆川：副总经理\副总裁; 陆川：其他委员会成员; 蒋明忠：监事; 蒋明忠：副总经理\副总裁; 蒋明忠：其他; 杨东升：董事长; 杨东升：董事; 杨东升：战略委员会成员; 杨东升：副总经理\副总裁; 杨东升：其他委员会成员; 沙先亮：None; 李昕：None; 刘洪军：None
+
+
+================ 价格位置 ================
+  ts_code  last_td  close  hi_3m  lo_3m  pos_3m_pct  ytd_pct low_date_3m hi_date_3m  w_avg_price  vs_wavg_pct  low_1y  hi_1y  close_1120  wk_pct
+301179.SZ 20261127  16.70  21.05  14.64        32.1      6.8    20261127   20260828       18.632        -10.4   14.64  29.50       19.07   -12.4
+600292.SH 20261127  10.19  12.62   9.37        25.2    -20.4    20261102   20260828       10.074          1.2    9.37  16.66        9.98     2.1
+002655.SZ 20261127  27.29  42.50  21.06        29.1    107.1    20261123   20260918       25.172          8.4   11.64  52.72       21.97    24.2
+601456.SH 20261127   8.18   9.01   7.68        37.6    -22.4    20261126   20260901        8.384         -2.4    7.68  11.19        8.12     0.7
+600141.SH 20261127  21.12  32.20  19.72        11.2    -34.8    20261127   20260908       22.757         -7.2   19.72  51.44       21.38    -1.2
+603223.SH 20261127   8.58  10.70   7.42        35.4    -20.2    20261120   20260907        7.968          7.7    7.42  15.35        8.22     4.4
+002851.SZ 20261127  66.14 139.60  56.28        11.8     -6.5    20261123   20260901       58.966         12.2   56.28 189.98       58.00    14.0
+600160.SH 20261127  24.42  40.81  22.60        10.0    -27.5    20261127   20260828       25.505         -4.3   22.60  58.00       26.52    -7.9
+002540.SZ 20261127   4.52   5.47   4.25        22.1    -37.4    20261126   20260909        4.765         -5.1    4.25   8.08        4.51     0.2
+002367.SZ 20261127   4.98   6.55   4.56        21.1    -31.4    20261123   20260923        4.832          3.1    4.56   8.58        4.87     2.3
+600787.SH 20261127   4.40   4.75   4.21        35.2    -22.9    20261127   20261012        4.423         -0.5    4.05   5.98        4.35     1.1
+601615.SH 20261127   7.09  10.93   6.60        11.3    -46.9    20261127   20260827        7.843         -9.6    6.60  26.90        7.12    -0.4
+301571.SZ 20261127  62.74  78.30  54.28        35.2     27.7    20261123   20260921       56.902         10.3   46.17  78.30       54.76    14.6
+600487.SH 20261127  38.13  76.35  33.88        10.0     90.0    20261126   20260922       36.604          4.2   19.50 125.16       36.01     5.9
+603656.SH 20261127  15.85  20.05  14.60        22.9    -31.4    20261123   20261020       17.741        -10.7   14.60  25.79       14.90     6.4
+688387.SH 20261127   9.93  13.96   8.45        26.9     39.9    20261123   20260831        9.495          4.6    6.87  24.44        8.83    12.5
+600686.SH 20261127   8.18  11.94   7.63        12.8    -48.9    20261125   20260904        8.605         -4.9    7.63  22.20        8.19    -0.1
+600188.SH 20261127  16.88  23.81  16.40         6.5     20.7    20261127   20260901       17.820         -5.3   13.02  27.80       16.97    -0.5
+600352.SH 20261127  11.03  13.34  10.30        24.0      4.5    20261124   20260901       10.331          6.8   10.26  17.11       10.48     5.2
+603856.SH 20261127   9.24  11.92   8.82        13.5    -29.1    20261126   20260903       10.564        -12.5    8.82  15.04        9.46    -2.3
+688607.SH 20261127  28.04  43.20  23.00        25.0    -14.8    20261126   20260901       33.204        -15.6   23.00  73.00       27.99     0.2
+603319.SH 20261127  18.46  33.40  16.25        12.9    -50.5    20261123   20260922       19.133         -3.5   16.25  44.95       16.85     9.6
+600733.SH 20261127   3.82   5.25   3.59        13.9    -51.0    20261126   20260930        4.241         -9.9    3.59   8.90        3.76     1.6
+000766.SZ 20261127  10.51  17.45   9.24        15.5    -61.7    20261126   20260908       11.053         -4.9    9.24  29.20        9.96     5.5
+601965.SH 20261127  14.72  15.89  12.77        62.5    -13.0    20260923   20261117       13.863          6.2   11.25  20.51       15.10    -2.5
+600757.SH 20261127   8.23   9.30   7.16        50.0     -9.5    20260827   20261106        8.173          0.7    7.16   9.68        8.36    -1.6
+605020.SH 20261127  26.65  34.68  24.27        22.9      3.9    20261126   20260828       26.543          0.4   23.27  51.00       25.25     5.5
+603150.SH 20261127  37.30  78.00  32.67        10.2      0.0    20261123   20260923       33.463         11.5   32.67  81.55       34.00     9.7
+688418.SH 20261127  20.56  33.68  17.70        17.9    -32.5    20261123   20260831       21.215         -3.1   17.70  68.65       18.40    11.7
+600106.SH 20261127   3.94   4.71   3.63        28.7    -35.0    20261126   20260902        4.001         -1.5    3.63   6.80        4.02    -2.0
+688210.SH 20261127  20.04  34.96  17.10        16.5    -64.0    20261126   20260903       24.696        -18.9   17.10  62.87       18.40     8.9
+688196.SH 20261127  28.04  45.95  24.20        17.7    -49.0    20261123   20261019       30.453         -7.9   24.20  95.00       25.08    11.8
+000967.SZ 20261127   5.80   8.77   5.27        15.1    -11.7    20261123   20260901          NaN          NaN    5.27  17.09        5.47     6.0
+002024.SZ 20261127   1.05   1.21   1.01        20.0    -38.6    20261123   20260828        1.059         -0.9    1.01   1.80        1.02     2.9
+301158.SZ 20261127  10.62  17.79   9.70        11.4    -51.4    20261123   20260902       10.298          3.1    9.70  37.44       10.15     4.6
+600022.SH 20261127   1.20   1.38   1.16        18.2    -21.1    20261124   20260909        1.263         -5.0    1.16   1.83        1.19     0.8
+002480.SZ 20261127   5.36   6.53   4.32        47.1    -14.9    20261123   20261012        4.786         12.0    4.32   7.30        4.76    12.6
+600382.SH 20261127   4.61   6.68   4.30        13.0    -33.0    20261123   20260904        4.381          5.2    4.30  10.33        4.44     3.8
+000425.SZ 20261127   6.57   8.57   6.23        14.5    -35.4    20261125   20260908        7.170         -8.4    6.23  12.90        6.40     2.7
+002745.SZ 20261127   8.93  12.67   8.12        17.8     -9.0    20261126   20260922       10.355        -13.8    7.81  13.98        9.76    -8.5
+301267.SZ 20261127  13.37  16.21  12.78        17.2    -30.0    20261126   20260827       14.861        -10.0   12.78  19.79       13.64    -2.0
+000338.SZ 20261127  19.95  28.12  17.91        20.0     14.9    20261127   20260909       18.735          6.5   16.99  36.34       18.18     9.7
+688183.SH 20261127  95.65 138.47  58.89        46.2     -2.4    20261117   20260828       61.600         55.3   58.89 153.94       71.53    33.7
+688210.SH 20261127  20.04  34.96  17.10        16.5    -64.0    20261126   20260903       24.696        -18.9   17.10  62.87       18.40     8.9
+002367.SZ 20261127   4.98   6.55   4.56        21.1    -31.4    20261123   20260923        4.832          3.1    4.56   8.58        4.87     2.3
+002925.SZ 20261127  18.15  25.38  16.46        18.9     -1.5    20261126   20260922       18.680         -2.8   16.46  26.55       17.02     6.6
+600905.SH 20261127   3.15   3.74   3.07        11.9    -24.8    20261125   20260827        3.339         -5.7    3.07   4.67        3.28    -4.0
+688196.SH 20261127  28.04  45.95  24.20        17.7    -49.0    20261123   20261019       30.453         -7.9   24.20  95.00       25.08    11.8
+300548.SZ 20261127 121.13 247.80  98.80        15.0      0.3    20261126   20260921      116.659          3.8   98.80 309.98      103.00    17.6
+
+
+================ 质押 (pledge_stat 最近可得) ================
+301179.SZ pledge_stat 空
+600292.SH 20190816 质押比例% 0.0 质押股数 1
+002655.SZ 20261120 质押比例% 4.07 质押股数 1
+601456.SH 20261120 质押比例% 2.58 质押股数 2
+600141.SH 20261120 质押比例% 6.6 质押股数 8
+603223.SH 20261120 质押比例% 33.44 质押股数 3
+002851.SZ 20261120 质押比例% 0.58 质押股数 2
+600160.SH 20200911 质押比例% 0.0 质押股数 1
+002540.SZ 20250815 质押比例% 7.92 质押股数 1
+002367.SZ 20230224 质押比例% 1.07 质押股数 1
+600787.SH 20200123 质押比例% 0.0 质押股数 3
+601615.SH 20261120 质押比例% 8.17 质押股数 6
+301571.SZ pledge_stat 空
+600487.SH 20261120 质押比例% 12.64 质押股数 24
+603656.SH 20261120 质押比例% 6.96 质押股数 2
+688387.SH pledge_stat 空
+600686.SH 20190104 质押比例% 0.0 质押股数 1
+600188.SH 20261120 质押比例% 0.11 质押股数 1
+600352.SH 20261120 质押比例% 0.08 质押股数 1
+603856.SH 20261120 质押比例% 5.14 质押股数 3
+688607.SH pledge_stat 空
+603319.SH 20261120 质押比例% 6.92 质押股数 8
+600733.SH 20261120 质押比例% 1.78 质押股数 4
+000766.SZ 20261120 质押比例% 22.61 质押股数 15
+601965.SH 20200214 质押比例% 0.0 质押股数 6
+600757.SH 20191025 质押比例% 0.0 质押股数 1
+605020.SH 20261120 质押比例% 0.33 质押股数 2
+603150.SH 20261120 质押比例% 12.48 质押股数 6
+688418.SH 20230915 质押比例% 0.57 质押股数 1
+600106.SH 20240830 质押比例% 1.98 质押股数 1
+688210.SH 20240726 质押比例% 0.06 质押股数 1
+688196.SH pledge_stat 空
+000967.SZ 20261120 质押比例% 21.1 质押股数 5
+002024.SZ 20261120 质押比例% 18.61 质押股数 11
+301158.SZ pledge_stat 空
+600022.SH 20230217 质押比例% 0.06 质押股数 1
+002480.SZ 20261120 质押比例% 5.72 质押股数 11
+600382.SH 20261120 质押比例% 26.62 质押股数 21
+000425.SZ 20261120 质押比例% 2.52 质押股数 1
+
+
+================ 窗口内同票减持（边增边减） ================
+301179.SZ 窗口内无减持
+600292.SH 窗口内无减持
+002655.SZ: 2 笔, 合计 895.4万(缺价0笔)
+   20260919 G 杨志勇 76,475股 均价39.5 20260904-20260917
+   20261026 P 机构专用 206,000股 均价28.8 20261026-20261026
+601456.SH 窗口内无减持
+600141.SH 窗口内无减持
+603223.SH 窗口内无减持
+002851.SZ 窗口内无减持
+600160.SH 窗口内无减持
+002540.SZ 窗口内无减持
+002367.SZ 窗口内无减持
+600787.SH 窗口内无减持
+601615.SH: 1 笔, 合计 0.0万(缺价1笔)
+   20260929 C 海南博蕴投资合伙企业(有限合伙) 3,621,933股 均价nan 20260928-20260928
+301571.SZ 窗口内无减持
+600487.SH 窗口内无减持
+603656.SH 窗口内无减持
+688387.SH 窗口内无减持
+600686.SH 窗口内无减持
+600188.SH 窗口内无减持
+600352.SH: 1 笔, 合计 5919.3万(缺价0笔)
+   20261104 P 机构专用 5,247,600股 均价11.28 20261104-20261104
+603856.SH 窗口内无减持
+688607.SH 窗口内无减持
+603319.SH 窗口内无减持
+600733.SH 窗口内无减持
+000766.SZ 窗口内无减持
+601965.SH 窗口内无减持
+600757.SH 窗口内无减持
+605020.SH 窗口内无减持
+603150.SH 窗口内无减持
+688418.SH 窗口内无减持
+600106.SH 窗口内无减持
+688210.SH 窗口内无减持
+688196.SH 窗口内无减持
+000967.SZ: 3 笔, 合计 838.0万(缺价0笔)
+   20261117 P 机构专用 600,000股 均价5.8 20261117-20261117
+   20261118 P 机构专用 450,000股 均价5.93 20261118-20261118
+   20261123 P 机构专用 400,000股 均价5.58 20261123-20261123
+002024.SZ 窗口内无减持
+301158.SZ 窗口内无减持
+600022.SH 窗口内无减持
+002480.SZ 窗口内无减持
+600382.SH 窗口内无减持
+000425.SZ: 1 笔, 合计 1017.8万(缺价0笔)
+   20261014 P 机构专用 1,400,000股 均价7.27 20261014-20261014
